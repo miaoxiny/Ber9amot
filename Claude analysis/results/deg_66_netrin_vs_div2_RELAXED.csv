@@ -1,0 +1,67 @@
+"ensembl_id","symbol","gene_name","entrez_id","baseMean","log2FoldChange","lfcSE","stat","pvalue","padj"
+"ENSRNOG00000046834","C3","complement C3","24232",166.4,2.539,0.248,10.25,1.18e-24,1.61e-20
+"ENSRNOG00000028648","Olig1","oligodendrocyte transcription factor 1","60394",508.7,-1.003,0.116,-8.66,4.85e-18,3.3e-14
+"ENSRNOG00000015093","Sparcl1","SPARC like 1","25434",1976,-0.606,0.079,-7.72,1.16e-14,5.28e-11
+"ENSRNOG00000020918","Ccnd1","cyclin D1","58919",938.9,-0.766,0.106,-7.24,4.34e-13,1.47e-09
+"ENSRNOG00000002461","Nid1","nidogen 1","25494",811.1,-0.73,0.104,-7.05,1.79e-12,4.88e-09
+"ENSRNOG00000018454","Apoe","apolipoprotein E","25728",869.8,0.816,0.118,6.9,5.31e-12,1.2e-08
+"ENSRNOG00000046254","Adgre1","adhesion G protein-coupled receptor E1","316137",83.8,2.021,0.298,6.78,1.19e-11,2.02e-08
+"ENSRNOG00000018087","Vim","vimentin","81818",9113.8,-0.347,0.051,-6.79,1.14e-11,2.02e-08
+"ENSRNOG00000016163","Slc1a3","solute carrier family 1 member 3","29483",3665.3,-0.437,0.068,-6.43,1.31e-10,1.78e-07
+"ENSRNOG00000001480","Ncf1","neutrophil cytosolic factor 1","114553",135.8,1.833,0.285,6.43,1.31e-10,1.78e-07
+"ENSRNOG00000058645","Tnc","tenascin C","116640",5475.5,-0.435,0.068,-6.36,1.99e-10,2.46e-07
+"ENSRNOG00000010763",NA,NA,NA,574.4,-0.651,0.11,-5.92,3.19e-09,3.61e-06
+"ENSRNOG00000030118","Msn","moesin","81521",1762.7,-0.413,0.07,-5.89,3.88e-09,4.05e-06
+"ENSRNOG00000033321","Hmgb2l1","high mobility group box 2-like 1","498072",757.5,-0.553,0.097,-5.7,1.22e-08,1.18e-05
+"ENSRNOG00000001795","Itgb5","integrin subunit beta 5","257645",193.8,-1.004,0.181,-5.54,3.09e-08,2.81e-05
+"ENSRNOG00000009636","Scrn1","secernin 1","502776",8640.7,-0.263,0.048,-5.45,5.11e-08,4.35e-05
+"ENSRNOG00000000814","Fabp7","fatty acid binding protein 7","80841",5189,-0.34,0.064,-5.33,9.56e-08,7.65e-05
+"ENSRNOG00000017980","Itgal","integrin subunit alpha L","308995",61.6,1.866,0.356,5.24,1.62e-07,0.000122
+"ENSRNOG00000009919","Acod1","aconitate decarboxylase 1","306127",19,4.03,0.775,5.2,2.03e-07,0.000145
+"ENSRNOG00000048411","Uhrf1","ubiquitin-like with PHD and ring finger domains 1","316129",1542.5,-0.424,0.082,-5.16,2.41e-07,0.000164
+"ENSRNOG00000049402","Nbl1","NBL1, DAN family BMP antagonist","50594",382.5,-0.661,0.128,-5.15,2.62e-07,0.00017
+"ENSRNOG00000019328","Phgdh","phosphoglycerate dehydrogenase","58835",918.9,-0.45,0.088,-5.12,3.03e-07,0.000187
+"ENSRNOG00000028658","Olig2","oligodendrocyte transcription factor 2","304103",350.6,-0.731,0.143,-5.11,3.17e-07,0.000187
+"ENSRNOG00000043098","Mt2","metallothionein 2","689415",260.3,-0.756,0.154,-4.9,9.62e-07,0.000545
+"ENSRNOG00000012067","Fam111a","FAM111 trypsin like peptidase A","499322",1611.7,-0.365,0.076,-4.83,1.37e-06,0.000717
+"ENSRNOG00000009740","Slco1c1","solute carrier organic anion transporter family, member 1c1","84511",550,-0.613,0.127,-4.83,1.34e-06,0.000717
+"ENSRNOG00000007805","Mybl2","MYB proto-oncogene like 2","296344",800.7,-0.451,0.095,-4.77,1.89e-06,0.00095
+"ENSRNOG00000051077",NA,NA,NA,313.4,0.857,0.182,4.7,2.6e-06,0.00126
+"ENSRNOG00000012199",NA,NA,NA,1243.5,-0.355,0.076,-4.67,2.97e-06,0.00139
+"ENSRNOG00000026116","Sall3","spalt-like transcription factor 3","364910",445.3,-0.584,0.126,-4.63,3.57e-06,0.00162
+"ENSRNOG00000010274","Smc4","structural maintenance of chromosomes 4","295107",1556.5,-0.327,0.071,-4.61,3.94e-06,0.00168
+"ENSRNOG00000058646","Zfp36l1","zinc finger protein 36, C3H type-like 1","29344",562.8,-0.494,0.107,-4.62,3.85e-06,0.00168
+"ENSRNOG00000059801","Lima1","LIM domain and actin binding 1","300228",2016.2,-0.378,0.082,-4.6,4.23e-06,0.00172
+"ENSRNOG00000018371","Tubb6","tubulin, beta 6 class V","307351",511,-0.513,0.112,-4.6,4.29e-06,0.00172
+"ENSRNOG00000021750","Id1","inhibitor of DNA binding 1","25261",269.2,-0.771,0.168,-4.59,4.48e-06,0.00174
+"ENSRNOG00000026124","Id3","inhibitor of DNA binding 3","25585",727.3,-0.59,0.132,-4.47,7.68e-06,0.0029
+"ENSRNOG00000018958","Mt3","metallothionein 3","117038",586.1,-0.474,0.106,-4.46,8.29e-06,0.00305
+"ENSRNOG00000004294",NA,NA,NA,520.8,-0.555,0.126,-4.41,1.04e-05,0.00372
+"ENSRNOG00000051922",NA,NA,NA,227.8,-0.729,0.169,-4.31,1.61e-05,0.00561
+"ENSRNOG00000025518","Carmil3","capping protein regulator and myosin 1 linker 3","361041",4853.2,0.317,0.074,4.27,1.98e-05,0.00673
+"ENSRNOG00000046308",NA,NA,NA,184.4,-0.757,0.18,-4.2,2.63e-05,0.00853
+"ENSRNOG00000011335","Gpr50","G protein-coupled receptor 50","117097",81.8,-1.086,0.258,-4.21,2.58e-05,0.00853
+"ENSRNOG00000048088","Mest","mesoderm specific transcript","58827",727.1,-0.436,0.104,-4.19,2.76e-05,0.00871
+"ENSRNOG00000011313","Sorcs1","sortilin-related VPS10 domain containing receptor 1","309533",399,-0.494,0.118,-4.17,3.01e-05,0.00909
+"ENSRNOG00000016818","Fgfr3","fibroblast growth factor receptor 3","84489",1292.5,-0.324,0.078,-4.18,2.94e-05,0.00909
+"ENSRNOG00000018681","Nes","nestin","25491",2833.1,-0.262,0.063,-4.16,3.15e-05,0.00931
+"ENSRNOG00000015285","Lrp4","LDL receptor related protein 4","83469",718.9,-0.419,0.101,-4.15,3.32e-05,0.00961
+"ENSRNOG00000049033","Racgap1","Rac GTPase-activating protein 1","315298",1063.1,-0.354,0.085,-4.14,3.41e-05,0.00966
+"ENSRNOG00000006867","Etv1","ETS variant transcription factor 1","362733",1551.5,-0.276,0.067,-4.11,3.9e-05,0.0108
+"ENSRNOG00000027035","Sgo2","shugoshin 2","316425",471.3,-0.481,0.118,-4.09,4.39e-05,0.0119
+"ENSRNOG00000001514","Cdca7","cell division cycle associated 7","311742",969.8,-0.378,0.093,-4.08,4.54e-05,0.0121
+"ENSRNOG00000002364","Rnf112","ring finger protein 112","24916",2062.3,0.28,0.069,4.07,4.78e-05,0.0125
+"ENSRNOG00000016419","Pdlim5","PDZ and LIM domain 5","64353",300.9,-0.556,0.137,-4.05,5.06e-05,0.013
+"ENSRNOG00000007804","C1galt1","core 1 synthase, glycoprotein-N-acetylgalactosamine 3-beta-galactosyltransferase, 1","65044",584.4,-0.427,0.106,-4.01,6e-05,0.0151
+"ENSRNOG00000008937","Csrp1","cysteine and glycine-rich protein 1","29276",563.9,-0.488,0.122,-4,6.3e-05,0.0156
+"ENSRNOG00000009112","Pon2","paraoxonase 2","296851",220.5,-0.625,0.158,-3.96,7.56e-05,0.0184
+"ENSRNOG00000048668",NA,NA,NA,164.9,-0.867,0.22,-3.94,8e-05,0.0191
+"ENSRNOG00000011613","Ppip5k2","diphosphoinositol pentakisphosphate kinase 2","501194",3693.1,0.239,0.061,3.9,9.59e-05,0.0225
+"ENSRNOG00000007906","Bub1b","BUB1 mitotic checkpoint serine/threonine kinase B","171576",684.4,-0.397,0.103,-3.87,0.000107,0.0246
+"ENSRNOG00000002746","Fstl1","follistatin-like 1","79210",2122.6,-0.243,0.063,-3.85,0.000117,0.0266
+"ENSRNOG00000017981","Mcm10","minichromosome maintenance 10 replication initiation factor","307126",552.8,-0.399,0.104,-3.84,0.000122,0.0272
+"ENSRNOG00000056069","Kif11","kinesin family member 11","171304",1053.4,-0.33,0.086,-3.83,0.000127,0.0275
+"ENSRNOG00000004332","Egfr","epidermal growth factor receptor","24329",125.9,-0.823,0.215,-3.83,0.000127,0.0275
+"ENSRNOG00000021264","Pcna","proliferating cell nuclear antigen","25737",3219.1,-0.219,0.057,-3.82,0.000131,0.0279
+"ENSRNOG00000020281","Kif22","kinesin family member 22","293502",805.3,-0.332,0.089,-3.75,0.000175,0.0366
+"ENSRNOG00000009303","Zwilch","zwilch kinetochore protein","691493",497.6,-0.436,0.119,-3.67,0.000241,0.0497

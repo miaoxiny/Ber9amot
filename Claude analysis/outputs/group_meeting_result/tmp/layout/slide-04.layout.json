@@ -1,0 +1,615 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/kp8ncx",
+    "id": "kp8ncx",
+    "slide": 4,
+    "layoutId": "b0dc281f-109a-46e8-a278-0ef8994c5171",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "ab37dc82-dba3-436a-80d4-684d9f9e1a1f",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F4EE",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "b0dc281f-109a-46e8-a278-0ef8994c5171",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "ab37dc82-dba3-436a-80d4-684d9f9e1a1f",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "ab37dc82-dba3-436a-80d4-684d9f9e1a1f",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/crmhk3q5",
+      "id": "1",
+      "name": "left-accent",
+      "bbox": [
+        0,
+        0,
+        13,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#D88040",
+      "lineColor": "#D88040",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6tovaho",
+      "id": "2",
+      "name": "kicker-marker",
+      "bbox": [
+        58,
+        38,
+        12,
+        12
+      ],
+      "geometry": "rect",
+      "fillColor": "#D88040",
+      "lineColor": "#D88040",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ulwval87",
+      "id": "3",
+      "name": "kicker-label",
+      "bbox": [
+        84,
+        30,
+        420,
+        22
+      ],
+      "geometry": "rect",
+      "text": "QC",
+      "textPreview": "QC",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "QC"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "QC",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "QC",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1kre1w7m",
+      "id": "4",
+      "name": "slide-title",
+      "bbox": [
+        58,
+        78,
+        890,
+        88
+      ],
+      "geometry": "rect",
+      "text": "The dataset is clean enough for contrast-level interpretation.",
+      "textPreview": "The dataset is clean enough for contrast-level interpretation.",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 36,
+        "typeface": "Aptos Display",
+        "color": "#1F2733",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The dataset is clean enough for contrast-level"
+          },
+          {
+            "index": 2,
+            "text": "interpretation."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The dataset is clean enough for contrast-level interpretation.",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "typeface": "Aptos Display",
+            "color": "#1F2733",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The dataset is clean enough for contrast-level interpretation.",
+              "fontSize": 36,
+              "typeface": "Aptos Display",
+              "color": "#1F2733",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c3ylc7u5",
+      "id": "5",
+      "name": "subtitle",
+      "bbox": [
+        60,
+        154,
+        820,
+        34
+      ],
+      "geometry": "rect",
+      "text": "High sample correlation and PCA separation support downstream analysis.",
+      "textPreview": "High sample correlation and PCA separation support downstream analysis.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "High sample correlation and PCA separation support downstream analysis."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "High sample correlation and PCA separation support downstream analysis.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "High sample correlation and PCA separation support downstream analysis.",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ji5snelo",
+      "id": "6",
+      "name": "footer",
+      "bbox": [
+        58,
+        680,
+        650,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Netrin-1 RNA-seq result update",
+      "textPreview": "Netrin-1 RNA-seq result update",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Netrin-1 RNA-seq result update"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Netrin-1 RNA-seq result update",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Netrin-1 RNA-seq result update",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uxc3ylc7",
+      "id": "7",
+      "name": "page-number",
+      "bbox": [
+        1182,
+        680,
+        40,
+        20
+      ],
+      "geometry": "rect",
+      "text": "04",
+      "textPreview": "04",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "04"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "04",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "04",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/8z25kb6x",
+      "id": "8",
+      "bbox": [
+        70,
+        198,
+        520,
+        370
+      ],
+      "alt": "Sample correlation heatmap",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "22e5166c-1524-486f-8ee4-2f23c4bdc988",
+        "contentType": "image/png",
+        "byteLength": 62371
+      }
+    },
+    {
+      "order": 9,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/1gvy90je",
+      "id": "9",
+      "bbox": [
+        642,
+        198,
+        500,
+        370
+      ],
+      "alt": "PCA before and after correction",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "80047570-31e7-427b-8aa0-5e4900951036",
+        "contentType": "image/png",
+        "byteLength": 106970
+      }
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ytsvu9kn",
+      "id": "10",
+      "name": "text",
+      "bbox": [
+        104,
+        586,
+        410,
+        24
+      ],
+      "geometry": "rect",
+      "text": "r = 0.9861-0.9987; no sample outliers",
+      "textPreview": "r = 0.9861-0.9987; no sample outliers",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "r = 0.9861-0.9987; no sample outliers"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "r = 0.9861-0.9987; no sample outliers",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "r = 0.9861-0.9987; no sample outliers",
+              "fontSize": 14,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/neloj2t8",
+      "id": "11",
+      "name": "text",
+      "bbox": [
+        682,
+        586,
+        410,
+        24
+      ],
+      "geometry": "rect",
+      "text": "After visual batch correction, Netrin separates on PC2",
+      "textPreview": "After visual batch correction, Netrin separates on PC2",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "After visual batch correction, Netrin separates on PC2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "After visual batch correction, Netrin separates on PC2",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "After visual batch correction, Netrin separates on PC2",
+              "fontSize": 14,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

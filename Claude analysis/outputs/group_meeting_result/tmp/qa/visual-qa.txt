@@ -1,0 +1,6 @@
+QA summary:
+Final PPTX: D:\Dropbox\Dropbox\RNAseq 2025\Claude analysis\Netrin1_RNAseq_group_meeting_results_2026-06-17.pptx
+Slides rendered: 24
+Preview PNGs and contact sheet generated under outputs/group_meeting_result/tmp/preview.
+Manual review target: result-update structure, consistent footer/page markers, embedded PNG figures, no empty media expected.
+Caveat: 24hscripts folder was inaccessible in this session, so deck uses exported result figures and handoff text.

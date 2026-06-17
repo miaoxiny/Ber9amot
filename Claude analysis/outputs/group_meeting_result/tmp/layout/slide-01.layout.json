@@ -1,0 +1,746 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/ny74m3",
+    "id": "ny74m3",
+    "slide": 1,
+    "layoutId": "b0dc281f-109a-46e8-a278-0ef8994c5171",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "ab37dc82-dba3-436a-80d4-684d9f9e1a1f",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#151B22",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "b0dc281f-109a-46e8-a278-0ef8994c5171",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "ab37dc82-dba3-436a-80d4-684d9f9e1a1f",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "ab37dc82-dba3-436a-80d4-684d9f9e1a1f",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gvy90je9",
+      "id": "1",
+      "name": "accent",
+      "bbox": [
+        0,
+        0,
+        15,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#D88040",
+      "lineColor": "#D88040",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ra5gbq1o",
+      "id": "2",
+      "name": "text",
+      "bbox": [
+        70,
+        84,
+        580,
+        58
+      ],
+      "geometry": "rect",
+      "text": "Netrin-1 RNA-seq",
+      "textPreview": "Netrin-1 RNA-seq",
+      "resolvedFontSize": 52,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 52,
+        "typeface": "Aptos Display",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Netrin-1 RNA-seq"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Netrin-1 RNA-seq",
+          "resolvedTextStyle": {
+            "fontSize": 52,
+            "typeface": "Aptos Display",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Netrin-1 RNA-seq",
+              "fontSize": 52,
+              "typeface": "Aptos Display",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2p8nqxs7",
+      "id": "3",
+      "name": "text",
+      "bbox": [
+        72,
+        154,
+        620,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Group Meeting Results Update",
+      "textPreview": "Group Meeting Results Update",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Aptos Display",
+        "color": "#E8E5DC",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Group Meeting Results Update"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Group Meeting Results Update",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Aptos Display",
+            "color": "#E8E5DC",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Group Meeting Results Update",
+              "fontSize": 30,
+              "typeface": "Aptos Display",
+              "color": "#E8E5DC",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/94fu18jq",
+      "id": "4",
+      "name": "text",
+      "bbox": [
+        74,
+        232,
+        830,
+        30
+      ],
+      "geometry": "rect",
+      "text": "Primary rat cortical cultures  |  DIV1 / DIV2 / DIV2 + Netrin-1  |  bulk RNA-seq",
+      "textPreview": "Primary rat cortical cultures  |  DIV1 / DIV2 / DIV2 + Netrin-1  |  bulk RNA-seq",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#C9CDD2",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Primary rat cortical cultures  |  DIV1 / DIV2 / DIV2 + Netrin-1  |  bulk RNA-seq"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Primary rat cortical cultures  |  DIV1 / DIV2 / DIV2 + Netrin-1  |  bulk RNA-seq",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#C9CDD2",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Primary rat cortical cultures  |  DIV1 / DIV2 / DIV2 + Netrin-1  |  bulk RNA-seq",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#C9CDD2",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kjm1cfa9",
+      "id": "5",
+      "name": "metric-value",
+      "bbox": [
+        78,
+        462,
+        210,
+        48
+      ],
+      "geometry": "rect",
+      "text": "25",
+      "textPreview": "25",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 36,
+        "typeface": "Aptos Display",
+        "color": "#D88040",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "25"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "25",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "typeface": "Aptos Display",
+            "color": "#D88040",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "25",
+              "fontSize": 36,
+              "typeface": "Aptos Display",
+              "color": "#D88040",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r2p8nqxs",
+      "id": "6",
+      "name": "metric-label",
+      "bbox": [
+        78,
+        512,
+        210,
+        48
+      ],
+      "geometry": "rect",
+      "text": "strict Netrin-responsive DEGs",
+      "textPreview": "strict Netrin-responsive DEGs",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "strict Netrin-responsive DEGs"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "strict Netrin-responsive DEGs",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "strict Netrin-responsive DEGs",
+              "fontSize": 14,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2hwfyxob",
+      "id": "7",
+      "name": "metric-value",
+      "bbox": [
+        342,
+        462,
+        260,
+        48
+      ],
+      "geometry": "rect",
+      "text": "481 / 42",
+      "textPreview": "481 / 42",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 36,
+        "typeface": "Aptos Display",
+        "color": "#4B9C9A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "481 / 42"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "481 / 42",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "typeface": "Aptos Display",
+            "color": "#4B9C9A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "481 / 42",
+              "fontSize": 36,
+              "typeface": "Aptos Display",
+              "color": "#4B9C9A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9w3m94fu",
+      "id": "8",
+      "name": "metric-label",
+      "bbox": [
+        342,
+        512,
+        260,
+        48
+      ],
+      "geometry": "rect",
+      "text": "GO BP / KEGG GSEA terms",
+      "textPreview": "GO BP / KEGG GSEA terms",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "GO BP / KEGG GSEA terms"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "GO BP / KEGG GSEA terms",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "GO BP / KEGG GSEA terms",
+              "fontSize": 14,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kb6xkf6d",
+      "id": "9",
+      "name": "metric-value",
+      "bbox": [
+        670,
+        462,
+        240,
+        48
+      ],
+      "geometry": "rect",
+      "text": "1,495",
+      "textPreview": "1,495",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 36,
+        "typeface": "Aptos Display",
+        "color": "#C49A42",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1,495"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1,495",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "typeface": "Aptos Display",
+            "color": "#C49A42",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1,495",
+              "fontSize": 36,
+              "typeface": "Aptos Display",
+              "color": "#C49A42",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2p8nqxs7",
+      "id": "10",
+      "name": "metric-label",
+      "bbox": [
+        670,
+        512,
+        240,
+        48
+      ],
+      "geometry": "rect",
+      "text": "strict developmental DEGs",
+      "textPreview": "strict developmental DEGs",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "strict developmental DEGs"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "strict developmental DEGs",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "strict developmental DEGs",
+              "fontSize": 14,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ra5gbq1o",
+      "id": "11",
+      "name": "text",
+      "bbox": [
+        74,
+        646,
+        220,
+        22
+      ],
+      "geometry": "rect",
+      "text": "June 17, 2026",
+      "textPreview": "June 17, 2026",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Aptos",
+        "color": "#BFC5CD",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "June 17, 2026"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "June 17, 2026",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Aptos",
+            "color": "#BFC5CD",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "June 17, 2026",
+              "fontSize": 13,
+              "typeface": "Aptos",
+              "color": "#BFC5CD",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,1162 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/wyxyoy",
+    "id": "wyxyoy",
+    "slide": 9,
+    "layoutId": "b0dc281f-109a-46e8-a278-0ef8994c5171",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "ab37dc82-dba3-436a-80d4-684d9f9e1a1f",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F4EE",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "b0dc281f-109a-46e8-a278-0ef8994c5171",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "ab37dc82-dba3-436a-80d4-684d9f9e1a1f",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "ab37dc82-dba3-436a-80d4-684d9f9e1a1f",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ra5gbq1o",
+      "id": "1",
+      "name": "left-accent",
+      "bbox": [
+        0,
+        0,
+        13,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#D88040",
+      "lineColor": "#D88040",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gvy90je9",
+      "id": "2",
+      "name": "kicker-marker",
+      "bbox": [
+        58,
+        38,
+        12,
+        12
+      ],
+      "geometry": "rect",
+      "fillColor": "#D88040",
+      "lineColor": "#D88040",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9gr2p8nq",
+      "id": "3",
+      "name": "kicker-label",
+      "bbox": [
+        84,
+        30,
+        420,
+        22
+      ],
+      "geometry": "rect",
+      "text": "C1 MECHANISM",
+      "textPreview": "C1 MECHANISM",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "C1 MECHANISM"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "C1 MECHANISM",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "C1 MECHANISM",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2hwfyxob",
+      "id": "4",
+      "name": "slide-title",
+      "bbox": [
+        58,
+        78,
+        890,
+        88
+      ],
+      "geometry": "rect",
+      "text": "Two modules explain the response.",
+      "textPreview": "Two modules explain the response.",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 36,
+        "typeface": "Aptos Display",
+        "color": "#1F2733",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Two modules explain the response."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Two modules explain the response.",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "typeface": "Aptos Display",
+            "color": "#1F2733",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Two modules explain the response.",
+              "fontSize": 36,
+              "typeface": "Aptos Display",
+              "color": "#1F2733",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r2p8nqxs",
+      "id": "5",
+      "name": "subtitle",
+      "bbox": [
+        60,
+        154,
+        820,
+        34
+      ],
+      "geometry": "rect",
+      "text": "The result is bidirectional tuning, not simple maturation acceleration.",
+      "textPreview": "The result is bidirectional tuning, not simple maturation acceleration.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The result is bidirectional tuning, not simple maturation acceleration."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The result is bidirectional tuning, not simple maturation acceleration.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The result is bidirectional tuning, not simple maturation acceleration.",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kjm1cfa9",
+      "id": "6",
+      "name": "footer",
+      "bbox": [
+        58,
+        680,
+        650,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Netrin-1 RNA-seq result update",
+      "textPreview": "Netrin-1 RNA-seq result update",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Netrin-1 RNA-seq result update"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Netrin-1 RNA-seq result update",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Netrin-1 RNA-seq result update",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/94fu18jq",
+      "id": "7",
+      "name": "page-number",
+      "bbox": [
+        1182,
+        680,
+        40,
+        20
+      ],
+      "geometry": "rect",
+      "text": "09",
+      "textPreview": "09",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "09"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "09",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "09",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/25kb6xkf",
+      "id": "8",
+      "name": "box",
+      "bbox": [
+        80,
+        210,
+        460,
+        250
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFF7F2",
+      "lineColor": "#E9C3A8",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rqd4vmtw",
+      "id": "9",
+      "name": "box",
+      "bbox": [
+        740,
+        210,
+        410,
+        250
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F3F7FB",
+      "lineColor": "#BCD1E5",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jm1cfa9w",
+      "id": "10",
+      "name": "text",
+      "bbox": [
+        116,
+        246,
+        160,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Activated",
+      "textPreview": "Activated",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Aptos",
+        "color": "#C73E3E",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Activated"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Activated",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Aptos",
+            "color": "#C73E3E",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Activated",
+              "fontSize": 20,
+              "typeface": "Aptos",
+              "color": "#C73E3E",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u18jqh0f",
+      "id": "11",
+      "name": "text",
+      "bbox": [
+        116,
+        288,
+        330,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Synapse / axon guidance",
+      "textPreview": "Synapse / axon guidance",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Aptos Display",
+        "color": "#1F2733",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Synapse / axon guidance"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Synapse / axon guidance",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Aptos Display",
+            "color": "#1F2733",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Synapse / axon guidance",
+              "fontSize": 28,
+              "typeface": "Aptos Display",
+              "color": "#1F2733",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1orytsvu",
+      "id": "12",
+      "name": "text",
+      "bbox": [
+        116,
+        348,
+        340,
+        76
+      ],
+      "geometry": "rect",
+      "text": "GO axon guidance NES +1.85\nKEGG axon guidance NES +1.72\nSynapse assembly NES +2.05",
+      "textPreview": "GO axon guidance NES +1.85 | KEGG axon guidance NES +1.72 | Synapse assembly NES +2.05",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Aptos",
+        "color": "#1F2733",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "GO axon guidance NES +1.85"
+          },
+          {
+            "index": 2,
+            "text": "KEGG axon guidance NES +1.72"
+          },
+          {
+            "index": 3,
+            "text": "Synapse assembly NES +2.05"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "GO axon guidance NES +1.85",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#1F2733",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "GO axon guidance NES +1.85",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#1F2733",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "KEGG axon guidance NES +1.72",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#1F2733",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "KEGG axon guidance NES +1.72",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#1F2733",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Synapse assembly NES +2.05",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#1F2733",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Synapse assembly NES +2.05",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#1F2733",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c7u54zid",
+      "id": "13",
+      "name": "text",
+      "bbox": [
+        776,
+        246,
+        160,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Suppressed",
+      "textPreview": "Suppressed",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Aptos",
+        "color": "#3B7AB8",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Suppressed"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Suppressed",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Aptos",
+            "color": "#3B7AB8",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Suppressed",
+              "fontSize": 20,
+              "typeface": "Aptos",
+              "color": "#3B7AB8",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/judg7ads",
+      "id": "14",
+      "name": "text",
+      "bbox": [
+        776,
+        288,
+        320,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Cell cycle / progenitor",
+      "textPreview": "Cell cycle / progenitor",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Aptos Display",
+        "color": "#1F2733",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Cell cycle / progenitor"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Cell cycle / progenitor",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Aptos Display",
+            "color": "#1F2733",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Cell cycle / progenitor",
+              "fontSize": 28,
+              "typeface": "Aptos Display",
+              "color": "#1F2733",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u9knih4b",
+      "id": "15",
+      "name": "text",
+      "bbox": [
+        776,
+        348,
+        320,
+        76
+      ],
+      "geometry": "rect",
+      "text": "KEGG Cell cycle NES -2.70\nDNA replication / repair suppressed\nOlig1/Olig2/Ccnd1 down",
+      "textPreview": "KEGG Cell cycle NES -2.70 | DNA replication / repair suppressed | Olig1/Olig2/Ccnd1 down",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Aptos",
+        "color": "#1F2733",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "KEGG Cell cycle NES -2.70"
+          },
+          {
+            "index": 2,
+            "text": "DNA replication / repair suppressed"
+          },
+          {
+            "index": 3,
+            "text": "Olig1/Olig2/Ccnd1 down"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "KEGG Cell cycle NES -2.70",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#1F2733",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "KEGG Cell cycle NES -2.70",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#1F2733",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "DNA replication / repair suppressed",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#1F2733",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "DNA replication / repair suppressed",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#1F2733",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Olig1/Olig2/Ccnd1 down",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#1F2733",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Olig1/Olig2/Ccnd1 down",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#1F2733",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1032lszq",
+      "id": "16",
+      "name": "middle-arrow",
+      "bbox": [
+        594,
+        294,
+        74,
+        80
+      ],
+      "geometry": "chevron",
+      "fillColor": "#D88040",
+      "lineColor": "#D88040",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cfa9w3m9",
+      "id": "17",
+      "name": "claim-card",
+      "bbox": [
+        176,
+        536,
+        820,
+        86
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8D4CA",
+      "lineWidth": 1
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nyd0z610",
+      "id": "18",
+      "name": "claim-rule",
+      "bbox": [
+        176,
+        536,
+        5,
+        86
+      ],
+      "geometry": "rect",
+      "fillColor": "#D88040",
+      "lineColor": "#D88040",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/udg7adsj",
+      "id": "19",
+      "name": "claim-heading",
+      "bbox": [
+        200,
+        556,
+        778,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Interpretation",
+      "textPreview": "Interpretation",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Aptos",
+        "color": "#D88040",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Interpretation"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Interpretation",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#D88040",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Interpretation",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#D88040",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2p8nqxs7",
+      "id": "20",
+      "name": "claim-body",
+      "bbox": [
+        200,
+        596,
+        776,
+        6
+      ],
+      "geometry": "rect",
+      "text": "Netrin-1 appears to coordinate subtle neuronal pathway activation while suppressing proliferative/progenitor-associated programs.",
+      "textPreview": "Netrin-1 appears to coordinate subtle neuronal pathway activation while suppressing proliferative/progenitor-associated programs.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "color": "#1F2733",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Netrin-1 appears to coordinate subtle neuronal pathway activation while suppressing proliferative/progenitor-associated"
+          },
+          {
+            "index": 2,
+            "text": "programs."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Netrin-1 appears to coordinate subtle neuronal pathway activation while suppressing proliferative/progenitor-associated programs.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#1F2733",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Netrin-1 appears to coordinate subtle neuronal pathway activation while suppressing proliferative/progenitor-associated programs.",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#1F2733",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

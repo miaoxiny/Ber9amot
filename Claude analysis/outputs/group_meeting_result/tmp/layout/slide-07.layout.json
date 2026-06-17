@@ -1,0 +1,846 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/v6xm22",
+    "id": "v6xm22",
+    "slide": 7,
+    "layoutId": "b0dc281f-109a-46e8-a278-0ef8994c5171",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "ab37dc82-dba3-436a-80d4-684d9f9e1a1f",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F4EE",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "b0dc281f-109a-46e8-a278-0ef8994c5171",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "ab37dc82-dba3-436a-80d4-684d9f9e1a1f",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "ab37dc82-dba3-436a-80d4-684d9f9e1a1f",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rytsvu9k",
+      "id": "1",
+      "name": "left-accent",
+      "bbox": [
+        0,
+        0,
+        13,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#D88040",
+      "lineColor": "#D88040",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gfmlkjm1",
+      "id": "2",
+      "name": "kicker-marker",
+      "bbox": [
+        58,
+        38,
+        12,
+        12
+      ],
+      "geometry": "rect",
+      "fillColor": "#D88040",
+      "lineColor": "#D88040",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/90je9cvi",
+      "id": "3",
+      "name": "kicker-label",
+      "bbox": [
+        84,
+        30,
+        420,
+        22
+      ],
+      "geometry": "rect",
+      "text": "C1 SINGLE GENES",
+      "textPreview": "C1 SINGLE GENES",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "C1 SINGLE GENES"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "C1 SINGLE GENES",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "C1 SINGLE GENES",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y1kre1w7",
+      "id": "4",
+      "name": "slide-title",
+      "bbox": [
+        58,
+        78,
+        890,
+        88
+      ],
+      "geometry": "rect",
+      "text": "The strongest genes are biologically informative, but not all neuron-intrinsic.",
+      "textPreview": "The strongest genes are biologically informative, but not all neuron-intrinsic.",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 36,
+        "typeface": "Aptos Display",
+        "color": "#1F2733",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The strongest genes are biologically informative, but not"
+          },
+          {
+            "index": 2,
+            "text": "all neuron-intrinsic."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The strongest genes are biologically informative, but not all neuron-intrinsic.",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "typeface": "Aptos Display",
+            "color": "#1F2733",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The strongest genes are biologically informative, but not all neuron-intrinsic.",
+              "fontSize": 36,
+              "typeface": "Aptos Display",
+              "color": "#1F2733",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rmhk3q5o",
+      "id": "5",
+      "name": "subtitle",
+      "bbox": [
+        60,
+        154,
+        820,
+        34
+      ],
+      "geometry": "rect",
+      "text": "This is where cell-source interpretation becomes necessary.",
+      "textPreview": "This is where cell-source interpretation becomes necessary.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "This is where cell-source interpretation becomes necessary."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "This is where cell-source interpretation becomes necessary.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "This is where cell-source interpretation becomes necessary.",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g7adsji5",
+      "id": "6",
+      "name": "footer",
+      "bbox": [
+        58,
+        680,
+        650,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Netrin-1 RNA-seq result update",
+      "textPreview": "Netrin-1 RNA-seq result update",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Netrin-1 RNA-seq result update"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Netrin-1 RNA-seq result update",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Netrin-1 RNA-seq result update",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9s36hcrm",
+      "id": "7",
+      "name": "page-number",
+      "bbox": [
+        1182,
+        680,
+        40,
+        20
+      ],
+      "geometry": "rect",
+      "text": "07",
+      "textPreview": "07",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "07"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "07",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "07",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ji5snelo",
+      "id": "8",
+      "bbox": [
+        66,
+        190,
+        690,
+        430
+      ],
+      "alt": "Boxplots of key Netrin DEGs",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "ab1ab257-1a7d-4818-a863-cc7b859d7fce",
+        "contentType": "image/png",
+        "byteLength": 277423
+      }
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nih4byhg",
+      "id": "9",
+      "name": "claim-card",
+      "bbox": [
+        792,
+        214,
+        330,
+        140
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8D4CA",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/72x4nap4",
+      "id": "10",
+      "name": "claim-rule",
+      "bbox": [
+        792,
+        214,
+        5,
+        140
+      ],
+      "geometry": "rect",
+      "fillColor": "#C73E3E",
+      "lineColor": "#C73E3E",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ih4byhgn",
+      "id": "11",
+      "name": "claim-heading",
+      "bbox": [
+        816,
+        234,
+        288,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Up module",
+      "textPreview": "Up module",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Aptos",
+        "color": "#C73E3E",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Up module"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Up module",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#C73E3E",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Up module",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#C73E3E",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p8nqxs72",
+      "id": "12",
+      "name": "claim-body",
+      "bbox": [
+        816,
+        274,
+        286,
+        60
+      ],
+      "geometry": "rect",
+      "text": "C3, Apoe, Adgre1, Ncf1, Itgal, Acod1\nImmune / microglial signature.",
+      "textPreview": "C3, Apoe, Adgre1, Ncf1, Itgal, Acod1 | Immune / microglial signature.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "color": "#1F2733",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "C3, Apoe, Adgre1, Ncf1, Itgal, Acod1"
+          },
+          {
+            "index": 2,
+            "text": "Immune / microglial signature."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "C3, Apoe, Adgre1, Ncf1, Itgal, Acod1",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#1F2733",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "C3, Apoe, Adgre1, Ncf1, Itgal, Acod1",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#1F2733",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Immune / microglial signature.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#1F2733",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Immune / microglial signature.",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#1F2733",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0nuxc3yl",
+      "id": "13",
+      "name": "claim-card",
+      "bbox": [
+        792,
+        402,
+        330,
+        154
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8D4CA",
+      "lineWidth": 1
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ed8bat4",
+      "id": "14",
+      "name": "claim-rule",
+      "bbox": [
+        792,
+        402,
+        5,
+        154
+      ],
+      "geometry": "rect",
+      "fillColor": "#3B7AB8",
+      "lineColor": "#3B7AB8",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/itgfmlkj",
+      "id": "15",
+      "name": "claim-heading",
+      "bbox": [
+        816,
+        422,
+        288,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Down module",
+      "textPreview": "Down module",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Aptos",
+        "color": "#3B7AB8",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Down module"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Down module",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#3B7AB8",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Down module",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#3B7AB8",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pkzupwb2",
+      "id": "16",
+      "name": "claim-body",
+      "bbox": [
+        816,
+        462,
+        286,
+        74
+      ],
+      "geometry": "rect",
+      "text": "Olig1, Olig2, Sparcl1, Ccnd1, Id1/3\nOPC / glial / progenitor-linked signature.",
+      "textPreview": "Olig1, Olig2, Sparcl1, Ccnd1, Id1/3 | OPC / glial / progenitor-linked signature.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "color": "#1F2733",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Olig1, Olig2, Sparcl1, Ccnd1, Id1/3"
+          },
+          {
+            "index": 2,
+            "text": "OPC / glial / progenitor-linked signature."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Olig1, Olig2, Sparcl1, Ccnd1, Id1/3",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#1F2733",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Olig1, Olig2, Sparcl1, Ccnd1, Id1/3",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#1F2733",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "OPC / glial / progenitor-linked signature.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#1F2733",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "OPC / glial / progenitor-linked signature.",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#1F2733",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

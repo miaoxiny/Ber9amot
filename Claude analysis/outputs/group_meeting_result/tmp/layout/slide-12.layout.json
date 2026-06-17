@@ -1,0 +1,930 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/u5xmkg",
+    "id": "u5xmkg",
+    "slide": 12,
+    "layoutId": "b0dc281f-109a-46e8-a278-0ef8994c5171",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "ab37dc82-dba3-436a-80d4-684d9f9e1a1f",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F4EE",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "b0dc281f-109a-46e8-a278-0ef8994c5171",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "ab37dc82-dba3-436a-80d4-684d9f9e1a1f",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "ab37dc82-dba3-436a-80d4-684d9f9e1a1f",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/72x4nap4",
+      "id": "1",
+      "name": "left-accent",
+      "bbox": [
+        0,
+        0,
+        13,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#D88040",
+      "lineColor": "#D88040",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0nuxc3yl",
+      "id": "2",
+      "name": "kicker-marker",
+      "bbox": [
+        58,
+        38,
+        12,
+        12
+      ],
+      "geometry": "rect",
+      "fillColor": "#D88040",
+      "lineColor": "#D88040",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p8nqxs72",
+      "id": "3",
+      "name": "kicker-label",
+      "bbox": [
+        84,
+        30,
+        420,
+        22
+      ],
+      "geometry": "rect",
+      "text": "C2 DEG",
+      "textPreview": "C2 DEG",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "C2 DEG"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "C2 DEG",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "C2 DEG",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/itgfmlkj",
+      "id": "4",
+      "name": "slide-title",
+      "bbox": [
+        58,
+        78,
+        890,
+        88
+      ],
+      "geometry": "rect",
+      "text": "Development dominates the transcriptome relative to Netrin treatment.",
+      "textPreview": "Development dominates the transcriptome relative to Netrin treatment.",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 36,
+        "typeface": "Aptos Display",
+        "color": "#1F2733",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Development dominates the transcriptome relative to"
+          },
+          {
+            "index": 2,
+            "text": "Netrin treatment."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Development dominates the transcriptome relative to Netrin treatment.",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "typeface": "Aptos Display",
+            "color": "#1F2733",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Development dominates the transcriptome relative to Netrin treatment.",
+              "fontSize": 36,
+              "typeface": "Aptos Display",
+              "color": "#1F2733",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ed8bat4",
+      "id": "5",
+      "name": "subtitle",
+      "bbox": [
+        60,
+        154,
+        820,
+        34
+      ],
+      "geometry": "rect",
+      "text": "The secondary contrast is much larger than the primary contrast.",
+      "textPreview": "The secondary contrast is much larger than the primary contrast.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The secondary contrast is much larger than the primary contrast."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The secondary contrast is much larger than the primary contrast.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The secondary contrast is much larger than the primary contrast.",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0z61032l",
+      "id": "6",
+      "name": "footer",
+      "bbox": [
+        58,
+        680,
+        650,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Netrin-1 RNA-seq result update",
+      "textPreview": "Netrin-1 RNA-seq result update",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Netrin-1 RNA-seq result update"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Netrin-1 RNA-seq result update",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Netrin-1 RNA-seq result update",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pkzupwb2",
+      "id": "7",
+      "name": "page-number",
+      "bbox": [
+        1182,
+        680,
+        40,
+        20
+      ],
+      "geometry": "rect",
+      "text": "12",
+      "textPreview": "12",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "12"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "12",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "12",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/b6xkf6dc",
+      "id": "8",
+      "bbox": [
+        72,
+        190,
+        650,
+        440
+      ],
+      "alt": "Volcano plot DIV2 vs DIV1",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "f41360c7-5ec5-4d40-8e3c-81755fa0243f",
+        "contentType": "image/png",
+        "byteLength": 196460
+      }
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7qpg3ex0",
+      "id": "9",
+      "name": "metric-value",
+      "bbox": [
+        784,
+        220,
+        160,
+        48
+      ],
+      "geometry": "rect",
+      "text": "1,495",
+      "textPreview": "1,495",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 36,
+        "typeface": "Aptos Display",
+        "color": "#C73E3E",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1,495"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1,495",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "typeface": "Aptos Display",
+            "color": "#C73E3E",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1,495",
+              "fontSize": 36,
+              "typeface": "Aptos Display",
+              "color": "#C73E3E",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fu18jqh0",
+      "id": "10",
+      "name": "metric-label",
+      "bbox": [
+        784,
+        270,
+        160,
+        48
+      ],
+      "geometry": "rect",
+      "text": "strict DEGs",
+      "textPreview": "strict DEGs",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "strict DEGs"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "strict DEGs",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "strict DEGs",
+              "fontSize": 14,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m94fu18j",
+      "id": "11",
+      "name": "metric-value",
+      "bbox": [
+        960,
+        220,
+        235,
+        48
+      ],
+      "geometry": "rect",
+      "text": "1,098 up / 397 down",
+      "textPreview": "1,098 up / 397 down",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 36,
+        "typeface": "Aptos Display",
+        "color": "#3B7AB8",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1,098 up / 397"
+          },
+          {
+            "index": 2,
+            "text": "down"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1,098 up / 397 down",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "typeface": "Aptos Display",
+            "color": "#3B7AB8",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1,098 up / 397 down",
+              "fontSize": 36,
+              "typeface": "Aptos Display",
+              "color": "#3B7AB8",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0nuxc3y",
+      "id": "12",
+      "name": "metric-label",
+      "bbox": [
+        960,
+        270,
+        235,
+        48
+      ],
+      "geometry": "rect",
+      "text": "direction",
+      "textPreview": "direction",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "direction"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "direction",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "direction",
+              "fontSize": 14,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4fu18jqh",
+      "id": "13",
+      "name": "metric-value",
+      "bbox": [
+        784,
+        378,
+        170,
+        48
+      ],
+      "geometry": "rect",
+      "text": "4,636",
+      "textPreview": "4,636",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 36,
+        "typeface": "Aptos Display",
+        "color": "#D88040",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4,636"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4,636",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "typeface": "Aptos Display",
+            "color": "#D88040",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "4,636",
+              "fontSize": 36,
+              "typeface": "Aptos Display",
+              "color": "#D88040",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fil0rqd4",
+      "id": "14",
+      "name": "metric-label",
+      "bbox": [
+        784,
+        428,
+        170,
+        48
+      ],
+      "geometry": "rect",
+      "text": "relaxed DEGs",
+      "textPreview": "relaxed DEGs",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Aptos",
+        "color": "#5F6671",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "relaxed DEGs"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "relaxed DEGs",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Aptos",
+            "color": "#5F6671",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "relaxed DEGs",
+              "fontSize": 14,
+              "typeface": "Aptos",
+              "color": "#5F6671",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qxs72x4n",
+      "id": "15",
+      "name": "text",
+      "bbox": [
+        784,
+        514,
+        360,
+        72
+      ],
+      "geometry": "rect",
+      "text": "Olig1: +3.37 in C2 but -1.00 in C1, suggesting Netrin reverses part of natural induction.",
+      "textPreview": "Olig1: +3.37 in C2 but -1.00 in C1, suggesting Netrin reverses part of natural induction.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#1F2733",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Olig1: +3.37 in C2 but -1.00 in C1, suggesting Netrin"
+          },
+          {
+            "index": 2,
+            "text": "reverses part of natural induction."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Olig1: +3.37 in C2 but -1.00 in C1, suggesting Netrin reverses part of natural induction.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#1F2733",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Olig1: +3.37 in C2 but -1.00 in C1, suggesting Netrin reverses part of natural induction.",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#1F2733",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

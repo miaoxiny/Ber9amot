@@ -1,0 +1,549 @@
+# Figure Notes — Netrin-1 RNA-seq (Group A)
+
+> 累积式记录，每张图做完添加一条 note。
+> 所有图完成后用作 Results 章节的写作素材。
+
+---
+
+## Figure 01 · Sample-to-sample correlation heatmap
+
+**File:** `results/01_QC/01_sample_correlation_heatmap.pdf/png`
+**Thesis position:** Supplementary Figure S2 (or merge into main Fig 1 if space allows)
+**Section:** Results §3.1 — Sample QC
+
+### Key numbers
+- 14,148 expressed genes (after filtering counts ≥ 10 in ≥ 3 samples)
+- All pairwise Pearson r > 0.985
+- Min r = 0.9861, Mean r = 0.9932, Max r = 0.9987
+- 0 outlier samples
+
+### Visual observations
+- DIV1 forms a distinct cluster, well-separated from DIV2-derived samples
+- DIV2 control and DIV2 + Netrin-1 samples are intermixed (no global separation)
+- Same-condition replicates cluster together within each major group
+- No samples flagged as outliers
+
+### Narrative role
+1. Establishes excellent data quality (technical bar)
+2. Shows DIV1 → DIV2 developmental shift is the dominant axis of variation
+3. Sets up rationale for DEG strategy: use DIV2 control as reference (not DIV1)
+4. Hints that Netrin-1's transcriptional effect is modest at the global level — motivates targeted DEG analysis
+
+### Citations to use when writing
+- Netrin-1 local translation: Tcherkezian 2010; Bin-Jumah 2018
+- Netrin biology background: Serafini 1994; Kennedy 2006
+- DESeq2 / VST: Love 2014
+- ComplexHeatmap: Gu 2016
+
+### Pitfalls / things to remember
+- Don't frame as "Netrin has no effect" — frame as "modest at global level, requires targeted analysis"
+- Mention that DIV2 control vs DIV1 captures developmental drift (relevant for later contrasts)
+- Color palette: cream / dark teal / orange (project palette)
+
+---
+## Figure 02 · PCA before batch correction
+
+**File:** Not saved yet (inspect-only)
+**Thesis position:** Main Figure 1A or Supplementary Figure S3 (paired with after-correction)
+**Section:** Results §3.2 — Sample structure and batch correction
+
+### Key numbers
+- PC1: 87.9% variance (developmental axis)
+- PC2: 4.2% variance (batch-dominated)
+- PC3: 3.1%
+- PC4: 1.6%
+
+### Visual observations
+- PC1 cleanly separates DIV1 (left, PC1 ≈ -8) from DIV2-derived samples (right, PC1 ≈ +4)
+- PC2 strongly reflects biological replicate batch (rep 3 top, rep 2 mid, rep 1 bottom)
+- DIV2 control vs DIV2 + Netrin-1 not separable in PC1-PC2 plane
+- Same-replicate samples cluster on PC2 regardless of condition → clear batch effect
+
+### Narrative role
+1. Establishes 24h development as dominant variance source (87.9%)
+2. Reveals batch effect on PC2 → justifies batch correction
+3. Motivates the next analysis: PCA after batch correction
+4. Sets up the question: is Netrin-1 effect masked by batch, or genuinely modest?
+
+### Citations to use when writing
+- limma::removeBatchEffect: Ritchie 2015
+- Batch effects in RNA-seq: Leek 2010 (Nat Rev Genet)
+- DESeq2 design with batch: Love 2014
+
+### Pitfalls / things to remember
+- Don't conclude "Netrin has no effect" from this PCA — could be batch-masked
+- Distinguish: DESeq2 already accounts for batch in DEG model
+  (so DEG results are valid even without this visualization step)
+- The corrected PCA is for visualization only, not for statistics
+
+## Figure 03 · PCA before vs after batch correction (4-panel)
+
+**File:** `results/01_QC/02_PCA_before_after_batch_correction.pdf/png`
+**Thesis position:** Main Figure 1 or Supplementary Figure S3 (high candidate for main fig)
+**Section:** Results §3.2 — Sample structure and batch correction
+
+### Key numbers
+- Before: PC1 = 87.9%, PC2 = 4.2%
+- After:  PC1 = 94.9%, PC2 = 2.0%
+- PC1 variance gain after correction: +7.0% (cleaner developmental signal)
+
+### Visual observations
+- **Before correction**:
+  - PC1 separates DIV1 from DIV2-derived samples (developmental axis)
+  - PC2 reflects biological replicate (batch effect: rep3 top, rep2 mid, rep1 bottom)
+  - DIV2 vs DIV2+Netrin-1 indistinguishable in PC1-PC2 plane
+- **After correction**:
+  - PC1 still separates DIV1 from DIV2-derived samples
+  - PC2 now separates DIV2 (top) from DIV2+Netrin-1 (bottom) — Netrin-1 signal revealed
+  - Replicate clustering eliminated (shapes intermixed in by-replicate panel)
+  - All three replicates of each condition cluster tightly
+
+### Narrative role (CRITICAL FIGURE)
+1. Validates technical QC strategy (batch effect identified and corrected)
+2. **Reveals genuine Netrin-1 transcriptional response** that was previously batch-masked
+3. Provides confidence that downstream DEG analysis will yield meaningful results
+4. Confirms appropriateness of DESeq2 design ~ batch + condition
+
+### Methods to describe
+- limma::removeBatchEffect() for visualization only
+- design = model.matrix(~ condition) preserves biological signal
+- DEG analysis uses original counts with ~ batch + condition (not corrected matrix)
+- Top 500 variable genes used for PCA (DESeq2 standard)
+
+### Citations
+- limma: Ritchie 2015
+- removeBatchEffect: Smyth 2005 (linear model for microarray)
+- Batch effects: Leek 2010 (Nat Rev Genet)
+- DESeq2 batch design: Love 2014
+
+### Pitfalls / things to remember
+- Emphasize that corrected matrix is for visualization only
+- DEG analysis is statistically rigorous via ~ batch + condition
+- Mention that without correction, Netrin-1 effect would be undetectable in PCA
+- Frame this as a discovery moment in the thesis narrative
+
+## Figure 04 · DESeq2 dispersion estimates
+
+**File:** Not saved (diagnostic only, used to validate model)
+**Thesis position:** Supplementary Figure S4 (if reviewers ask) or Methods inset
+**Section:** Methods §X — Differential expression analysis
+
+### Key numbers
+- Genes:             14,148
+- Median dispersion: 0.0060
+- Mean dispersion:   0.0507
+- Range:             0.0009 – 10.0
+
+### Visual observations
+- Standard hyperbolic dispersion-mean relationship
+- Gray points (gene-wise estimates) follow orange fitted curve
+- Teal final dispersions show appropriate shrinkage
+- A subset of high-dispersion outliers retained at original estimates
+  (DESeq2 default behavior for genes with unusually high variance)
+
+### Narrative role
+1. Validates DESeq2 model assumptions
+2. Low median dispersion (0.006) reflects high inter-replicate consistency
+3. Supports confidence in downstream DEG results
+
+### Methods to describe
+- DESeq2 v1.52.0 with design ~ batch + condition
+- Wald test for differential expression
+- Default dispersion shrinkage (gene-wise → fitted curve)
+- Outlier dispersion handling: retain original estimates above fitted curve
+
+### Citations
+- DESeq2 framework: Love 2014 (Genome Biol)
+- Dispersion estimation: Wu 2013 (Biostatistics)
+
+## Figure 06 · Gene expression pattern summary trajectories
+
+**File:** `results/02_DEG/03_pattern_summary_trajectories.pdf/png`
+**Thesis position:** Main Figure 3 (synthesis figure — strongest thesis evidence)
+**Section:** Results §3.4 — Pattern classification
+
+### Key numbers
+- 66 Netrin-responsive genes classified into 5 patterns (+1 absent)
+- P3 (Peak at DIV2): 44 genes — Module 1, progenitor suppression
+- P4 (Dip at DIV2): 8 genes — Module 2, immune induction
+- P5 (Netrin only): 12 genes — extension of Module 1
+- P2 (Monotonic down): 2 genes — rare
+- P1 (Monotonic up): 0 genes — ABSENT
+
+### Visual observations
+- Olig1 (P3) most dramatic: 1× → 9× → 5× (DIV2 peak then Netrin reverses)
+- C3 (P4) shows true induction beyond DIV1 level: 1× → 0.3× → 1.5×
+- Id3 (P2) monotonic decline: 1× → 0.7× → 0.55×
+- Vim (P5) reveals Netrin-specific suppression: 1× → 1.05× → 0.88×
+- No line ascends monotonically (P1 = 0)
+
+### Narrative role — CENTRAL THESIS FIGURE
+1. Single figure conveys the full story of Netrin-1 effect
+2. Shows bidirectional regulation (suppress + rescue)
+3. Highlights negative finding (no developmental acceleration)
+4. Reframes Netrin-1 as homeostatic regulator, not driver
+
+### Key takeaway sentence
+"Netrin-1 acts as a bidirectional homeostatic regulator: 
+suppressing DIV2-amplified progenitor programs (P3, n=44) 
+while inducing or rescuing DIV2-depleted immune programs (P4, n=8). 
+Critically, no gene exhibits monotonic upregulation along the 
+DIV1→DIV2→DIV2+Netrin-1 trajectory (P1=0), arguing against 
+Netrin-1 as a developmental accelerator."
+
+### Citations
+- Netrin local translation: Tcherkezian 2010
+- Netrin immune signaling: Mediero 2013, Podjaski 2015
+- DESeq2: Love 2014
+
+## Figure 07 · GSEA GO Biological Process bar plot
+
+**File:** `results/03_GSEA/01_GSEA_GO_BP_barplot.pdf/png`
+**Thesis position:** Main Figure 4 (key enrichment figure)
+**Section:** Results §3.5 — Functional enrichment
+
+### Key numbers
+- 12,110 genes ranked by Wald statistic
+- 553 GO BP terms significant (FDR < 0.05)
+- Top 15 each direction shown (30 terms total)
+- All setSize ≥ 15 (post-hoc filter applied)
+- padj range: 2.4e-8 – 3.6e-5
+
+### Visual observations
+- Activated (red, 15): synapse/exocytosis/cognition/axon guidance
+- Suppressed (blue, 15): cell cycle/chromosome/DNA replication
+- Strongest suppression: nuclear chromosome segregation (NES=-2.73)
+- Strongest activation: excitatory postsynaptic potential (NES=+2.11)
+- ⭐ Axon guidance (NES=+1.85, padj=3.6e-5) — Netrin's own pathway
+
+### Methods
+GSEA via clusterProfiler::gseGO() with:
+  - geneList: 12,110 genes ranked by DESeq2 Wald statistic
+  - duplicate Entrez handled by slice_max(abs(stat))
+  - minGSSize=15, maxGSSize=500, eps=0
+  - nPermSimple=10000, seed=TRUE, set.seed(123)
+  - post-hoc filter: setSize ≥ 15
+
+### Narrative role
+This figure establishes the two-module structure of Netrin-1's 
+transcriptional response: suppression of cell cycle/DNA replication
+programs and activation of synaptic/neuronal maturation programs.
+The presence of axon guidance among activated terms provides 
+convergent evidence (with KEGG) that Netrin-1 transcriptionally 
+engages its own canonical signaling pathway.
+
+### Citations needed
+- Subramanian 2005 (GSEA original)
+- Korotkevich
+
+## Figure 08 · GSEA KEGG pathway bar plot
+
+**File:** `results/03_GSEA/02_GSEA_KEGG_barplot.pdf/png`
+**Thesis position:** Main Figure 4B (companion to GO BP)
+**Section:** Results §3.5 — Functional enrichment
+
+### Key findings
+- 49 KEGG pathways significant (FDR < 0.05) of 169 tested
+- Top 10 each direction shown (20 total)
+- padj range: 1.7e-8 – 8.0e-3
+
+### Module 1 (Suppressed, blue):
+- Strongest: Cell cycle (NES=-2.70, padj=1.7e-8)
+- Coherent DNA machinery suppression:
+  - Cell cycle, DNA replication, BER, MMR, NER, HR
+  - Cellular senescence
+  - Pyrimidine/nucleotide metabolism (DNA synthesis precursors)
+
+### Module 2 (Activated, red):
+- Innate immunity pathways: NET, NK cytotoxicity, Fc receptor,
+  Staphylococcus infection (proxy)
+- ⭐ Axon guidance (rno04360, NES=+1.72, padj=0.0024)
+  → Netrin's canonical pathway, validated in both GO BP and KEGG
+- IgSF CAM signaling, MAPK signaling (canonical Netrin downstream)
+
+### Interpretation caveat
+KEGG pathways with disease names (Staphylococcus, Rheumatoid 
+arthritis, etc.) represent shared innate immunity machinery, 
+not pathological states. To be clarified in Discussion.
+
+## Figure 09 · DEG heatmap (Netrin vs DIV2, 66 RELAXED DEGs)
+
+**Main:** `results/02_DEG/04_heatmap_66_DEGs_main.pdf/png`
+  - Method: VST + removeBatchEffect + Z-score
+  - 9 samples × 66 DEGs
+  - Clean 3-condition clustering visible
+  - Row split: 10 Upregulated / 56 Downregulated
+
+**Supplementary:** `results/02_DEG/04_heatmap_66_DEGs_suppl.pdf/png`
+  - Method: VST + Z-score (no batch correction)
+  - Same 9 × 66 matrix
+  - Shows raw data; one DIV2+Netrin sample clusters with DIV1 due to batch effect
+  - Demonstrates why batch correction is needed for visualization
+
+### Key takeaways
+- Two clear gene modules (10 up + 56 down) align with thesis story
+- Module 1 (down, 56 genes): cell cycle / progenitor markers
+  (Olig1/2, Ccnd1, Pcna, Mcm10, Vim, ...)
+- Module 2 (up, 10 genes): immune / inflammatory markers
+  (C3, Acod1, Adgre1, Apoe, Ncf1, Itgal, ...)
+
+### Methods text
+For visualization, variance-stabilized counts (DESeq2 VST) were 
+batch-corrected using limma::removeBatchEffect() with design 
+preserving condition. Z-scores were computed per gene (row-wise 
+scaling). Hierarchical clustering used Euclidean distance and 
+Ward.D2 linkage. Heatmap generated using ComplexHeatmap 
+(Gu, 2022). Uncorrected version provided in Supplementary 
+Figure XX for transparency.
+
+═══════════════════════════════════════════════════════════
+   DEFENSIVE STATEMENTS (THESIS METHODS)
+═══════════════════════════════════════════════════════════
+
+1. Raw LFC instead of apeglm shrinkage
+   → Justified by: all STRICT genes have baseMean > 19,
+      negligible shrinkage impact; downstream GSEA uses Wald 
+      statistic which incorporates effect size + significance
+
+2. 1.5× fold-change threshold
+   → Justified by: 24h Netrin-1 produces modest transcriptional
+      changes (post-translational mechanism is primary); 
+      relaxed set retained for downstream analyses
+
+3. Wald statistic for GSEA ranking
+   → DESeq2 vignette recommendation; fgsea documentation;
+      combines effect size and inverse variance optimally
+
+4. slice_max(abs(stat)) for duplicate Entrez IDs
+   → fgsea standard practice; preserves strongest signal
+      vs mean which can dilute or cancel signal
+
+5. minGSSize=15 + post-hoc setSize≥15 filter
+   → Subramanian et al. 2005 original recommendation;
+      excludes small-set statistical artifacts
+
+6. nPermSimple=10000
+   → Reduces "unbalanced gene-level statistic" warnings;
+      stable small p-value estimation
+
+7. removeBatchEffect for heatmap visualization
+   → Used for visualization only; DEG analysis uses
+      ~batch + condition design; raw version provided as
+      supplementary
+
+8. Skipped ORA (GO/KEGG enrichGO/enrichKEGG)
+   → 65 DEGs too few for robust ORA (especially 9 up DEGs);
+      GSEA uses full ranked list, optimally suited for
+      detecting coordinated subtle changes
+═══════════════════════════════════════════════════════════
+═══════════════════════════════════════════════════════════
+   THESIS NARRATIVE - CONTRAST 1 (FINAL)
+═══════════════════════════════════════════════════════════
+
+主论点:
+   Netrin-1 (24 h, DIV2 cortical neurons) is a 
+   BIDIRECTIONAL transcriptional regulator with two modules.
+
+Module 1 · CELL CYCLE / DNA REPLICATION SUPPRESSED
+  4 layers of evidence:
+    1. DEG list (18 STRICT down: Olig1/2, Pcna, Mcm10, Ccnd1...)
+    2. Boxplots (4 key genes shown)
+    3. GSEA GO BP (15 chromosome/mitosis terms,
+       NES -2.40 to -2.73, padj 2.4e-8)
+    4. GSEA KEGG (Cell cycle padj=1.7e-8, DNA replication,
+       and 5 DNA repair pathways)
+
+Module 2 · SYNAPTIC / NEURONAL MATURATION ACTIVATED ⭐
+  4 layers of evidence:
+    1. DEG list (10 STRICT up: C3, Acod1, Adgre1, Apoe...)
+    2. Boxplots (4 key genes shown)
+    3. GSEA GO BP (synapse assembly, exocytosis,
+       cognition, axon guidance)
+    4. GSEA KEGG (IgSF CAM, Axon guidance, MAPK signaling)
+
+⭐ CENTRAL FINDING:
+   "Axon guidance" is significant in BOTH GO BP and KEGG
+   → Convergent cross-database evidence
+   → Netrin-1 transcriptionally engages its own
+      canonical signaling pathway
+
+NEGATIVE FINDING (P1=0):
+   At the per-gene level, NO gene exhibits monotonic upregulation
+   DIV1 → DIV2 → DIV2+Netrin-1.
+   However, GSEA reveals that synaptic genes are COLLECTIVELY 
+   activated (mild but coordinated upregulation only detectable
+   at the gene set level).
+   This is a nuanced finding: Netrin-1 promotes neuronal 
+   maturation via subtle, coordinated effects rather than 
+   strong single-gene drivers.
+═══════════════════════════════════════════════════════════
+═══════════════════════════════════════════════════════════
+   KEY NUMBERS
+═══════════════════════════════════════════════════════════
+
+DATA SCALE:
+  Total genes after low-count filter:  14,148
+  Genes with Entrez ID (GSEA input):   12,110
+  Excluded (no Entrez):                 2,038 (mostly lncRNAs)
+
+DEG RESULTS (DIV2 + Netrin-1 vs DIV2):
+  STRICT (padj<0.05, |LFC|>0.585):        25 (7 up + 18 down)
+  RELAXED (padj<0.05 only):                66 (10 up + 56 down)
+
+KEY DEG (top significance):
+  Up:    C3 (padj=1.6e-20), Acod1 (padj=1.5e-4)
+  Down:  Olig1 (padj=3.3e-14), Pcna, Mcm10, Ccnd1...
+
+GSEA RESULTS:
+  GO BP significant terms:               553 (after setSize≥15)
+  KEGG significant pathways:              49
+
+TOP ACTIVATED (Module 2):
+  GO BP:  Synapse assembly, exocytosis, learning/memory
+          Axon guidance (NES=+1.85, padj=3.6e-5)
+  KEGG:   IgSF CAM, Lysosome biogenesis, MAPK signaling
+          Axon guidance (NES=+1.72, padj=0.0024) ⭐
+
+TOP SUPPRESSED (Module 1):
+  GO BP:  Chromosome segregation, mitotic division
+          DNA replication
+  KEGG:   Cell cycle (NES=-2.70, padj=1.7e-8) ⭐⭐⭐
+          DNA replication, base/mismatch/NER/HR repair
+═══════════════════════════════════════════════════════════
+## Figure 10 · Volcano plot: DIV2 vs DIV1
+
+**File:** `results/02_DEG/05_volcano_div2_vs_div1.pdf/png`
+**Thesis position:** Main Figure 5A (Contrast 2 DEG overview)
+**Section:** Results §3.6 — Cortical maturation contrast
+
+### Key numbers
+- 14,148 total genes (after low-count filtering)
+- 4,636 significant (padj < 0.05)
+- 1,495 STRICT (padj < 0.05 AND |LFC| > 0.585)
+  - 1,098 Upregulated
+  - 397 Downregulated
+- Y-axis range: 0 to 300 (no cap)
+- X-axis range: ±8 (LFC range -7.56 to +6.23)
+
+### Top 10 labels each direction (by padj)
+UP:   Gucy1a1, Tshz2, Gucy1b1, Camkv, Nts, Cntn1, Prickle2, Olig1, Camk2b, Tmem130
+DOWN: Ezr, Dpy19l1, Igfbpl1, Dusp4, Pcdh18, Rnd2, Cntn2, Kif26a, [NA], Nuak1
+
+### Cross-contrast notes
+- **Olig1** appears as TOP UP in DIV2 vs DIV1 (LFC=+3.37)
+  - Also appears as TOP DOWN in Netrin vs DIV2 (LFC=-1.00)
+  - → Confirms "Netrin reverses DIV1→DIV2 progenitor activation" thesis
+- **Gucy1a1/Gucy1b1** TOP UP — sGC for NO/cGMP signaling
+  - Downstream of Netrin-1/DCC signaling pathway
+  - Novel finding worth highlighting
+
+### Design choices
+- 3-class simplification (Up/Down/NS) matches Contrast 1
+- No Y-axis cap (Y=300 captures all data; Gucy1a1 padj=1.4e-283)
+- Point sizes: 2.5 (significant) / 1.5 (ns)
+- Top 10 each direction by padj (objective, reproducible)
+- Color palette unchanged from project standard
+
+### Methods text
+"Differential expression for the DIV2 vs DIV1 contrast was 
+visualized as a volcano plot. The x-axis shows log2 fold 
+change; the y-axis shows -log10 adjusted p-value (with no 
+ceiling, ranging from 0 to 300 to capture the full dynamic 
+range). Points are classified as 'Upregulated' (red, padj<0.05 
+and |LFC|>0.585), 'Downregulated' (blue, same thresholds 
+negative direction), or 'Not significant' (grey). The top 10 
+genes in each direction (by adjusted p-value) are labeled."
+
+## Figure 11 · Boxplots: Top 10 DEGs (DIV2 vs DIV1)
+
+**File:** `results/02_DEG/06_boxplots_top10_div2_vs_div1.pdf/png`
+**Thesis position:** Main Figure 5B
+**Section:** Results §3.6 — Cortical maturation contrast
+
+### Genes selected (data-driven, by adjusted p-value)
+UP (top row):
+  Gucy1a1   LFC=+2.43, padj=1.4e-283   soluble guanylate cyclase α1
+  Tshz2     LFC=+2.75, padj=6.1e-215   teashirt zinc finger TF
+  Gucy1b1   LFC=+2.17, padj=1.3e-206   soluble guanylate cyclase β1
+  Camkv     LFC=+1.26, padj=4.8e-147   CaMK-like vesicle protein
+  Nts       LFC=+2.50, padj=1.7e-135   neurotensin
+
+DOWN (bottom row):
+  Ezr       LFC=-1.63, padj=3.7e-199   ezrin (cytoskeleton)
+  Dpy19l1   LFC=-1.08, padj=7.1e-101   transmembrane protein
+  Igfbpl1   LFC=-1.01, padj=5.1e-94    IGFBP-like
+  Dusp4     LFC=-0.92, padj=7.7e-91    dual specificity phosphatase
+  Pcdh18    LFC=-1.66, padj=1.3e-88    protocadherin 18
+
+### Visual observations
+- All 10 genes show very large, clean DIV1 vs DIV2 separation
+- DIV2 and DIV2+Netrin-1 boxplots nearly overlap
+  → These genes are NOT modulated by Netrin-1
+  → Confirms that the maturation axis (DIV1→DIV2) is 
+    independent of the Netrin-1 response axis
+
+### Cross-contrast implication
+The top 10 DIV1→DIV2 DEGs are entirely different from the 
+top Netrin DEGs (Olig1, C3, Acod1...). This supports the 
+core thesis: Netrin-1 acts on a distinct gene set rather 
+than accelerating the developmental program.
+
+## Figure 12 · GO BP ORA dot plots (DIV2 vs DIV1)
+
+**Files:**
+  - `results/04_ORA_div2_vs_div1/01_dotplot_GO_BP_up.pdf/png` (Up panel)
+  - `results/04_ORA_div2_vs_div1/02_dotplot_GO_BP_down.pdf/png` (Down panel)
+**Thesis position:** Main Figure 5C/D (Contrast 2 ORA)
+**Section:** Results §3.7 — Functional enrichment of DIV1→DIV2 axis
+
+### Input
+- DEG threshold: STRICT (padj < 0.05 AND |LFC| > 0.585)
+- Up: 985 genes (entrez-mapped from 1,098)
+- Down: 356 genes (entrez-mapped from 397)
+- Universe: 12,107 expressed genes with Entrez ID
+
+### Method
+- clusterProfiler::enrichGO()
+- Ontology: BP (Biological Process)
+- pAdjustMethod: BH, pvalueCutoff: 0.05, qvalueCutoff: 0.20
+- Up/Down analyzed separately
+- RAW result (no simplify) — preserves complete enrichment hierarchy
+
+### Top themes — UP (985 genes)
+- GPCR signaling pathway (padj=1.7e-21) ⭐ Top 1
+- Regulation of membrane potential (padj=1.6e-18)
+- Synapse organization / plasticity / activity
+- Potassium ion transport, neurotransmitter transport
+- Glutamate receptor signaling
+→ Strong neuronal maturation program activation
+
+### Top themes — DOWN (356 genes)  
+(Per earlier simplified result)
+- Immune effector process (padj=2.0e-13)
+- Leukocyte activation / migration
+- Inflammatory response, chemotaxis
+- Phagocytosis, humoral immune
+→ Immune / inflammatory program suppression
+
+### Design choices
+- Y axis: ordered by GeneRatio (largest at top)
+- X axis: GeneRatio
+- Color: 5-stop gradient (red for up, blue for down) on log10 padj
+- Size: Gene count (range 4-11)
+- Dots: shape=21, black outline (stroke=0.6), fill=padj gradient
+
+### Cross-contrast significance
+- Down DEGs immune theme echoes P4 pattern (DIV2 dip) from
+  Contrast 1 boxplots
+- Provides statistical validation for the "immune programs 
+  rescued by Netrin-1" cross-contrast narrative
+
+### Methods text
+"For visualization, the top 5 up-regulated and top 5 
+down-regulated genes (by adjusted p-value) from the DIV2 vs 
+DIV1 contrast were plotted as boxplots showing per-sample 
+DESeq2-normalized counts. All three conditions (DIV1, DIV2, 
+DIV2+Netrin-1) are shown for cross-contrast context. Per-sample 
+variability includes both biological and batch noise; 
+statistical significance derives from the DESeq2 model with 
+batch as a covariate."

@@ -1,0 +1,332 @@
+"category","subcategory","ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"Human Diseases","Cancer: specific types","rno05219","Bladder cancer","3/29","34/5339",0.0882352941176471,16.2444219066937,6.58944363412133,0.000770119655549433,0.120680384589317,0.120680384589317,"Egfr/Ccnd1/Fgfr3",3
+"Human Diseases","Cancer: overview","rno05206","MicroRNAs in cancer","5/29","140/5339",0.0357142857142857,6.57512315270936,4.93968889375761,0.000825084691055319,0.120680384589317,0.120680384589317,"Tnc/Vim/Egfr/Ccnd1/Fgfr3",5
+"Cellular Processes","Cell motility","rno04820","Cytoskeleton in muscle cells","5/29","149/5339",0.0335570469798658,6.17796806294839,4.7370704742165,0.00109377992074909,0.120680384589317,0.120680384589317,"Vim/Itgb5/Pdlim5/Nid1/Csrp1",5
+"Environmental Information Processing","Signaling molecules and interaction","rno04518","Integrin signaling","4/29","115/5339",0.0347826086956522,6.40359820089955,4.32883874026304,0.00320077285725502,0.264863953937853,0.264863953937853,"Tnc/Itgb5/Egfr/Ccnd1",4
+"Environmental Information Processing","Signal transduction","rno04151","PI3K-Akt signaling pathway","5/29","236/5339",0.0211864406779661,3.90049678550555,3.36788015564567,0.00804401466662309,0.467801238727161,0.467801238727161,"Tnc/Itgb5/Egfr/Ccnd1/Fgfr3",5
+"Human Diseases","Cancer: overview","rno05205","Proteoglycans in cancer","4/29","152/5339",0.0263157894736842,4.8448275862069,3.55370654869071,0.00861420379753216,0.467801238727161,0.467801238727161,"Itgb5/Msn/Egfr/Ccnd1",4
+"Environmental Information Processing","Signal transduction","rno04350","TGF-beta signaling pathway","3/29","83/5339",0.036144578313253,6.65434150394682,3.83649313996206,0.00989307755616352,0.467801238727161,0.467801238727161,"Nbl1/Id1/Id3",3
+"Cellular Processes","Cellular community - eukaryotes","rno04510","Focal adhesion","4/29","166/5339",0.0240963855421687,4.43622766929788,3.32357710424429,0.0116671895322163,0.472297453220484,0.472297453220484,"Tnc/Itgb5/Egfr/Ccnd1",4
+"Cellular Processes","Cell motility","rno04810","Regulation of actin cytoskeleton","4/29","171/5339",0.0233918128654971,4.30651340996169,3.24749218189902,0.0129078214960434,0.472297453220484,0.472297453220484,"Itgb5/Msn/Egfr/Fgfr3",4
+"Cellular Processes","Cellular community - eukaryotes","rno04550","Signaling pathways regulating pluripotency of stem cells","3/29","95/5339",0.0315789473684211,5.81379310344828,3.49831493898154,0.0142688052332472,0.472297453220484,0.472297453220484,"Fgfr3/Id1/Id3",3
+"Cellular Processes","Cellular community - eukaryotes","rno04530","Tight junction","3/29","117/5339",0.0256410256410256,4.72060123784262,3.00696689287727,0.0247638904407936,0.723398568229728,0.723398568229728,"Msn/Pcna/Ccnd1",3
+"Cellular Processes","Cell motility","rno04814","Motor proteins","3/29","123/5339",0.024390243902439,4.49032800672834,2.89395004149766,0.0281913233209345,0.723398568229728,0.723398568229728,"Kif11/Kif22/Tubb6",3
+"Cellular Processes","Cell growth and death","rno04218","Cellular senescence","3/29","127/5339",0.0236220472440945,4.34890035297312,2.82255819780962,0.0306111118195616,0.723398568229728,0.723398568229728,"Zfp36l1/Ccnd1/Mybl2",3
+"Human Diseases","Cancer: specific types","rno05218","Melanoma","2/29","52/5339",0.0384615384615385,7.08090185676393,3.25616222633822,0.0319465992907263,0.723398568229728,0.723398568229728,"Egfr/Ccnd1",2
+"Human Diseases","Cancer: specific types","rno05213","Endometrial cancer","2/29","55/5339",0.0363636363636364,6.69467084639498,3.13696440067064,0.0354219502772055,0.723398568229728,0.723398568229728,"Egfr/Ccnd1",2
+"Human Diseases","Infectious disease: viral","rno05165","Human papillomavirus infection","4/29","239/5339",0.0167364016736402,3.08122925984706,2.43262299966824,0.0385875418660498,0.723398568229728,0.723398568229728,"Tnc/Itgb5/Egfr/Ccnd1",4
+"Human Diseases","Cancer: overview","rno05230","Central carbon metabolism in cancer","2/29","58/5339",0.0344827586206897,6.34839476813317,3.02635862935498,0.0390380285398403,0.723398568229728,0.723398568229728,"Egfr/Fgfr3",2
+"Cellular Processes","Cell growth and death","rno04110","Cell cycle","3/29","142/5339",0.0211267605633803,3.8895094706168,2.57889083742375,0.040639504065397,0.723398568229728,0.723398568229728,"Pcna/Ccnd1/Bub1b",3
+"Environmental Information Processing","Signaling molecules and interaction","rno04512","ECM-receptor interaction","2/29","60/5339",0.0333333333333333,6.1367816091954,2.95686787819261,0.0415243891128847,0.723398568229728,0.723398568229728,"Tnc/Itgb5",2
+"Human Diseases","Cancer: specific types","rno05214","Glioma","2/29","67/5339",0.0298507462686567,5.49562532166752,2.73640788015323,0.0506798848102555,0.750479538562181,0.750479538562181,"Egfr/Ccnd1",2
+"Cellular Processes","Cellular community - eukaryotes","rno04540","Gap junction","2/29","68/5339",0.0294117647058824,5.41480730223124,2.7074517367371,0.0520429620582177,0.750479538562181,0.750479538562181,"Egfr/Tubb6",2
+"Human Diseases","Cancer: specific types","rno05223","Non-small cell lung cancer","2/29","68/5339",0.0294117647058824,5.41480730223124,2.7074517367371,0.0520429620582177,0.750479538562181,0.750479538562181,"Egfr/Ccnd1",2
+"Environmental Information Processing","Signal transduction","rno04015","Rap1 signaling pathway","3/29","157/5339",0.0191082802547771,3.51790028552603,2.36635921821476,0.0521481250360428,0.750479538562181,0.750479538562181,"Egfr/Fgfr3/Id1",3
+"Human Diseases","Drug resistance: antineoplastic","rno01521","EGFR tyrosine kinase inhibitor resistance","2/29","71/5339",0.028169014084507,5.18601262748907,2.62390343722364,0.0562110516343276,0.762969945850442,0.762969945850442,"Egfr/Fgfr3",2
+"Human Diseases","Cancer: specific types","rno05212","Pancreatic cancer","2/29","72/5339",0.0277777777777778,5.1139846743295,2.59709766440794,0.0576261288406678,0.762969945850442,0.762969945850442,"Egfr/Ccnd1",2
+"Environmental Information Processing","Signal transduction","rno04630","JAK-STAT signaling pathway","2/29","79/5339",0.0253164556962025,4.66084679179398,2.42238545715323,0.067874465935061,0.832090674981673,0.832090674981673,"Egfr/Ccnd1",2
+"Human Diseases","Cancer: specific types","rno05210","Colorectal cancer","2/29","79/5339",0.0253164556962025,4.66084679179398,2.42238545715323,0.067874465935061,0.832090674981673,0.832090674981673,"Egfr/Ccnd1",2
+"Human Diseases","Drug resistance: antineoplastic","rno01522","Endocrine resistance","2/29","81/5339",0.0246913580246914,4.54576415495956,2.37620052224881,0.070907850295932,0.833467895183129,0.833467895183129,"Egfr/Ccnd1",2
+"Human Diseases","Cancer: specific types","rno05215","Prostate cancer","2/29","83/5339",0.0240963855421687,4.43622766929788,2.33149410438106,0.0739856926443328,0.833467895183129,0.833467895183129,"Egfr/Ccnd1",2
+"Human Diseases","Infectious disease: viral","rno05162","Measles","2/29","84/5339",0.0238095238095238,4.38341543513957,2.3096683982601,0.0755408968443924,0.833467895183129,0.833467895183129,"Msn/Ccnd1",2
+"Metabolism","Glycan biosynthesis and metabolism","rno00512","Mucin type O-glycan biosynthesis","1/29","16/5339",0.0625,11.5064655172414,3.1101362906675,0.0835681174353686,0.892291834551839,0.892291834551839,"C1galt1",1
+"Human Diseases","Infectious disease: viral","rno05160","Hepatitis C","2/29","100/5339",0.02,3.68206896551724,2.00072207897534,0.101772132355431,1,1,"Egfr/Ccnd1",2
+"Human Diseases","Cancer: specific types","rno05224","Breast cancer","2/29","102/5339",0.0196078431372549,3.60987153482082,1.9666132131264,0.10521317035084,1,1,"Egfr/Ccnd1",2
+"Human Diseases","Cancer: specific types","rno05226","Gastric cancer","2/29","103/5339",0.0194174757281553,3.57482423836625,1.94987784748536,0.106945899392896,1,1,"Egfr/Ccnd1",2
+"Genetic Information Processing","Replication and repair","rno03430","Mismatch repair","1/29","21/5339",0.0476190476190476,8.76683087027915,2.63524108085501,0.108270627644502,1,1,"Pcna",1
+"Environmental Information Processing","Signal transduction","rno04068","FoxO signaling pathway","2/29","105/5339",0.019047619047619,3.50673234811166,1.91702059632445,0.110435122338103,1,1,"Egfr/Ccnd1",2
+"Organismal Systems","Endocrine system","rno04919","Thyroid hormone signaling pathway","2/29","107/5339",0.0186915887850467,3.44118594908153,1.88495030932007,0.113955170861028,1,1,"Ccnd1/Slco1c1",2
+"Environmental Information Processing","Signaling molecules and interaction","rno04519","Cadherin signaling","3/29","222/5339",0.0135135135135135,2.4878844361603,1.67332000341176,0.117535473296794,1,1,"Vim/Lima1/Egfr",3
+"Organismal Systems","Endocrine system","rno04921","Oxytocin signaling pathway","2/29","112/5339",0.0178571428571429,3.28756157635468,1.80799230446112,0.12288351540533,1,1,"Egfr/Ccnd1",2
+"Human Diseases","Endocrine and metabolic disease","rno04934","Cushing syndrome","2/29","112/5339",0.0178571428571429,3.28756157635468,1.80799230446112,0.12288351540533,1,1,"Egfr/Ccnd1",2
+"Environmental Information Processing","Signal transduction","rno04390","Hippo signaling pathway","2/29","116/5339",0.0172413793103448,3.17419738406659,1.74947996656115,0.130149958094336,1,1,"Ccnd1/Id1",2
+"Genetic Information Processing","Information processing in viruses","rno03272","Virion - Hepatitis viruses","1/29","26/5339",0.0384615384615385,7.08090185676393,2.29681377050715,0.132329640479569,1,1,"Egfr",1
+"Metabolism","Amino acid metabolism","rno00260","Glycine, serine and threonine metabolism","1/29","28/5339",0.0357142857142857,6.57512315270936,2.18567886795494,0.141776703816021,1,1,"Phgdh",1
+"Human Diseases","Cancer: overview","rno05207","Chemical carcinogenesis - receptor activation","2/29","131/5339",0.0152671755725191,2.81073966833377,1.55059078643896,0.158246210839071,1,1,"Egfr/Ccnd1",2
+"Genetic Information Processing","Replication and repair","rno03030","DNA replication","1/29","33/5339",0.0303030303030303,5.57889237199582,1.94973148860738,0.164961913638077,1,1,"Pcna",1
+"Human Diseases","Cancer: specific types","rno05216","Thyroid cancer","1/29","33/5339",0.0303030303030303,5.57889237199582,1.94973148860738,0.164961913638077,1,1,"Ccnd1",1
+"Human Diseases","Cancer: specific types","rno05225","Hepatocellular carcinoma","2/29","137/5339",0.0145985401459854,2.68764158066952,1.47875542163678,0.169801916346056,1,1,"Egfr/Ccnd1",2
+"Human Diseases","Infectious disease: viral","rno05169","Epstein-Barr virus infection","2/29","140/5339",0.0142857142857143,2.63004926108374,1.44426159040812,0.175636656189276,1,1,"Vim/Ccnd1",2
+"Metabolism","Glycan biosynthesis and metabolism","rno00514","Other types of O-glycan biosynthesis","1/29","36/5339",0.0277777777777778,5.1139846743295,1.83018136681694,0.178581499667776,1,1,"C1galt1",1
+"Organismal Systems","Digestive system","rno04978","Mineral absorption","1/29","37/5339",0.027027027027027,4.9757688723206,1.79325955111038,0.18307351107823,1,1,"Mt2",1
+"Human Diseases","Cardiovascular disease","rno05416","Viral myocarditis","1/29","38/5339",0.0263157894736842,4.8448275862069,1.75764348541129,0.187541800059507,1,1,"Ccnd1",1
+"Metabolism","Amino acid metabolism","rno00270","Cysteine and methionine metabolism","1/29","40/5339",0.025,4.60258620689655,1.6900067567697,0.196407693451048,1,1,"Phgdh",1
+"Cellular Processes","Transport and catabolism","rno04145","Phagocytosis","2/29","153/5339",0.0130718954248366,2.40658102321388,1.30447342560312,0.201286680759291,1,1,"Itgb5/Tubb6",2
+"Human Diseases","Infectious disease: viral","rno05163","Human cytomegalovirus infection","2/29","154/5339",0.012987012987013,2.39095387371249,1.29431424661285,0.203280844867075,1,1,"Egfr/Ccnd1",2
+"Genetic Information Processing","Replication and repair","rno03410","Base excision repair","1/29","42/5339",0.0238095238095238,4.38341543513957,1.62669453674634,0.205180139364818,1,1,"Pcna",1
+"Environmental Information Processing","Signal transduction","rno04340","Hedgehog signaling pathway","1/29","43/5339",0.0232558139534884,4.28147554129912,1.59650555601266,0.209531616797029,1,1,"Ccnd1",1
+"Environmental Information Processing","Signal transduction","rno04020","Calcium signaling pathway","2/29","158/5339",0.0126582278481013,2.33042339589699,1.25444794371114,0.211282491451943,1,1,"Egfr/Fgfr3",2
+"Organismal Systems","Endocrine system","rno03320","PPAR signaling pathway","1/29","45/5339",0.0222222222222222,4.0911877394636,1.53879474225326,0.218165670072161,1,1,"Fabp7",1
+"Human Diseases","Infectious disease: viral","rno05166","Human T-cell leukemia virus 1 infection","2/29","162/5339",0.0123456790123457,2.27288207747978,1.21575935334391,0.219320221230936,1,1,"Ccnd1/Bub1b",2
+"Organismal Systems","Endocrine system","rno04917","Prolactin signaling pathway","1/29","47/5339",0.0212765957446809,3.91709464416728,1.48433030455954,0.22670863376743,1,1,"Ccnd1",1
+"Environmental Information Processing","Signal transduction","rno04014","Ras signaling pathway","2/29","167/5339",0.0119760479041916,2.20483171587859,1.168951229107,0.22941045562796,1,1,"Egfr/Fgfr3",2
+"Genetic Information Processing","Replication and repair","rno03420","Nucleotide excision repair","1/29","53/5339",0.0188679245283019,3.4736499674691,1.33737630271698,0.251800212283453,1,1,"Pcna",1
+"Human Diseases","Cancer: specific types","rno05221","Acute myeloid leukemia","1/29","56/5339",0.0178571428571429,3.28756157635468,1.2716497917681,0.264049380525586,1,1,"Ccnd1",1
+"Organismal Systems","Nervous system","rno04721","Synaptic vesicle cycle","1/29","57/5339",0.0175438596491228,3.22988505747126,1.2507247093012,0.26808923817555,1,1,"Slc1a3",1
+"Cellular Processes","Cell growth and death","rno04115","p53 signaling pathway","1/29","58/5339",0.0172413793103448,3.17419738406659,1.23025717069266,0.272107680449861,1,1,"Ccnd1",1
+"Metabolism","Global and overview maps","rno01230","Biosynthesis of amino acids","1/29","60/5339",0.0166666666666667,3.0683908045977,1.19062066386386,0.280080756291197,1,1,"Phgdh",1
+"Human Diseases","Cardiovascular disease","rno05412","Arrhythmogenic right ventricular cardiomyopathy","1/29","60/5339",0.0166666666666667,3.0683908045977,1.19062066386386,0.280080756291197,1,1,"Itgb5",1
+"Human Diseases","Cancer: overview","rno05235","PD-L1 expression and PD-1 checkpoint pathway in cancer","1/29","63/5339",0.0158730158730159,2.92227695675972,1.13416140486717,0.291882474509517,1,1,"Egfr",1
+"Human Diseases","Cardiovascular disease","rno05410","Hypertrophic cardiomyopathy","1/29","65/5339",0.0153846153846154,2.83236074270557,1.09834459557678,0.299646275374495,1,1,"Itgb5",1
+"Organismal Systems","Endocrine system","rno04912","GnRH signaling pathway","1/29","67/5339",0.0149253731343284,2.74781266083376,1.0638627545507,0.307327858069428,1,1,"Egfr",1
+"Cellular Processes","Transport and catabolism","rno04144","Endocytosis","2/29","209/5339",0.00956937799043062,1.76175548589342,0.830177720783078,0.314896854421534,1,1,"Egfr/Fgfr3",2
+"Human Diseases","Cancer: overview","rno05200","Pathways in cancer","3/29","366/5339",0.00819672131147541,1.50904465799887,0.745638322042049,0.319785122324646,1,1,"Egfr/Ccnd1/Fgfr3",3
+"Human Diseases","Cancer: specific types","rno05220","Chronic myeloid leukemia","1/29","72/5339",0.0138888888888889,2.55699233716475,0.982906228986055,0.326177601882934,1,1,"Ccnd1",1
+"Human Diseases","Cardiovascular disease","rno05414","Dilated cardiomyopathy","1/29","72/5339",0.0138888888888889,2.55699233716475,0.982906228986055,0.326177601882934,1,1,"Itgb5",1
+"Organismal Systems","Immune system","rno04670","Leukocyte transendothelial migration","1/29","75/5339",0.0133333333333333,2.45471264367816,0.937542422483596,0.337248681781195,1,1,"Msn",1
+"Environmental Information Processing","Signal transduction","rno04012","ErbB signaling pathway","1/29","76/5339",0.0131578947368421,2.42241379310345,0.922905192091799,0.340899857356488,1,1,"Egfr",1
+"Cellular Processes","Cellular community - eukaryotes","rno04520","Adherens junction","1/29","76/5339",0.0131578947368421,2.42241379310345,0.922905192091799,0.340899857356488,1,1,"Egfr",1
+"Human Diseases","Cancer: specific types","rno05222","Small cell lung cancer","1/29","76/5339",0.0131578947368421,2.42241379310345,0.922905192091799,0.340899857356488,1,1,"Ccnd1",1
+"Environmental Information Processing","Signal transduction","rno04010","MAPK signaling pathway","2/29","223/5339",0.00896860986547085,1.6511520024741,0.734024519181229,0.343210983823869,1,1,"Egfr/Fgfr3",2
+"Organismal Systems","Endocrine system","rno04914","Progesterone-mediated oocyte maturation","1/29","77/5339",0.012987012987013,2.39095387371249,0.908497407143417,0.344531608094976,1,1,"Kif22",1
+"Environmental Information Processing","Signaling molecules and interaction","rno04517","IgSF CAM signaling","2/29","226/5339",0.00884955752212389,1.6292340555386,0.714281769620125,0.349241426958703,1,1,"Msn/Tubb6",2
+"Human Diseases","Cancer: overview","rno05231","Choline metabolism in cancer","1/29","81/5339",0.0123456790123457,2.27288207747978,0.853024320029288,0.358866348733042,1,1,"Egfr",1
+"Human Diseases","Neurodegenerative disease","rno05016","Huntington disease","2/29","234/5339",0.00854700854700855,1.57353374594754,0.662994697343852,0.365243776035566,1,1,"Slc1a3/Tubb6",2
+"Organismal Systems","Endocrine system","rno04928","Parathyroid hormone synthesis, secretion and action","1/29","83/5339",0.0120481927710843,2.21811383464894,0.826495068800057,0.365919738198372,1,1,"Egfr",1
+"Human Diseases","Endocrine and metabolic disease","rno04933","AGE-RAGE signaling pathway in diabetic complications","1/29","83/5339",0.0120481927710843,2.21811383464894,0.826495068800057,0.365919738198372,1,1,"Ccnd1",1
+"Organismal Systems","Endocrine system","rno04915","Estrogen signaling pathway","1/29","85/5339",0.0117647058823529,2.16592292089249,0.80071007290589,0.372898177585009,1,1,"Egfr",1
+"Environmental Information Processing","Signal transduction","rno04066","HIF-1 signaling pathway","1/29","87/5339",0.0114942528735632,2.11613158937773,0.775628378733458,0.379802435168515,1,1,"Egfr",1
+"Human Diseases","Endocrine and metabolic disease","rno04936","Alcoholic liver disease","1/29","88/5339",0.0113636363636364,2.09208463949843,0.763339346436637,0.383226983793822,1,1,"Ccnd1",1
+"Metabolism","Global and overview maps","rno01200","Carbon metabolism","1/29","94/5339",0.0106382978723404,1.95854732208364,0.692860434592761,0.403394069848533,1,1,"Phgdh",1
+"Organismal Systems","Nervous system","rno04724","Glutamatergic synapse","1/29","96/5339",0.0104166666666667,1.91774425287356,0.67051482475061,0.40997381500018,1,1,"Slc1a3",1
+"Environmental Information Processing","Signal transduction","rno04371","Apelin signaling pathway","1/29","97/5339",0.0103092783505155,1.89797369356559,0.659541300114892,0.413237358651715,1,1,"Ccnd1",1
+"Environmental Information Processing","Signal transduction","rno04152","AMPK signaling pathway","1/29","99/5339",0.0101010101010101,1.85963079066527,0.637976879176963,0.419712239371528,1,1,"Ccnd1",1
+"Organismal Systems","Endocrine system","rno04926","Relaxin signaling pathway","1/29","99/5339",0.0101010101010101,1.85963079066527,0.637976879176963,0.419712239371528,1,1,"Egfr",1
+"Environmental Information Processing","Signaling molecules and interaction","rno04081","Hormone signaling","1/29","102/5339",0.00980392156862745,1.80493576741041,0.606542235810097,0.429295384395436,1,1,"Slco1c1",1
+"Cellular Processes","Transport and catabolism","rno04148","Efferocytosis","1/29","113/5339",0.00884955752212389,1.6292340555386,0.499583126685718,0.463143307330941,1,1,"Itgb5",1
+"Environmental Information Processing","Signal transduction","rno04072","Phospholipase D signaling pathway","1/29","114/5339",0.0087719298245614,1.61494252873563,0.490438810931402,0.466122420244718,1,1,"Egfr",1
+"Environmental Information Processing","Signaling molecules and interaction","rno04082","Neuroactive ligand signaling","1/29","118/5339",0.00847457627118644,1.56019871420222,0.454723383607728,0.477880048729947,1,1,"Slc1a3",1
+"Human Diseases","Infectious disease: viral","rno05161","Hepatitis B","1/29","120/5339",0.00833333333333333,1.53419540229885,0.437359076198299,0.483664714218278,1,1,"Pcna",1
+"Human Diseases","Cancer: overview","rno05202","Transcriptional misregulation in cancer","1/29","120/5339",0.00833333333333333,1.53419540229885,0.437359076198299,0.483664714218278,1,1,"Etv1",1
+"Environmental Information Processing","Signal transduction","rno04310","Wnt signaling pathway","1/29","124/5339",0.00806451612903226,1.48470522803115,0.403554703436084,0.4950489749568,1,1,"Ccnd1",1
+"Human Diseases","Infectious disease: viral","rno05167","Kaposi sarcoma-associated herpesvirus infection","1/29","125/5339",0.008,1.4728275862069,0.395287720121272,0.49785694805867,1,1,"Ccnd1",1
+"Environmental Information Processing","Signaling molecules and interaction","rno04080","Neuroactive ligand-receptor interaction","1/29","134/5339",0.00746268656716418,1.37390633041688,0.323926048679265,0.522459430162111,1,1,"Gpr50",1
+"Human Diseases","Cancer: overview","rno05203","Viral carcinogenesis","1/29","139/5339",0.00719424460431655,1.32448523939469,0.286445297722831,0.535620259146813,1,1,"Ccnd1",1
+"Human Diseases","Cancer: overview","rno05208","Chemical carcinogenesis - reactive oxygen species","1/29","174/5339",0.00574712643678161,1.05806579468886,0.0575441074877477,0.618420418534629,1,1,"Egfr",1
+"Human Diseases","Infectious disease: bacterial","rno05132","Salmonella infection","1/29","186/5339",0.00537634408602151,0.989803485354097,-0.01045969862484,0.643376452378517,1,1,"Tubb6",1
+"Human Diseases","Infectious disease: viral","rno05171","Coronavirus disease","1/29","190/5339",0.00526315789473684,0.968965517241379,-0.0321885111484879,0.651339244283058,1,1,"Egfr",1
+"Human Diseases","Neurodegenerative disease","rno05020","Prion disease","1/29","201/5339",0.00497512437810945,0.915937553611254,-0.089772646128673,0.672361811297028,1,1,"Tubb6",1
+"Human Diseases","Neurodegenerative disease","rno05012","Parkinson disease","1/29","205/5339",0.0048780487804878,0.898065601345669,-0.109979258358754,0.679698592353659,1,1,"Tubb6",1
+"Human Diseases","Neurodegenerative disease","rno05014","Amyotrophic lateral sclerosis","1/29","281/5339",0.00355871886120996,0.655172413793103,-0.43884057222571,0.792409857240161,1,1,"Tubb6",1
+"Human Diseases","Neurodegenerative disease","rno05010","Alzheimer disease","1/29","288/5339",0.00347222222222222,0.639248084291188,-0.465111661808443,0.800604205112298,1,1,"Tubb6",1
+"Human Diseases","Neurodegenerative disease","rno05022","Pathways of neurodegeneration - multiple diseases","1/29","354/5339",0.00282485875706215,0.520066238067407,-0.690544030295848,0.863981466902302,1,1,"Tubb6",1
+"Metabolism","Carbohydrate metabolism","rno00010","Glycolysis / Gluconeogenesis","0/29","43/5339",0,0,-0.486520632538559,1,1,1,"",0
+"Metabolism","Carbohydrate metabolism","rno00020","Citrate cycle (TCA cycle)","0/29","28/5339",0,0,-0.39204136089671,1,1,1,"",0
+"Metabolism","Carbohydrate metabolism","rno00030","Pentose phosphate pathway","0/29","22/5339",0,0,-0.347311395800316,1,1,1,"",0
+"Metabolism","Carbohydrate metabolism","rno00040","Pentose and glucuronate interconversions","0/29","16/5339",0,0,-0.296021177204045,1,1,1,"",0
+"Metabolism","Carbohydrate metabolism","rno00051","Fructose and mannose metabolism","0/29","29/5339",0,0,-0.399018251804615,1,1,1,"",0
+"Metabolism","Carbohydrate metabolism","rno00052","Galactose metabolism","0/29","23/5339",0,0,-0.355150520097598,1,1,1,"",0
+"Metabolism","Lipid metabolism","rno00061","Fatty acid biosynthesis","0/29","15/5339",0,0,-0.286594353244369,1,1,1,"",0
+"Metabolism","Lipid metabolism","rno00062","Fatty acid elongation","0/29","24/5339",0,0,-0.362823166747557,1,1,1,"",0
+"Metabolism","Lipid metabolism","rno00071","Fatty acid degradation","0/29","34/5339",0,0,-0.432252772486437,1,1,1,"",0
+"Metabolism","Lipid metabolism","rno00100","Steroid biosynthesis","0/29","15/5339",0,0,-0.286594353244369,1,1,1,"",0
+"Metabolism","Lipid metabolism","rno00140","Steroid hormone biosynthesis","0/29","16/5339",0,0,-0.296021177204045,1,1,1,"",0
+"Metabolism","Energy metabolism","rno00190","Oxidative phosphorylation","0/29","95/5339",0,0,-0.726727315404474,1,1,1,"",0
+"Metabolism","Amino acid metabolism","rno00220","Arginine biosynthesis","0/29","16/5339",0,0,-0.296021177204045,1,1,1,"",0
+"Metabolism","Nucleotide metabolism","rno00230","Purine metabolism","0/29","91/5339",0,0,-0.710992150591127,1,1,1,"",0
+"Metabolism","Nucleotide metabolism","rno00240","Pyrimidine metabolism","0/29","43/5339",0,0,-0.486520632538559,1,1,1,"",0
+"Metabolism","Amino acid metabolism","rno00250","Alanine, aspartate and glutamate metabolism","0/29","26/5339",0,0,-0.377709396502158,1,1,1,"",0
+"Metabolism","Amino acid metabolism","rno00280","Valine, leucine and isoleucine degradation","0/29","41/5339",0,0,-0.474981806062983,1,1,1,"",0
+"Metabolism","Amino acid metabolism","rno00310","Lysine degradation","0/29","51/5339",0,0,-0.530249646848965,1,1,1,"",0
+"Metabolism","Amino acid metabolism","rno00330","Arginine and proline metabolism","0/29","33/5339",0,0,-0.425808542810877,1,1,1,"",0
+"Metabolism","Amino acid metabolism","rno00340","Histidine metabolism","0/29","11/5339",0,0,-0.245332597841766,1,1,1,"",0
+"Metabolism","Amino acid metabolism","rno00350","Tyrosine metabolism","0/29","11/5339",0,0,-0.245332597841766,1,1,1,"",0
+"Metabolism","Amino acid metabolism","rno00380","Tryptophan metabolism","0/29","21/5339",0,0,-0.339294253327844,1,1,1,"",0
+"Metabolism","Metabolism of other amino acids","rno00410","beta-Alanine metabolism","0/29","18/5339",0,0,-0.314036874425511,1,1,1,"",0
+"Metabolism","Metabolism of other amino acids","rno00450","Selenocompound metabolism","0/29","13/5339",0,0,-0.266754723437842,1,1,1,"",0
+"Metabolism","Metabolism of other amino acids","rno00480","Glutathione metabolism","0/29","40/5339",0,0,-0.469109317504871,1,1,1,"",0
+"Metabolism","Carbohydrate metabolism","rno00500","Starch and sucrose metabolism","0/29","17/5339",0,0,-0.305160310920627,1,1,1,"",0
+"Metabolism","Glycan biosynthesis and metabolism","rno00510","N-Glycan biosynthesis","0/29","49/5339",0,0,-0.519650353587818,1,1,1,"",0
+"Metabolism","Glycan biosynthesis and metabolism","rno00511","Other glycan degradation","0/29","15/5339",0,0,-0.286594353244369,1,1,1,"",0
+"Metabolism","Glycan biosynthesis and metabolism","rno00513","Various types of N-glycan biosynthesis","0/29","38/5339",0,0,-0.457144942393968,1,1,1,"",0
+"Metabolism","Glycan biosynthesis and metabolism","rno00515","Mannose type O-glycan biosynthesis","0/29","21/5339",0,0,-0.339294253327844,1,1,1,"",0
+"Metabolism","Glycan biosynthesis and metabolism","rno00520","Amino sugar and nucleotide sugar metabolism","0/29","33/5339",0,0,-0.425808542810877,1,1,1,"",0
+"Metabolism","Glycan biosynthesis and metabolism","rno00531","Glycosaminoglycan degradation","0/29","12/5339",0,0,-0.256265591447574,1,1,1,"",0
+"Metabolism","Glycan biosynthesis and metabolism","rno00532","Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate","0/29","18/5339",0,0,-0.314036874425511,1,1,1,"",0
+"Metabolism","Glycan biosynthesis and metabolism","rno00533","Glycosaminoglycan biosynthesis - keratan sulfate","0/29","13/5339",0,0,-0.266754723437842,1,1,1,"",0
+"Metabolism","Glycan biosynthesis and metabolism","rno00534","Glycosaminoglycan biosynthesis - heparan sulfate / heparin","0/29","21/5339",0,0,-0.339294253327844,1,1,1,"",0
+"Metabolism","Glycan biosynthesis and metabolism","rno00541","Biosynthesis of various nucleotide sugars","0/29","16/5339",0,0,-0.296021177204045,1,1,1,"",0
+"Metabolism","Lipid metabolism","rno00561","Glycerolipid metabolism","0/29","46/5339",0,0,-0.50334874715321,1,1,1,"",0
+"Metabolism","Carbohydrate metabolism","rno00562","Inositol phosphate metabolism","0/29","72/5339",0,0,-0.63128520643583,1,1,1,"",0
+"Metabolism","Glycan biosynthesis and metabolism","rno00563","Glycosylphosphatidylinositol (GPI)-anchor biosynthesis","0/29","25/5339",0,0,-0.370339684657168,1,1,1,"",0
+"Metabolism","Lipid metabolism","rno00564","Glycerophospholipid metabolism","0/29","76/5339",0,0,-0.648830316864538,1,1,1,"",0
+"Metabolism","Lipid metabolism","rno00565","Ether lipid metabolism","0/29","29/5339",0,0,-0.399018251804615,1,1,1,"",0
+"Metabolism","Lipid metabolism","rno00590","Arachidonic acid metabolism","0/29","22/5339",0,0,-0.347311395800316,1,1,1,"",0
+"Metabolism","Lipid metabolism","rno00600","Sphingolipid metabolism","0/29","40/5339",0,0,-0.469109317504871,1,1,1,"",0
+"Metabolism","Glycan biosynthesis and metabolism","rno00601","Glycosphingolipid biosynthesis - lacto and neolacto series","0/29","16/5339",0,0,-0.296021177204045,1,1,1,"",0
+"Metabolism","Glycan biosynthesis and metabolism","rno00604","Glycosphingolipid biosynthesis - ganglio series","0/29","14/5339",0,0,-0.276850450736933,1,1,1,"",0
+"Metabolism","Carbohydrate metabolism","rno00620","Pyruvate metabolism","0/29","35/5339",0,0,-0.438604706496099,1,1,1,"",0
+"Metabolism","Carbohydrate metabolism","rno00630","Glyoxylate and dicarboxylate metabolism","0/29","27/5339",0,0,-0.384940735727544,1,1,1,"",0
+"Metabolism","Carbohydrate metabolism","rno00640","Propanoate metabolism","0/29","26/5339",0,0,-0.377709396502158,1,1,1,"",0
+"Metabolism","Carbohydrate metabolism","rno00650","Butanoate metabolism","0/29","16/5339",0,0,-0.296021177204045,1,1,1,"",0
+"Metabolism","Metabolism of cofactors and vitamins","rno00670","One carbon pool by folate","0/29","31/5339",0,0,-0.41262583192826,1,1,1,"",0
+"Metabolism","Metabolism of cofactors and vitamins","rno00730","Thiamine metabolism","0/29","10/5339",0,0,-0.233893505528764,1,1,1,"",0
+"Metabolism","Metabolism of cofactors and vitamins","rno00760","Nicotinate and nicotinamide metabolism","0/29","27/5339",0,0,-0.384940735727544,1,1,1,"",0
+"Metabolism","Metabolism of cofactors and vitamins","rno00770","Pantothenate and CoA biosynthesis","0/29","13/5339",0,0,-0.266754723437842,1,1,1,"",0
+"Metabolism","Metabolism of cofactors and vitamins","rno00785","Lipoic acid metabolism","0/29","17/5339",0,0,-0.305160310920627,1,1,1,"",0
+"Metabolism","Metabolism of cofactors and vitamins","rno00790","Folate biosynthesis","0/29","15/5339",0,0,-0.286594353244369,1,1,1,"",0
+"Metabolism","Metabolism of cofactors and vitamins","rno00830","Retinol metabolism","0/29","15/5339",0,0,-0.286594353244369,1,1,1,"",0
+"Metabolism","Metabolism of cofactors and vitamins","rno00860","Porphyrin metabolism","0/29","29/5339",0,0,-0.399018251804615,1,1,1,"",0
+"Metabolism","Metabolism of terpenoids and polyketides","rno00900","Terpenoid backbone biosynthesis","0/29","19/5339",0,0,-0.322672539784729,1,1,1,"",0
+"Genetic Information Processing","Translation","rno00970","Aminoacyl-tRNA biosynthesis","0/29","41/5339",0,0,-0.474981806062983,1,1,1,"",0
+"Metabolism","Xenobiotics biodegradation and metabolism","rno00980","Metabolism of xenobiotics by cytochrome P450","0/29","24/5339",0,0,-0.362823166747557,1,1,1,"",0
+"Metabolism","Xenobiotics biodegradation and metabolism","rno00982","Drug metabolism - cytochrome P450","0/29","19/5339",0,0,-0.322672539784729,1,1,1,"",0
+"Metabolism","Xenobiotics biodegradation and metabolism","rno00983","Drug metabolism - other enzymes","0/29","39/5339",0,0,-0.46316463550923,1,1,1,"",0
+"Metabolism","Lipid metabolism","rno01040","Biosynthesis of unsaturated fatty acids","0/29","25/5339",0,0,-0.370339684657168,1,1,1,"",0
+"Metabolism","Global and overview maps","rno01210","2-Oxocarboxylic acid metabolism","0/29","26/5339",0,0,-0.377709396502158,1,1,1,"",0
+"Metabolism","Global and overview maps","rno01212","Fatty acid metabolism","0/29","53/5339",0,0,-0.540648968247239,1,1,1,"",0
+"Metabolism","Global and overview maps","rno01232","Nucleotide metabolism","0/29","63/5339",0,0,-0.590009364092348,1,1,1,"",0
+"Metabolism","Global and overview maps","rno01240","Biosynthesis of cofactors","0/29","104/5339",0,0,-0.761025746508607,1,1,1,"",0
+"Metabolism","Global and overview maps","rno01250","Biosynthesis of nucleotide sugars","0/29","33/5339",0,0,-0.425808542810877,1,1,1,"",0
+"Human Diseases","Drug resistance: antineoplastic","rno01523","Antifolate resistance","0/29","22/5339",0,0,-0.347311395800316,1,1,1,"",0
+"Human Diseases","Drug resistance: antineoplastic","rno01524","Platinum drug resistance","0/29","59/5339",0,0,-0.57075545070703,1,1,1,"",0
+"Environmental Information Processing","Membrane transport","rno02010","ABC transporters","0/29","32/5339",0,0,-0.419267760276658,1,1,1,"",0
+"Genetic Information Processing","Translation","rno03008","Ribosome biogenesis in eukaryotes","0/29","66/5339",0,0,-0.604065601074522,1,1,1,"",0
+"Genetic Information Processing","Translation","rno03010","Ribosome","0/29","182/5339",0,0,-1.01432738643988,1,1,1,"",0
+"Genetic Information Processing","Translation","rno03013","Nucleocytoplasmic transport","0/29","95/5339",0,0,-0.726727315404474,1,1,1,"",0
+"Genetic Information Processing","Translation","rno03015","mRNA surveillance pathway","0/29","81/5339",0,0,-0.670151882190234,1,1,1,"",0
+"Genetic Information Processing","Folding, sorting and degradation","rno03018","RNA degradation","0/29","69/5339",0,0,-0.617817578443086,1,1,1,"",0
+"Genetic Information Processing","Transcription","rno03020","RNA polymerase","0/29","27/5339",0,0,-0.384940735727544,1,1,1,"",0
+"Genetic Information Processing","Transcription","rno03022","Basal transcription factors","0/29","36/5339",0,0,-0.444868299640718,1,1,1,"",0
+"Genetic Information Processing","Transcription","rno03040","Spliceosome","0/29","131/5339",0,0,-0.856330047635064,1,1,1,"",0
+"Genetic Information Processing","Folding, sorting and degradation","rno03050","Proteasome","0/29","40/5339",0,0,-0.469109317504871,1,1,1,"",0
+"Genetic Information Processing","Folding, sorting and degradation","rno03060","Protein export","0/29","27/5339",0,0,-0.384940735727544,1,1,1,"",0
+"Genetic Information Processing","Chromosome","rno03082","ATP-dependent chromatin remodeling","0/29","97/5339",0,0,-0.734477306897542,1,1,1,"",0
+"Genetic Information Processing","Chromosome","rno03083","Polycomb repressive complex","0/29","75/5339",0,0,-0.644486336568212,1,1,1,"",0
+"Genetic Information Processing","Information processing in viruses","rno03250","Viral life cycle - HIV-1","0/29","49/5339",0,0,-0.519650353587818,1,1,1,"",0
+"Genetic Information Processing","Information processing in viruses","rno03273","Virion - Lassa virus and SFTS virus","0/29","12/5339",0,0,-0.256265591447574,1,1,1,"",0
+"Genetic Information Processing","Replication and repair","rno03440","Homologous recombination","0/29","38/5339",0,0,-0.457144942393968,1,1,1,"",0
+"Genetic Information Processing","Replication and repair","rno03450","Non-homologous end-joining","0/29","12/5339",0,0,-0.256265591447574,1,1,1,"",0
+"Genetic Information Processing","Replication and repair","rno03460","Fanconi anemia pathway","0/29","46/5339",0,0,-0.50334874715321,1,1,1,"",0
+"Environmental Information Processing","Signal transduction","rno04022","cGMP-PKG signaling pathway","0/29","111/5339",0,0,-0.786746325240326,1,1,1,"",0
+"Environmental Information Processing","Signal transduction","rno04024","cAMP signaling pathway","0/29","148/5339",0,0,-0.911688268517903,1,1,1,"",0
+"Environmental Information Processing","Signaling molecules and interaction","rno04060","Cytokine-cytokine receptor interaction","0/29","78/5339",0,0,-0.657437047564499,1,1,1,"",0
+"Environmental Information Processing","Signaling molecules and interaction","rno04061","Viral protein interaction with cytokine and cytokine receptor","0/29","17/5339",0,0,-0.305160310920627,1,1,1,"",0
+"Organismal Systems","Immune system","rno04062","Chemokine signaling pathway","0/29","117/5339",0,0,-0.808193810799475,1,1,1,"",0
+"Environmental Information Processing","Signal transduction","rno04064","NF-kappa B signaling pathway","0/29","58/5339",0,0,-0.565844287969662,1,1,1,"",0
+"Environmental Information Processing","Signal transduction","rno04070","Phosphatidylinositol signaling system","0/29","84/5339",0,0,-0.682644044911625,1,1,1,"",0
+"Environmental Information Processing","Signal transduction","rno04071","Sphingolipid signaling pathway","0/29","96/5339",0,0,-0.730611848182269,1,1,1,"",0
+"Cellular Processes","Cell growth and death","rno04114","Oocyte meiosis","0/29","93/5339",0,0,-0.718899785920964,1,1,1,"",0
+"Genetic Information Processing","Folding, sorting and degradation","rno04120","Ubiquitin mediated proteolysis","0/29","120/5339",0,0,-0.818724897886004,1,1,1,"",0
+"Genetic Information Processing","Folding, sorting and degradation","rno04130","SNARE interactions in vesicular transport","0/29","28/5339",0,0,-0.39204136089671,1,1,1,"",0
+"Cellular Processes","Transport and catabolism","rno04136","Autophagy - other","0/29","30/5339",0,0,-0.405877790788175,1,1,1,"",0
+"Cellular Processes","Transport and catabolism","rno04137","Mitophagy - animal","0/29","88/5339",0,0,-0.698974528922245,1,1,1,"",0
+"Cellular Processes","Transport and catabolism","rno04140","Autophagy - animal","0/29","150/5339",0,0,-0.918004515270651,1,1,1,"",0
+"Genetic Information Processing","Folding, sorting and degradation","rno04141","Protein processing in endoplasmic reticulum","0/29","147/5339",0,0,-0.908515515677913,1,1,1,"",0
+"Cellular Processes","Transport and catabolism","rno04142","Lysosome biogenesis","0/29","207/5339",0,0,-1.08438342830417,1,1,1,"",0
+"Cellular Processes","Transport and catabolism","rno04146","Peroxisome","0/29","69/5339",0,0,-0.617817578443086,1,1,1,"",0
+"Environmental Information Processing","Signal transduction","rno04150","mTOR signaling pathway","0/29","120/5339",0,0,-0.818724897886004,1,1,1,"",0
+"Cellular Processes","Cell growth and death","rno04210","Apoptosis","0/29","101/5339",0,0,-0.749754296152759,1,1,1,"",0
+"Organismal Systems","Aging","rno04211","Longevity regulating pathway","0/29","75/5339",0,0,-0.644486336568212,1,1,1,"",0
+"Organismal Systems","Aging","rno04213","Longevity regulating pathway - multiple species","0/29","49/5339",0,0,-0.519650353587818,1,1,1,"",0
+"Cellular Processes","Cell growth and death","rno04215","Apoptosis - multiple species","0/29","27/5339",0,0,-0.384940735727544,1,1,1,"",0
+"Cellular Processes","Cell growth and death","rno04216","Ferroptosis","0/29","42/5339",0,0,-0.480784747817773,1,1,1,"",0
+"Cellular Processes","Cell growth and death","rno04217","Necroptosis","0/29","96/5339",0,0,-0.730611848182269,1,1,1,"",0
+"Organismal Systems","Circulatory system","rno04260","Cardiac muscle contraction","0/29","60/5339",0,0,-0.575626550464884,1,1,1,"",0
+"Organismal Systems","Circulatory system","rno04261","Adrenergic signaling in cardiomyocytes","0/29","110/5339",0,0,-0.783119511872516,1,1,1,"",0
+"Organismal Systems","Circulatory system","rno04270","Vascular smooth muscle contraction","0/29","79/5339",0,0,-0.661700856365571,1,1,1,"",0
+"Environmental Information Processing","Signal transduction","rno04330","Notch signaling pathway","0/29","56/5339",0,0,-0.555897513278974,1,1,1,"",0
+"Organismal Systems","Development and regeneration","rno04360","Axon guidance","0/29","162/5339",0,0,-0.955123318061817,1,1,1,"",0
+"Environmental Information Processing","Signal transduction","rno04370","VEGF signaling pathway","0/29","43/5339",0,0,-0.486520632538559,1,1,1,"",0
+"Organismal Systems","Development and regeneration","rno04380","Osteoclast differentiation","0/29","86/5339",0,0,-0.690854432498639,1,1,1,"",0
+"Organismal Systems","Development and regeneration","rno04382","Cornified envelope formation","0/29","63/5339",0,0,-0.590009364092348,1,1,1,"",0
+"Environmental Information Processing","Signal transduction","rno04392","Hippo signaling pathway - multiple species","0/29","26/5339",0,0,-0.377709396502158,1,1,1,"",0
+"Environmental Information Processing","Signaling molecules and interaction","rno04514","Cell adhesion molecule (CAM) interaction","0/29","74/5339",0,0,-0.640114544523652,1,1,1,"",0
+"Organismal Systems","Immune system","rno04610","Complement and coagulation cascades","0/29","30/5339",0,0,-0.405877790788175,1,1,1,"",0
+"Organismal Systems","Immune system","rno04611","Platelet activation","0/29","84/5339",0,0,-0.682644044911625,1,1,1,"",0
+"Organismal Systems","Immune system","rno04612","Antigen processing and presentation","0/29","29/5339",0,0,-0.399018251804615,1,1,1,"",0
+"Organismal Systems","Immune system","rno04613","Neutrophil extracellular trap formation","0/29","85/5339",0,0,-0.68676072710961,1,1,1,"",0
+"Organismal Systems","Endocrine system","rno04614","Renin-angiotensin system","0/29","10/5339",0,0,-0.233893505528764,1,1,1,"",0
+"Organismal Systems","Immune system","rno04620","Toll-like receptor signaling pathway","0/29","55/5339",0,0,-0.5508596519949,1,1,1,"",0
+"Organismal Systems","Immune system","rno04621","NOD-like receptor signaling pathway","0/29","100/5339",0,0,-0.745962204812097,1,1,1,"",0
+"Organismal Systems","Immune system","rno04622","RIG-I-like receptor signaling pathway","0/29","38/5339",0,0,-0.457144942393968,1,1,1,"",0
+"Organismal Systems","Immune system","rno04623","Cytosolic DNA-sensing pathway","0/29","43/5339",0,0,-0.486520632538559,1,1,1,"",0
+"Organismal Systems","Immune system","rno04625","C-type lectin receptor signaling pathway","0/29","66/5339",0,0,-0.604065601074522,1,1,1,"",0
+"Organismal Systems","Immune system","rno04640","Hematopoietic cell lineage","0/29","27/5339",0,0,-0.384940735727544,1,1,1,"",0
+"Organismal Systems","Immune system","rno04650","Natural killer cell mediated cytotoxicity","0/29","60/5339",0,0,-0.575626550464884,1,1,1,"",0
+"Organismal Systems","Immune system","rno04657","IL-17 signaling pathway","0/29","42/5339",0,0,-0.480784747817773,1,1,1,"",0
+"Organismal Systems","Immune system","rno04658","Th1 and Th2 cell differentiation","0/29","49/5339",0,0,-0.519650353587818,1,1,1,"",0
+"Organismal Systems","Immune system","rno04659","Th17 cell differentiation","0/29","58/5339",0,0,-0.565844287969662,1,1,1,"",0
+"Organismal Systems","Immune system","rno04660","T cell receptor signaling pathway","0/29","89/5339",0,0,-0.703001699224891,1,1,1,"",0
+"Organismal Systems","Immune system","rno04662","B cell receptor signaling pathway","0/29","52/5339",0,0,-0.535473570045587,1,1,1,"",0
+"Organismal Systems","Immune system","rno04664","Fc epsilon RI signaling pathway","0/29","46/5339",0,0,-0.50334874715321,1,1,1,"",0
+"Organismal Systems","Immune system","rno04666","Fc gamma R-mediated phagosome formation","0/29","80/5339",0,0,-0.665938971782736,1,1,1,"",0
+"Environmental Information Processing","Signal transduction","rno04668","TNF signaling pathway","0/29","77/5339",0,0,-0.653147041259257,1,1,1,"",0
+"Organismal Systems","Environmental adaptation","rno04710","Circadian rhythm","0/29","29/5339",0,0,-0.399018251804615,1,1,1,"",0
+"Organismal Systems","Environmental adaptation","rno04713","Circadian entrainment","0/29","75/5339",0,0,-0.644486336568212,1,1,1,"",0
+"Organismal Systems","Environmental adaptation","rno04714","Thermogenesis","0/29","175/5339",0,0,-0.993955475921773,1,1,1,"",0
+"Organismal Systems","Nervous system","rno04720","Long-term potentiation","0/29","55/5339",0,0,-0.5508596519949,1,1,1,"",0
+"Organismal Systems","Nervous system","rno04722","Neurotrophin signaling pathway","0/29","105/5339",0,0,-0.764748816429705,1,1,1,"",0
+"Organismal Systems","Nervous system","rno04723","Retrograde endocannabinoid signaling","0/29","111/5339",0,0,-0.786746325240326,1,1,1,"",0
+"Organismal Systems","Nervous system","rno04725","Cholinergic synapse","0/29","86/5339",0,0,-0.690854432498639,1,1,1,"",0
+"Organismal Systems","Nervous system","rno04726","Serotonergic synapse","0/29","68/5339",0,0,-0.61326611817661,1,1,1,"",0
+"Organismal Systems","Nervous system","rno04727","GABAergic synapse","0/29","67/5339",0,0,-0.608682371051829,1,1,1,"",0
+"Organismal Systems","Nervous system","rno04728","Dopaminergic synapse","0/29","104/5339",0,0,-0.761025746508607,1,1,1,"",0
+"Organismal Systems","Nervous system","rno04730","Long-term depression","0/29","49/5339",0,0,-0.519650353587818,1,1,1,"",0
+"Organismal Systems","Sensory system","rno04740","Olfactory transduction","0/29","26/5339",0,0,-0.377709396502158,1,1,1,"",0
+"Organismal Systems","Sensory system","rno04742","Taste transduction","0/29","37/5339",0,0,-0.451047233554018,1,1,1,"",0
+"Organismal Systems","Sensory system","rno04750","Inflammatory mediator regulation of TRP channels","0/29","58/5339",0,0,-0.565844287969662,1,1,1,"",0
+"Organismal Systems","Endocrine system","rno04910","Insulin signaling pathway","0/29","103/5339",0,0,-0.757285805543984,1,1,1,"",0
+"Organismal Systems","Endocrine system","rno04911","Insulin secretion","0/29","62/5339",0,0,-0.585252558302074,1,1,1,"",0
+"Organismal Systems","Endocrine system","rno04913","Ovarian steroidogenesis","0/29","24/5339",0,0,-0.362823166747557,1,1,1,"",0
+"Organismal Systems","Endocrine system","rno04916","Melanogenesis","0/29","66/5339",0,0,-0.604065601074522,1,1,1,"",0
+"Organismal Systems","Endocrine system","rno04918","Thyroid hormone synthesis","0/29","48/5339",0,0,-0.514271859847958,1,1,1,"",0
+"Organismal Systems","Endocrine system","rno04920","Adipocytokine signaling pathway","0/29","55/5339",0,0,-0.5508596519949,1,1,1,"",0
+"Organismal Systems","Endocrine system","rno04922","Glucagon signaling pathway","0/29","73/5339",0,0,-0.635714365992744,1,1,1,"",0
+"Organismal Systems","Endocrine system","rno04923","Regulation of lipolysis in adipocytes","0/29","37/5339",0,0,-0.451047233554018,1,1,1,"",0
+"Organismal Systems","Endocrine system","rno04924","Renin secretion","0/29","38/5339",0,0,-0.457144942393968,1,1,1,"",0
+"Organismal Systems","Endocrine system","rno04925","Aldosterone synthesis and secretion","0/29","72/5339",0,0,-0.63128520643583,1,1,1,"",0
+"Organismal Systems","Endocrine system","rno04927","Cortisol synthesis and secretion","0/29","44/5339",0,0,-0.492191805836001,1,1,1,"",0
+"Organismal Systems","Endocrine system","rno04929","GnRH secretion","0/29","51/5339",0,0,-0.530249646848965,1,1,1,"",0
+"Human Diseases","Endocrine and metabolic disease","rno04930","Type II diabetes mellitus","0/29","34/5339",0,0,-0.432252772486437,1,1,1,"",0
+"Human Diseases","Endocrine and metabolic disease","rno04931","Insulin resistance","0/29","82/5339",0,0,-0.674340060895459,1,1,1,"",0
+"Human Diseases","Endocrine and metabolic disease","rno04932","Non-alcoholic fatty liver disease","0/29","119/5339",0,0,-0.815228309166287,1,1,1,"",0
+"Organismal Systems","Endocrine system","rno04935","Growth hormone synthesis, secretion and action","0/29","91/5339",0,0,-0.710992150591127,1,1,1,"",0
+"Human Diseases","Endocrine and metabolic disease","rno04940","Type I diabetes mellitus","0/29","11/5339",0,0,-0.245332597841766,1,1,1,"",0
+"Organismal Systems","Excretory system","rno04960","Aldosterone-regulated sodium reabsorption","0/29","26/5339",0,0,-0.377709396502158,1,1,1,"",0
+"Organismal Systems","Excretory system","rno04961","Endocrine and other factor-regulated calcium reabsorption","0/29","39/5339",0,0,-0.46316463550923,1,1,1,"",0
+"Organismal Systems","Excretory system","rno04962","Vasopressin-regulated water reabsorption","0/29","35/5339",0,0,-0.438604706496099,1,1,1,"",0
+"Organismal Systems","Excretory system","rno04964","Proximal tubule bicarbonate reclamation","0/29","15/5339",0,0,-0.286594353244369,1,1,1,"",0
+"Organismal Systems","Excretory system","rno04966","Collecting duct acid secretion","0/29","16/5339",0,0,-0.296021177204045,1,1,1,"",0
+"Organismal Systems","Digestive system","rno04970","Salivary secretion","0/29","49/5339",0,0,-0.519650353587818,1,1,1,"",0
+"Organismal Systems","Digestive system","rno04971","Gastric acid secretion","0/29","51/5339",0,0,-0.530249646848965,1,1,1,"",0
+"Organismal Systems","Digestive system","rno04972","Pancreatic secretion","0/29","54/5339",0,0,-0.545777222983392,1,1,1,"",0
+"Organismal Systems","Digestive system","rno04973","Carbohydrate digestion and absorption","0/29","26/5339",0,0,-0.377709396502158,1,1,1,"",0
+"Organismal Systems","Digestive system","rno04974","Protein digestion and absorption","0/29","54/5339",0,0,-0.545777222983392,1,1,1,"",0
+"Organismal Systems","Digestive system","rno04975","Fat digestion and absorption","0/29","17/5339",0,0,-0.305160310920627,1,1,1,"",0
+"Organismal Systems","Digestive system","rno04976","Bile secretion","0/29","38/5339",0,0,-0.457144942393968,1,1,1,"",0
+"Organismal Systems","Digestive system","rno04977","Vitamin digestion and absorption","0/29","13/5339",0,0,-0.266754723437842,1,1,1,"",0
+"Organismal Systems","Digestive system","rno04979","Cholesterol metabolism","0/29","27/5339",0,0,-0.384940735727544,1,1,1,"",0
+"Organismal Systems","Digestive system","rno04980","Cobalamin transport and metabolism","0/29","16/5339",0,0,-0.296021177204045,1,1,1,"",0
+"Organismal Systems","Digestive system","rno04981","Folate transport and metabolism","0/29","18/5339",0,0,-0.314036874425511,1,1,1,"",0
+"Human Diseases","Neurodegenerative disease","rno05017","Spinocerebellar ataxia","0/29","127/5339",0,0,-0.842831347700085,1,1,1,"",0
+"Human Diseases","Substance dependence","rno05030","Cocaine addiction","0/29","40/5339",0,0,-0.469109317504871,1,1,1,"",0
+"Human Diseases","Substance dependence","rno05031","Amphetamine addiction","0/29","54/5339",0,0,-0.545777222983392,1,1,1,"",0
+"Human Diseases","Substance dependence","rno05032","Morphine addiction","0/29","70/5339",0,0,-0.622337461213102,1,1,1,"",0
+"Human Diseases","Substance dependence","rno05033","Nicotine addiction","0/29","30/5339",0,0,-0.405877790788175,1,1,1,"",0
+"Human Diseases","Substance dependence","rno05034","Alcoholism","0/29","94/5339",0,0,-0.7228234001913,1,1,1,"",0
+"Human Diseases","Infectious disease: bacterial","rno05100","Bacterial invasion of epithelial cells","0/29","70/5339",0,0,-0.622337461213102,1,1,1,"",0
+"Human Diseases","Infectious disease: bacterial","rno05133","Pertussis","0/29","41/5339",0,0,-0.474981806062983,1,1,1,"",0
+"Human Diseases","Infectious disease: bacterial","rno05134","Legionellosis","0/29","33/5339",0,0,-0.425808542810877,1,1,1,"",0
+"Human Diseases","Infectious disease: bacterial","rno05135","Yersinia infection","0/29","105/5339",0,0,-0.764748816429705,1,1,1,"",0
+"Human Diseases","Infectious disease: parasitic","rno05140","Leishmaniasis","0/29","44/5339",0,0,-0.492191805836001,1,1,1,"",0
+"Human Diseases","Infectious disease: parasitic","rno05142","Chagas disease","0/29","71/5339",0,0,-0.62682645054455,1,1,1,"",0
+"Human Diseases","Infectious disease: parasitic","rno05143","African trypanosomiasis","0/29","15/5339",0,0,-0.286594353244369,1,1,1,"",0
+"Human Diseases","Infectious disease: parasitic","rno05144","Malaria","0/29","23/5339",0,0,-0.355150520097598,1,1,1,"",0
+"Human Diseases","Infectious disease: parasitic","rno05145","Toxoplasmosis","0/29","67/5339",0,0,-0.608682371051829,1,1,1,"",0
+"Human Diseases","Infectious disease: parasitic","rno05146","Amoebiasis","0/29","61/5339",0,0,-0.580458596882581,1,1,1,"",0
+"Human Diseases","Infectious disease: bacterial","rno05150","Staphylococcus aureus infection","0/29","19/5339",0,0,-0.322672539784729,1,1,1,"",0
+"Human Diseases","Infectious disease: bacterial","rno05152","Tuberculosis","0/29","97/5339",0,0,-0.734477306897542,1,1,1,"",0
+"Human Diseases","Infectious disease: viral","rno05164","Influenza A","0/29","94/5339",0,0,-0.7228234001913,1,1,1,"",0
+"Human Diseases","Infectious disease: viral","rno05168","Herpes simplex virus 1 infection","0/29","108/5339",0,0,-0.775819231320007,1,1,1,"",0
+"Human Diseases","Infectious disease: viral","rno05170","Human immunodeficiency virus 1 infection","0/29","144/5339",0,0,-0.89893749055832,1,1,1,"",0
+"Human Diseases","Cancer: overview","rno05204","Chemical carcinogenesis - DNA adducts","0/29","19/5339",0,0,-0.322672539784729,1,1,1,"",0
+"Human Diseases","Cancer: specific types","rno05211","Renal cell carcinoma","0/29","65/5339",0,0,-0.599415044198677,1,1,1,"",0
+"Human Diseases","Cancer: specific types","rno05217","Basal cell carcinoma","0/29","41/5339",0,0,-0.474981806062983,1,1,1,"",0
+"Human Diseases","Immune disease","rno05321","Inflammatory bowel disease","0/29","20/5339",0,0,-0.331086159214102,1,1,1,"",0
+"Human Diseases","Immune disease","rno05322","Systemic lupus erythematosus","0/29","29/5339",0,0,-0.399018251804615,1,1,1,"",0
+"Human Diseases","Immune disease","rno05323","Rheumatoid arthritis","0/29","37/5339",0,0,-0.451047233554018,1,1,1,"",0
+"Human Diseases","Immune disease","rno05340","Primary immunodeficiency","0/29","11/5339",0,0,-0.245332597841766,1,1,1,"",0
+"Human Diseases","Cardiovascular disease","rno05415","Diabetic cardiomyopathy","0/29","157/5339",0,0,-0.939814508071512,1,1,1,"",0
+"Human Diseases","Cardiovascular disease","rno05417","Lipid and atherosclerosis","0/29","126/5339",0,0,-0.839426031903152,1,1,1,"",0
+"Human Diseases","Cardiovascular disease","rno05418","Fluid shear stress and atherosclerosis","0/29","94/5339",0,0,-0.7228234001913,1,1,1,"",0

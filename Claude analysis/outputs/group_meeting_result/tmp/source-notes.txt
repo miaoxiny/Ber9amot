@@ -1,0 +1,4 @@
+Deck: Netrin-1 RNA-seq group meeting results update.
+Sources: netrin_handoff_FULL_2026-06-14_v4 (2).md; exported figures under results/; existing decks used only as content/style reference.
+Key facts used: C1 strict 25 (7 up/18 down), relaxed 66; C1 GSEA GO BP 481 (255/226), KEGG 42 (20/22); C2 strict 1495 (1098/397), relaxed 4636; C2 GSEA GO BP 534 (410/124), KEGG 99 (89/10).
+Assets: user-provided local result PNGs from results/ subfolders.

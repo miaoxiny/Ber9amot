@@ -1,0 +1,6 @@
+Mode: create.
+Audience: lab group meeting; result update.
+Slide count: 20 main/backup combined.
+Style: warm paper background, dark ink typography, RNA-seq red/blue direction palette with orange accent.
+Fonts: Aptos Display for titles/numbers; Aptos for body.
+Structure: status -> design/QC -> C1 results -> C2 results -> cell-source interpretation -> synthesis/next steps -> backup.

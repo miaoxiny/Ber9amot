@@ -1,0 +1,235 @@
+# Methods Notes — Netrin-1 RNA-seq (Group A)
+
+> 累积式记录，每个分析步骤完成后追加 Methods 段落。
+> 最后整合到 thesis Methods 章节。
+
+---
+
+## §1 · RNA isolation, library prep, sequencing
+
+*(从已有的 Methods_QC_paragraph.md 复制过来，待填充实验细节)*
+
+Total RNA was extracted from embryonic day 18 (E18) rat (*Rattus norvegicus*) 
+cortical neurons. The study comprised two independent experiments, each with 
+three biological replicates from separate culture batches:
+
+- **Group A (24-hour treatment)**: DIV1 (baseline), DIV2 (vehicle control, 
+  24 h PBS), and DIV2 + Netrin-1 (24 h treatment with recombinant Netrin-1, 
+  R&D Systems #1109-N1).
+- **Group B (acute time course)**: 0, 5, and 15 min following Netrin-1 
+  stimulation of DIV2 cortical neurons.
+
+RNA integrity was assessed using an Agilent Bioanalyzer (RIN ≥ 9 for all 
+18 samples). Stranded polyA-enriched mRNA libraries were prepared using 
+**[library prep kit name]** and sequenced on **[Illumina platform]** with 
+2 × 101 bp paired-end reads.
+
+**Placeholders to fill before submission:**
+- [ ] Sequencing provider
+- [ ] Illumina platform model (NovaSeq 6000 / NextSeq 2000 / NovaSeq X)
+- [ ] Library prep kit (TruSeq Stranded mRNA / NEBNext Ultra II / etc.)
+- [ ] Netrin-1 final concentration
+- [ ] Vehicle composition (PBS or PBS + carrier)
+
+---
+
+## §2 · Read processing and quantification
+
+Raw sequencing data were processed by **[sequencing provider]** using the 
+Illumina DRAGEN RNA pipeline (v**[version]**). DRAGEN performed read 
+filtering, alignment to the *Rattus norvegicus* rn7 reference genome 
+(Ensembl release **[version]**), and gene-level quantification via its 
+integrated Salmon implementation. Gene-level quantification files 
+(`quant.genes.sf`) were imported into R using tximport (v1.40.0).
+
+**Citations:**
+- DRAGEN: Goyal A et al. (2017) *Open J Genet* 7:9–19
+- Salmon: Patro R et al. (2017) *Nat Methods* 14:417–419
+- tximport: Soneson C, Love MI, Robinson MD (2015) *F1000Res* 4:1521
+
+---
+
+## §3 · Sample QC and exploratory analysis
+
+A DESeq2 (v1.52.0) DataSet was built from tximport output with the design 
+formula `~ batch + condition`, where batch represents biological replicate. 
+Low-expressed genes were filtered (retaining 14,148 of 32,623 genes with 
+≥ 10 counts in ≥ 3 samples). Counts were variance-stabilized using `vst()` 
+with `blind = FALSE` for visualization.
+
+Sample-to-sample similarity was assessed using Pearson correlation on 
+VST-transformed expression values, visualized as a hierarchically clustered 
+heatmap (ComplexHeatmap v2.x). Principal component analysis (PCA) was 
+performed on the top 500 most variable genes. Batch effects were diagnosed 
+visually on PCA and removed for visualization using `limma::removeBatchEffect()` 
+(v3.x), preserving condition-related variation via 
+`design = model.matrix(~ condition)`. The batch-corrected matrix was used 
+only for downstream PCA and heatmaps; differential expression testing was 
+performed on the original counts via the DESeq2 `~ batch + condition` design.
+
+**Citations:**
+- DESeq2: Love MI, Huber W, Anders S (2014) *Genome Biol* 15:550
+- VST: Anders S, Huber W (2010) *Genome Biol* 11:R106
+- ComplexHeatmap: Gu Z (2016) *Bioinformatics* 32:2847–2849
+- limma / removeBatchEffect: Ritchie ME et al. (2015) *Nucleic Acids Res* 43:e47
+- Batch effects review: Leek JT et al. (2010) *Nat Rev Genet* 11:733–739
+
+---
+
+## §4 · Differential expression analysis and volcano plot
+
+Differential gene expression was assessed using DESeq2 (v1.52.0) on the 
+filtered count matrix (14,148 expressed genes after low-count filtering). 
+A negative binomial generalized linear model was fit with the design 
+`~ batch + condition`, accounting for biological replicate as a covariate. 
+Sample-specific normalization factors were derived from per-gene average 
+transcript lengths reported by tximport, providing per-gene-per-sample 
+correction for library size and effective transcript length. Dispersion 
+estimates were calculated using DESeq2's default approach: gene-wise 
+maximum-likelihood estimates were shrunk toward a parametric mean–dispersion 
+trend, with extreme outliers retained at their original values. Statistical 
+significance was assessed using the Wald test with Benjamini–Hochberg 
+correction applied across all tested genes.
+
+For the primary contrast (DIV2 + Netrin-1 vs DIV2), differential expression 
+results were extracted using `results(dds, contrast = c("condition", 
+"DIV2_Netrin", "DIV2"))`. Log2 fold-changes were additionally shrunk using 
+the apeglm method (Zhu et al. 2018), which applies an empirical Bayes 
+adaptive prior tailored to RNA-seq count distributions. Shrunk log2 
+fold-changes were used for the highlighted gene set and downstream 
+applications (ranked gene lists, single-gene visualizations) but **not** 
+for the volcano plot, where unshrunk fold-changes were preferred to 
+faithfully represent effect size distribution. Gene annotation 
+(HGNC-style symbols, full names, Entrez IDs) was retrieved from 
+`org.Rn.eg.db`; 85.6 % of expressed genes received a SYMBOL annotation.
+
+Two tiers of differentially expressed genes (DEGs) were defined: 
+a **relaxed set** of 65 genes (padj < 0.05) was used for functional 
+enrichment analyses (sufficient statistical power), and a **strict set** 
+of 21 genes (padj < 0.05 and |shrunk log2FC| > 0.585, corresponding to 
+1.5-fold change) was used to highlight the most robustly regulated genes 
+for individual gene-level visualization.
+
+The volcano plot was constructed in R using ggplot2 (v3.5.x) with ggrepel 
+(v0.9.x) for label placement. The x-axis displays unshrunk log2 fold-change 
+from DESeq2, symmetrically scaled around zero. The y-axis shows −log10(padj), 
+capped at 25 for visual stability of extreme outliers; genes with NA padj 
+(DESeq2 independent filtering for low-count genes, n = 549) were excluded. 
+Points are colored by regulation direction (red = up, blue = down, 
+grey = not significant) and sized by DEG tier (small for non-significant 
+genes, medium for relaxed-only, large for strict). Dashed reference lines 
+indicate padj = 0.05 and |log2FC| = 0.585 thresholds. Strict-set DEGs 
+are labelled with HGNC-style symbols.
+
+**Citations:**
+- DESeq2: Love MI, Huber W, Anders S (2014) *Genome Biol* 15:550
+- apeglm shrinkage: Zhu A, Ibrahim JG, Love MI (2018) *Bioinformatics* 34:2084–2092
+- Wald test / BH correction: Benjamini Y, Hochberg Y (1995) *J R Stat Soc B* 57:289–300
+- org.Rn.eg.db: Carlson M, Bioconductor annotation package
+- ggplot2: Wickham H (2016) Springer
+- ggrepel: Slowikowski K, CRAN
+
+---
+
+## §5 · Functional enrichment analysis
+
+*(To be added after Step 11/12 — GO / KEGG / GSEA)*
+
+---
+
+## §6 · Statistical thresholds summary
+
+| Analysis | Threshold | Rationale |
+|----------|-----------|-----------|
+| Gene filtering | counts ≥ 10 in ≥ 3 samples | Smallest group size |
+| DEG (relaxed) | padj < 0.05 | Standard FDR cutoff |
+| DEG (strict) | padj < 0.05 + |log2FC| > 0.585 | 1.5-fold change |
+| Enrichment | padj < 0.05 (BH-adjusted) | Standard cutoff |
+
+---
+## Figure 05 · Volcano plot (Netrin vs DIV2)
+
+**File:** `results/02_DEG/01_volcano_netrin_vs_div2.pdf/png`
+**Thesis position:** Main Figure 2 (primary contrast figure)
+**Section:** Results §3.3 — Differential expression
+
+### Key numbers
+- 14,148 genes after low-count filter
+- 549 excluded by DESeq2 independent filter (NA padj)
+- 13,599 points plotted
+- 25 STRICT DEGs (7 up + 18 down) — labeled
+- 66 RELAXED DEGs (10 up + 56 down) — colored, larger
+- 13,533 ns genes — gray background
+- All analysis on RAW log2FC (no apeglm shrinkage)
+
+### Visual observations
+- Two-module pattern:
+  - LEFT (down): Olig1/2, Sparcl1, Ccnd1, Id1, Id3, Nbl1, Nid1, Itgb5, Slco1c1, Mt2, Gpr50, Egfr, Pon2
+  - RIGHT (up): C3, Adgre1, Ncf1, Itgal, Apoe, Acod1
+- Acod1 stands out as extreme upregulation (LFC ≈ 4, padj ≈ 1.5e-4)
+- C3 most significant (padj ≈ 1.6e-20)
+- Strong asymmetric down-regulation bias (18 down vs 7 up)
+
+### Narrative role
+1. Main figure showing Netrin-1's transcriptional effect
+2. Establishes two-module story:
+   - Module 1: progenitor/glial suppression (cell maturation)
+   - Module 2: neuro-immune activation
+3. Sets up next analyses: enrichment, single-gene validation
+
+### Methods
+- DESeq2 ~ batch + condition
+- Wald test + BH correction
+- RAW log2FC (no apeglm)
+- Threshold: padj < 0.05 + |raw log2FC| > 0.585
+- ggplot2 + ggrepel
+
+### Pitfalls
+- LPS contamination discussion needed for immune module
+- R&D #1109-N1 is NS0-expressed (LPS < 1.0 EU/μg) — low risk
+- Mention in Discussion as caveat
+
+## §X · Statistical methods justification 
+
+### Choice of unshrunk log2 fold change
+Log2 fold changes were taken as the raw maximum-likelihood estimates 
+from the Wald test (DESeq2 results() output) without empirical Bayes 
+shrinkage. All genes passing the combined threshold (padj < 0.05 AND 
+|raw log2FC| > 0.585) have baseMean > 19 with low SE, where 
+shrinkage has minimal impact. Downstream Gene Set Enrichment Analysis 
+was performed using the Wald statistic (which combines effect size 
+and significance), providing a robust alternative to shrinkage for 
+gene ranking.
+
+### Fold-change threshold rationale  
+A 1.5-fold cutoff (|log2FC| > 0.585) was used together with padj < 0.05
+to define the highlighted DEG set (n = 25). This more permissive 
+threshold than the conventional 2-fold cutoff was selected because 
+24-hour Netrin-1 treatment is expected to produce modest 
+transcriptional changes consistent with its predominantly 
+post-translational signaling mechanism (Tcherkezian et al., 2010).
+A relaxed DEG set (padj < 0.05 only, n = 66) was retained for 
+visualization and downstream functional analyses.
+
+### Boxplot interpretation
+Boxplots display per-sample DESeq2-normalized counts. Per-sample 
+variability reflects both biological and technical (batch) components; 
+statistical significance is derived from the DESeq2 model with batch 
+as a covariate (~ batch + condition).
+
+### GSEA ranking metric
+Genes were ranked by the Wald test statistic (stat column from DESeq2 
+results), which combines effect size and inverse variance, providing 
+optimal power for detecting coordinated subtle changes across gene 
+sets (DESeq2 vignette recommendation; Subramanian et al., 2005).
+
+"Gene Set Enrichment Analysis (GSEA) was performed using 
+clusterProfiler::gseGO() and gseKEGG() with the following 
+parameters: minGSSize = 15, maxGSSize = 500, pvalueCutoff = 0.05, 
+pAdjustMethod = 'BH', eps = 0, nPermSimple = 10000, and seed = TRUE 
+for reproducibility (set.seed(123)). Genes were ranked by the Wald 
+statistic from the DESeq2 results table. For genes with multiple 
+Ensembl IDs mapping to the same Entrez ID, the gene with the largest 
+|stat| was retained (slice_max). Following enrichment, terms with 
+setSize < 15 were excluded post-hoc to enforce statistical robustness 
+(Subramanian et al., 2005; Korotkevich et al., 2021)."

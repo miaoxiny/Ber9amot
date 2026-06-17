@@ -1,0 +1,2 @@
+"ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0050727","regulation of inflammatory response","4/9","205/10689",0.0195121951219512,23.1739837398374,9.30552756754942,1.53535056271952e-05,0.0812507517791169,0.0812507517791169,"C3/Ncf1/Apoe/Acod1",4
