@@ -1,0 +1,508 @@
+{"kind":"deck","id":"pr/25v57v","name":"Deck"}
+{"kind":"layout","layoutId":"ca8859e8-7064-4c49-ae89-599c59a0e6db","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"ed2d93b0-3597-403e-8017-c84422be9972","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/b940l7","slide":1,"title":"DEFENSE ROADMAP","textShapes":15}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":1,"text":"DEFENSE ROADMAP","textPreview":"DEFENSE ROADMAP","textChars":15,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":1,"text":"Acute Netrin-1 induces a rapid, reversible transcriptional pulse","textPreview":"Acute Netrin-1 induces a rapid, reversible transcriptional pulse","textChars":64,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":1,"text":"The deck is organized as a question-to-evidence arc, not as a file-by-file result tour.","textPreview":"The deck is organized as a question-to-evidence arc, not as a file-by-file result tour.","textChars":87,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/vahoza1g","slide":1,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/6tovahoz","slide":1,"bbox":[88,254,232,166]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":1,"text":"5 min","textPreview":"5 min","textChars":5,"textLines":1,"bbox":[110,274,188,58]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":1,"text":"main response window","textPreview":"main response window","textChars":20,"textLines":1,"bbox":[106,342,196,54]}
+{"kind":"shape","id":"sh/vmtwra5g","slide":1,"bbox":[364,254,260,166]}
+{"kind":"textbox","id":"sh/61032lsz","slide":1,"text":"r = -0.991","textPreview":"r = -0.991","textChars":10,"textLines":1,"bbox":[386,274,216,58]}
+{"kind":"textbox","id":"sh/wval87ed","slide":1,"text":"pathway reversal by 15 min","textPreview":"pathway reversal by 15 min","textChars":26,"textLines":1,"bbox":[382,342,224,54]}
+{"kind":"shape","id":"sh/pg3ex0nu","slide":1,"bbox":[668,254,232,166]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":1,"text":"313","textPreview":"313","textChars":3,"textLines":1,"bbox":[690,274,188,58]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":1,"text":"5v0 significant GO BP terms","textPreview":"5v0 significant GO BP terms","textChars":27,"textLines":1,"bbox":[686,342,196,54]}
+{"kind":"shape","id":"sh/w7mp0bi9","slide":1,"bbox":[944,254,232,166]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":1,"text":"0","textPreview":"0","textChars":1,"textLines":1,"bbox":[966,274,188,58]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":1,"text":"15v0 significant GO BP terms","textPreview":"15v0 significant GO BP terms","textChars":28,"textLines":1,"bbox":[962,342,196,54]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":1,"text":"Central claim","textPreview":"Central claim","textChars":13,"textLines":1,"bbox":[110,488,190,30]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":1,"text":"Netrin-1 does not simply trigger local cytoskeletal signaling; within minutes, it engages a coordinated and transient transcriptional program in cortical neurons.","textPreview":"Netrin-1 does not simply trigger local cytoskeletal signaling; within minutes, it engages a coordinated and transient transcriptional pro...","textChars":162,"textLines":1,"bbox":[300,480,830,64]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":1,"text":"Acute Netrin-1 RNA-seq analysis","textPreview":"Acute Netrin-1 RNA-seq analysis","textChars":31,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"notes","id":"nt/b940l7","slide":1,"text":"Start by stating the thesis in one sentence.\nEmphasize that the strongest claim is pathway-level and time-resolved: a 5-min pulse that reverses by 15 min.\nTell the committee that the deck will move from design and QC to single-gene evidence, pathway evidence, and a model."}
+{"kind":"slide","id":"sl/lrakor","slide":2,"title":"BIOLOGICAL CONTEXT","textShapes":23}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":2,"text":"BIOLOGICAL CONTEXT","textPreview":"BIOLOGICAL CONTEXT","textChars":18,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":2,"text":"Netrin-1 is classically fast, local and guidance-related","textPreview":"Netrin-1 is classically fast, local and guidance-related","textChars":56,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":2,"text":"The open question is whether a minutes-scale transcriptional layer also exists.","textPreview":"The open question is whether a minutes-scale transcriptional layer also exists.","textChars":79,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/m58z25kb","slide":2,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/bq1oryts","slide":2,"bbox":[88,270,170,112]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":2,"text":"Ligand","textPreview":"Ligand","textChars":6,"textLines":1,"bbox":[104,288,138,30]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":2,"text":"Netrin-1 cue","textPreview":"Netrin-1 cue","textChars":12,"textLines":1,"bbox":[104,322,138,42]}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":2,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[262,306,20,30]}
+{"kind":"shape","id":"sh/bm58z25k","slide":2,"bbox":[284,270,170,112]}
+{"kind":"textbox","id":"sh/val87ed8","slide":2,"text":"Receptors","textPreview":"Receptors","textChars":9,"textLines":1,"bbox":[300,288,138,30]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":2,"text":"DCC / UNC5 axis","textPreview":"DCC / UNC5 axis","textChars":15,"textLines":1,"bbox":[300,322,138,42]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":2,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[458,306,20,30]}
+{"kind":"shape","id":"sh/kre1w7mp","slide":2,"bbox":[480,270,170,112]}
+{"kind":"textbox","id":"sh/vixczed8","slide":2,"text":"Local response","textPreview":"Local response","textChars":14,"textLines":1,"bbox":[496,288,138,30]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":2,"text":"growth cone and cytoskeleton","textPreview":"growth cone and cytoskeleton","textChars":28,"textLines":1,"bbox":[496,322,138,42]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":2,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[654,306,20,30]}
+{"kind":"shape","id":"sh/k3q5o7qp","slide":2,"bbox":[676,270,170,112]}
+{"kind":"textbox","id":"sh/vu9knih4","slide":2,"text":"Known timescale","textPreview":"Known timescale","textChars":15,"textLines":1,"bbox":[692,288,138,30]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":2,"text":"seconds to minutes","textPreview":"seconds to minutes","textChars":18,"textLines":1,"bbox":[692,322,138,42]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":2,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[850,306,20,30]}
+{"kind":"shape","id":"sh/3ylc7u54","slide":2,"bbox":[872,270,170,112]}
+{"kind":"textbox","id":"sh/sji5snel","slide":2,"text":"Unknown layer","textPreview":"Unknown layer","textChars":13,"textLines":1,"bbox":[888,288,138,30]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":2,"text":"acute nuclear RNA response","textPreview":"acute nuclear RNA response","textChars":26,"textLines":1,"bbox":[888,322,138,42]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":2,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[1046,306,20,30]}
+{"kind":"shape","id":"sh/3m94fu18","slide":2,"bbox":[1068,270,170,112]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":2,"text":"This study","textPreview":"This study","textChars":10,"textLines":1,"bbox":[1084,288,138,30]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":2,"text":"5 and 15 min RNA-seq","textPreview":"5 and 15 min RNA-seq","textChars":20,"textLines":1,"bbox":[1084,322,138,42]}
+{"kind":"textbox","id":"sh/a1gvy90j","slide":2,"text":"- Canonical Netrin-1 biology centers on axon guidance and growth-cone remodeling.\n- Most transcriptomic studies resolve hour-to-day programs, not acute 5-15 min changes.\n- This creates a testable gap: can a guidance cue rapidly reshape the neuronal transcriptome?","textPreview":"- Canonical Netrin-1 biology centers on axon guidance and growth-cone remodeling. | - Most transcriptomic studies resolve hour-to-day pro...","textChars":263,"textLines":3,"bbox":[118,474,1010,110]}
+{"kind":"textbox","id":"sh/zidonyd0","slide":2,"text":"Source: thesis writing pack; literature citations to be added in manuscript","textPreview":"Source: thesis writing pack; literature citations to be added in manuscript","textChars":75,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"notes","id":"nt/lrakor","slide":2,"text":"Frame this as a conceptual gap, not as a claim that local mechanisms are insufficient.\nThe experiment asks whether a transcriptional component runs in parallel with canonical local signaling."}
+{"kind":"slide","id":"sl/owrths","slide":3,"title":"THESIS QUESTION","textShapes":12}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":3,"text":"THESIS QUESTION","textPreview":"THESIS QUESTION","textChars":15,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":3,"text":"Is acute Netrin-1 stimulation transcriptionally visible within minutes?","textPreview":"Is acute Netrin-1 stimulation transcriptionally visible within minutes?","textChars":71,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":3,"text":"Three concrete questions define the analysis.","textPreview":"Three concrete questions define the analysis.","textChars":45,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/kjm1cfa9","slide":3,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/94fu18jq","slide":3,"bbox":[108,244,300,250]}
+{"kind":"textbox","id":"sh/2hwfyxob","slide":3,"text":"Magnitude","textPreview":"Magnitude","textChars":9,"textLines":1,"bbox":[132,278,252,42]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":3,"text":"Are there detectable genes or pathways after only 5 min?","textPreview":"Are there detectable genes or pathways after only 5 min?","textChars":56,"textLines":1,"bbox":[142,352,232,96]}
+{"kind":"shape","id":"sh/kb6xkf6d","slide":3,"bbox":[468,244,300,250]}
+{"kind":"textbox","id":"sh/9w3m94fu","slide":3,"text":"Direction","textPreview":"Direction","textChars":9,"textLines":1,"bbox":[492,278,252,42]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":3,"text":"Which biological programs go up or down?","textPreview":"Which biological programs go up or down?","textChars":40,"textLines":1,"bbox":[502,352,232,96]}
+{"kind":"shape","id":"sh/8v6psfil","slide":3,"bbox":[828,244,300,250]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":3,"text":"Duration","textPreview":"Duration","textChars":8,"textLines":1,"bbox":[852,278,252,42]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":3,"text":"Does the response persist, or return toward baseline by 15 min?","textPreview":"Does the response persist, or return toward baseline by 15 min?","textChars":63,"textLines":1,"bbox":[862,352,232,96]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":3,"text":"Working hypothesis: if an acute transcriptional program exists, it should be small at the DEG level but coherent at the pathway level.","textPreview":"Working hypothesis: if an acute transcriptional program exists, it should be small at the DEG level but coherent at the pathway level.","textChars":134,"textLines":1,"bbox":[170,554,940,44]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":3,"text":"Acute Netrin-1 RNA-seq analysis","textPreview":"Acute Netrin-1 RNA-seq analysis","textChars":31,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"notes","id":"nt/owrths","slide":3,"text":"Set up why GSEA matters before showing the data.\nA five-minute RNA-seq study should not be expected to produce hundreds of large-effect DEGs."}
+{"kind":"slide","id":"sl/ng8wg8","slide":4,"title":"EXPERIMENTAL DESIGN","textShapes":23}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":4,"text":"EXPERIMENTAL DESIGN","textPreview":"EXPERIMENTAL DESIGN","textChars":19,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":4,"text":"A minimal acute time course tests the onset and reversal of transcriptional change","textPreview":"A minimal acute time course tests the onset and reversal of transcriptional change","textChars":82,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":4,"text":"Nine RNA-seq samples: three conditions with three biological replicates each.","textPreview":"Nine RNA-seq samples: three conditions with three biological replicates each.","textChars":77,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/sneloj2t","slide":4,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/l87ed8ba","slide":4,"bbox":[88,246,170,112]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":4,"text":"E18 rat","textPreview":"E18 rat","textChars":7,"textLines":1,"bbox":[104,264,138,30]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":4,"text":"primary cortical culture","textPreview":"primary cortical culture","textChars":24,"textLines":1,"bbox":[104,298,138,42]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":4,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[262,282,20,30]}
+{"kind":"shape","id":"sh/lwval87e","slide":4,"bbox":[284,246,170,112]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":4,"text":"Vehicle","textPreview":"Vehicle","textChars":7,"textLines":1,"bbox":[300,264,138,30]}
+{"kind":"textbox","id":"sh/s36hcrmh","slide":4,"text":"PBS, 5 min","textPreview":"PBS, 5 min","textChars":10,"textLines":1,"bbox":[300,298,138,42]}
+{"kind":"textbox","id":"sh/zidonyd0","slide":4,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[458,282,20,30]}
+{"kind":"shape","id":"sh/a1gvy90j","slide":4,"bbox":[480,246,170,112]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":4,"text":"Netrin-1","textPreview":"Netrin-1","textChars":8,"textLines":1,"bbox":[496,264,138,30]}
+{"kind":"textbox","id":"sh/svu9knih","slide":4,"text":"5 min","textPreview":"5 min","textChars":5,"textLines":1,"bbox":[496,298,138,42]}
+{"kind":"textbox","id":"sh/za1gvy90","slide":4,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[654,282,20,30]}
+{"kind":"shape","id":"sh/ap4r65wj","slide":4,"bbox":[676,246,170,112]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":4,"text":"Netrin-1","textPreview":"Netrin-1","textChars":8,"textLines":1,"bbox":[692,264,138,30]}
+{"kind":"textbox","id":"sh/sji5snel","slide":4,"text":"15 min","textPreview":"15 min","textChars":6,"textLines":1,"bbox":[692,298,138,42]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":4,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[850,282,20,30]}
+{"kind":"shape","id":"sh/xs72x4na","slide":4,"bbox":[872,246,170,112]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":4,"text":"RNA-seq","textPreview":"RNA-seq","textChars":7,"textLines":1,"bbox":[888,264,138,30]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":4,"text":"DRAGEN Salmon","textPreview":"DRAGEN Salmon","textChars":13,"textLines":1,"bbox":[888,298,138,42]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":4,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[1046,282,20,30]}
+{"kind":"shape","id":"sh/1gvy90je","slide":4,"bbox":[1068,246,170,112]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":4,"text":"DESeq2","textPreview":"DESeq2","textChars":6,"textLines":1,"bbox":[1084,264,138,30]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":4,"text":"replicate-adjusted","textPreview":"replicate-adjusted","textChars":18,"textLines":1,"bbox":[1084,298,138,42]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":4,"text":"- Design: Vehicle, 5 min Netrin-1, and 15 min Netrin-1.\n- n = 3 biological replicates per condition; each replicate is an independent well.\n- Important limitation: the same Vehicle 5-min control anchors both Netrin timepoints.","textPreview":"- Design: Vehicle, 5 min Netrin-1, and 15 min Netrin-1. | - n = 3 biological replicates per condition; each replicate is an independent w...","textChars":226,"textLines":3,"bbox":[116,468,1010,108]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":4,"text":"Acute Netrin-1 RNA-seq analysis","textPreview":"Acute Netrin-1 RNA-seq analysis","textChars":31,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"notes","id":"nt/ng8wg8","slide":4,"text":"Be transparent about the design limitation early.\nThis will make the later emphasis on 5v0 and 15v5 easier to defend."}
+{"kind":"slide","id":"sl/g9bvds","slide":5,"title":"ANALYSIS WORKFLOW","textShapes":26}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":5,"text":"ANALYSIS WORKFLOW","textPreview":"ANALYSIS WORKFLOW","textChars":17,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":5,"text":"Differential expression used raw counts; batch correction was reserved for visualization","textPreview":"Differential expression used raw counts; batch correction was reserved for visualization","textChars":88,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":5,"text":"This separation is important for statistical interpretability.","textPreview":"This separation is important for statistical interpretability.","textChars":62,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/4vmtwra5","slide":5,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/tgfmlkjm","slide":5,"bbox":[88,228,170,112]}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":5,"text":"Quantify","textPreview":"Quantify","textChars":8,"textLines":1,"bbox":[104,246,138,30]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":5,"text":"gene-level Salmon output","textPreview":"gene-level Salmon output","textChars":24,"textLines":1,"bbox":[104,280,138,42]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":5,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[262,264,20,30]}
+{"kind":"shape","id":"sh/t83itgfm","slide":5,"bbox":[284,228,170,112]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":5,"text":"Import","textPreview":"Import","textChars":6,"textLines":1,"bbox":[300,246,138,30]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":5,"text":"tximport with length offset","textPreview":"tximport with length offset","textChars":27,"textLines":1,"bbox":[300,280,138,42]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":5,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[458,264,20,30]}
+{"kind":"shape","id":"sh/2p8nqxs7","slide":5,"bbox":[480,228,170,112]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":5,"text":"Filter","textPreview":"Filter","textChars":6,"textLines":1,"bbox":[496,246,138,30]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":5,"text":"32623 to 14161 genes","textPreview":"32623 to 14161 genes","textChars":20,"textLines":1,"bbox":[496,280,138,42]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":5,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[654,264,20,30]}
+{"kind":"shape","id":"sh/2hwfyxob","slide":5,"bbox":[676,228,170,112]}
+{"kind":"textbox","id":"sh/9w3m94fu","slide":5,"text":"Model","textPreview":"Model","textChars":5,"textLines":1,"bbox":[692,246,138,30]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":5,"text":"~ replicate + timepoint","textPreview":"~ replicate + timepoint","textChars":23,"textLines":1,"bbox":[692,280,138,42]}
+{"kind":"textbox","id":"sh/0z61032l","slide":5,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[850,264,20,30]}
+{"kind":"shape","id":"sh/pkzupwb2","slide":5,"bbox":[872,228,170,112]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":5,"text":"Contrasts","textPreview":"Contrasts","textChars":9,"textLines":1,"bbox":[888,246,138,30]}
+{"kind":"textbox","id":"sh/7ed8bat4","slide":5,"text":"5v0, 15v0, 15v5","textPreview":"5v0, 15v0, 15v5","textChars":15,"textLines":1,"bbox":[888,280,138,42]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":5,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[1046,264,20,30]}
+{"kind":"shape","id":"sh/p8nqxs72","slide":5,"bbox":[1068,228,170,112]}
+{"kind":"textbox","id":"sh/ih4byhgn","slide":5,"text":"GSEA","textPreview":"GSEA","textChars":4,"textLines":1,"bbox":[1084,246,138,30]}
+{"kind":"textbox","id":"sh/72x4nap4","slide":5,"text":"GO BP and KEGG","textPreview":"GO BP and KEGG","textChars":14,"textLines":1,"bbox":[1084,280,138,42]}
+{"kind":"shape","id":"sh/wjudg7ad","slide":5,"bbox":[166,462,420,110]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":5,"text":"DE tests","textPreview":"DE tests","textChars":8,"textLines":1,"bbox":[190,486,372,28]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":5,"text":"Raw counts with replicate in the model","textPreview":"Raw counts with replicate in the model","textChars":38,"textLines":1,"bbox":[202,524,348,28]}
+{"kind":"shape","id":"sh/mlkjm1cf","slide":5,"bbox":[694,462,420,110]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":5,"text":"Visualizations","textPreview":"Visualizations","textChars":14,"textLines":1,"bbox":[718,486,372,28]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":5,"text":"Batch-corrected only where explicitly visualized","textPreview":"Batch-corrected only where explicitly visualized","textChars":48,"textLines":1,"bbox":[724,524,360,28]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":5,"text":"Methods: DESeq2, limma, clusterProfiler, org.Rn.eg.db","textPreview":"Methods: DESeq2, limma, clusterProfiler, org.Rn.eg.db","textChars":53,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"notes","id":"nt/g9bvds","slide":5,"text":"Stress that replicate is modeled, not ignored.\nExplain relaxed and strict thresholds if asked: padj < 0.05, strict adds absolute log2FC > 0.585."}
+{"kind":"slide","id":"sl/y9n8nk","slide":6,"title":"SEQUENCING QC","textShapes":5}
+{"kind":"textbox","id":"sh/judg7ads","slide":6,"text":"SEQUENCING QC","textPreview":"SEQUENCING QC","textChars":13,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":6,"text":"Library size and detected genes are broadly comparable across samples","textPreview":"Library size and detected genes are broadly comparable across samples","textChars":69,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/1032lszq","slide":6,"text":"No single sample drives the analysis by obvious sequencing-depth failure.","textPreview":"No single sample drives the analysis by obvious sequencing-depth failure.","textChars":73,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/u18jqh0f","slide":6,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/jm1cfa9w","slide":6,"bbox":[80,208,536,354]}
+{"kind":"shape","id":"sh/1orytsvu","slide":6,"bbox":[664,208,536,354]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":6,"text":"Source: results/01_QC","textPreview":"Source: results/01_QC","textChars":21,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/7u54zido","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/p4r65wju","slide":6,"name":"","alt":"Library size QC","bbox":[88,216,520,338]}
+{"kind":"image","id":"im/72x4nap4","slide":6,"name":"","alt":"Detected genes QC","bbox":[672,216,520,338]}
+{"kind":"notes","id":"nt/y9n8nk","slide":6,"text":"Keep this slide short: the purpose is to reassure the committee before the biological slides.\nMention that detailed QC files remain available in the results folder."}
+{"kind":"slide","id":"sl/y0w88g","slide":7,"title":"REPLICATE STRUCTURE","textShapes":5}
+{"kind":"textbox","id":"sh/3m94fu18","slide":7,"text":"REPLICATE STRUCTURE","textPreview":"REPLICATE STRUCTURE","textChars":19,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":7,"text":"Sample correlation and PCA expose replicate effects that the model explicitly accounts for","textPreview":"Sample correlation and PCA expose replicate effects that the model explicitly accounts for","textChars":90,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":7,"text":"This is why replicate was included as a model term.","textPreview":"This is why replicate was included as a model term.","textChars":51,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/adsji5sn","slide":7,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/3ylc7u54","slide":7,"bbox":[78,204,472,386]}
+{"kind":"shape","id":"sh/h4byhgn2","slide":7,"bbox":[618,204,556,386]}
+{"kind":"textbox","id":"sh/za1gvy90","slide":7,"text":"Source: results/01_QC","textPreview":"Source: results/01_QC","textChars":21,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/z61032ls","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/xc3ylc7u","slide":7,"name":"","alt":"Sample correlation heatmap","bbox":[86,212,456,370]}
+{"kind":"image","id":"im/fu18jqh0","slide":7,"name":"","alt":"PCA before correction","bbox":[626,212,540,370]}
+{"kind":"notes","id":"nt/y0w88g","slide":7,"text":"Acknowledge that replicate explains a large part of top-level variance.\nThen immediately connect this to the model: replicate was included in the design, so DE inference is adjusted."}
+{"kind":"slide","id":"sl/pb5ip0","slide":8,"title":"VISUALIZATION AFTER CORRECTION","textShapes":7}
+{"kind":"textbox","id":"sh/udg7adsj","slide":8,"text":"VISUALIZATION AFTER CORRECTION","textPreview":"VISUALIZATION AFTER CORRECTION","textChars":30,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/54zidony","slide":8,"text":"Removing replicate effects for PCA reveals the expected timepoint axis","textPreview":"Removing replicate effects for PCA reveals the expected timepoint axis","textChars":70,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":8,"text":"Batch correction is used here only to make the time structure visible.","textPreview":"Batch correction is used here only to make the time structure visible.","textChars":70,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/nap4r65w","slide":8,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/upwb2hwf","slide":8,"bbox":[118,196,736,436]}
+{"kind":"shape","id":"sh/cvixczed","slide":8,"bbox":[900,244,250,280]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":8,"text":"Interpretation","textPreview":"Interpretation","textChars":14,"textLines":1,"bbox":[928,274,194,30]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":8,"text":"- Timepoint becomes the dominant visible structure.\n- This supports, but does not replace, the replicate-adjusted DE model.\n- The key biological comparison remains 5v0 and 15v5.","textPreview":"- Timepoint becomes the dominant visible structure. | - This supports, but does not replace, the replicate-adjusted DE model. | - The key...","textChars":177,"textLines":3,"bbox":[930,326,190,146]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":8,"text":"Source: results/01_QC","textPreview":"Source: results/01_QC","textChars":21,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/s72x4nap","slide":8,"name":"","alt":"PCA after correction","bbox":[126,204,720,420]}
+{"kind":"notes","id":"nt/pb5ip0","slide":8,"text":"Use this slide to prevent a common concern: the analysis is not hiding batch effects.\nClarify the distinction between visualization correction and statistical testing."}
+{"kind":"slide","id":"sl/lhmphi","slide":9,"title":"CULTURE COMPOSITION","textShapes":7}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":9,"text":"CULTURE COMPOSITION","textPreview":"CULTURE COMPOSITION","textChars":19,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":9,"text":"Marker expression supports neuron-dominant, composition-stable cultures","textPreview":"Marker expression supports neuron-dominant, composition-stable cultures","textChars":71,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":9,"text":"Cell-type markers do not suggest that the acute signal is driven by a change in composition.","textPreview":"Cell-type markers do not suggest that the acute signal is driven by a change in composition.","textChars":92,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/hwfyxobm","slide":9,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/obm58z25","slide":9,"bbox":[78,194,744,436]}
+{"kind":"shape","id":"sh/65wjudg7","slide":9,"bbox":[874,248,276,274]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":9,"text":"Key readout","textPreview":"Key readout","textChars":11,"textLines":1,"bbox":[902,276,220,30]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":9,"text":"Pan-neuronal markers are high, while glial/endothelial markers are orders of magnitude lower and stable across conditions.","textPreview":"Pan-neuronal markers are high, while glial/endothelial markers are orders of magnitude lower and stable across conditions.","textChars":122,"textLines":1,"bbox":[910,334,204,108]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":9,"text":"Source: results/02_composition","textPreview":"Source: results/02_composition","textChars":30,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/mp0bi9s3","slide":9,"name":"","alt":"Cell-type marker TPM plot","bbox":[86,202,728,420]}
+{"kind":"notes","id":"nt/lhmphi","slide":9,"text":"Point to Tubb3, Stmn2 and Map2 as high neuronal markers.\nThe main purpose is to argue that downstream changes are transcriptional, not culture-composition shifts."}
+{"kind":"slide","id":"sl/uk8fox","slide":10,"title":"ANALYSIS STRATEGY","textShapes":15}
+{"kind":"textbox","id":"sh/p4r65wju","slide":10,"text":"ANALYSIS STRATEGY","textPreview":"ANALYSIS STRATEGY","textChars":17,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":10,"text":"Minutes-scale transcriptional effects are expected to be small but coordinated","textPreview":"Minutes-scale transcriptional effects are expected to be small but coordinated","textChars":78,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":10,"text":"Therefore single-gene and pathway-level evidence are interpreted together.","textPreview":"Therefore single-gene and pathway-level evidence are interpreted together.","textChars":74,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/0bi9s36h","slide":10,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/pwb2hwfy","slide":10,"bbox":[100,236,230,160]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":10,"text":"32","textPreview":"32","textChars":2,"textLines":1,"bbox":[122,256,186,58]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":10,"text":"5v0 relaxed DEGs","textPreview":"5v0 relaxed DEGs","textChars":16,"textLines":1,"bbox":[118,324,194,54]}
+{"kind":"shape","id":"sh/0z61032l","slide":10,"bbox":[380,236,230,160]}
+{"kind":"textbox","id":"sh/pkzupwb2","slide":10,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[402,256,186,58]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":10,"text":"5v0 strict DEGs","textPreview":"5v0 strict DEGs","textChars":15,"textLines":1,"bbox":[398,324,194,54]}
+{"kind":"shape","id":"sh/cbulwval","slide":10,"bbox":[660,236,230,160]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":10,"text":"313","textPreview":"313","textChars":3,"textLines":1,"bbox":[682,256,186,58]}
+{"kind":"textbox","id":"sh/u54zidon","slide":10,"text":"5v0 GO BP terms","textPreview":"5v0 GO BP terms","textChars":15,"textLines":1,"bbox":[678,324,194,54]}
+{"kind":"shape","id":"sh/5kb6xkf6","slide":10,"bbox":[940,236,230,160]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":10,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[962,256,186,58]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":10,"text":"5v0 KEGG pathways","textPreview":"5v0 KEGG pathways","textChars":17,"textLines":1,"bbox":[958,324,194,54]}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":10,"text":"Interpretation rule","textPreview":"Interpretation rule","textChars":19,"textLines":1,"bbox":[116,482,220,30]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":10,"text":"A modest DEG count is not a weak result when pathway ranks show coherent biological directionality across thousands of genes.","textPreview":"A modest DEG count is not a weak result when pathway ranks show coherent biological directionality across thousands of genes.","textChars":125,"textLines":1,"bbox":[336,478,760,54]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":10,"text":"Values verified from DEG and GSEA CSV files","textPreview":"Values verified from DEG and GSEA CSV files","textChars":43,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/cvixczed","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"notes","id":"nt/uk8fox","slide":10,"text":"This slide prevents the committee from over-focusing on the small number of strict DEGs.\nIt also sets up why the GSEA slides are central evidence rather than secondary decoration."}
+{"kind":"slide","id":"sl/wi8sat","slide":11,"title":"TIMING OF RESPONSE","textShapes":12}
+{"kind":"textbox","id":"sh/epkzupwb","slide":11,"text":"TIMING OF RESPONSE","textPreview":"TIMING OF RESPONSE","textChars":18,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":11,"text":"The strongest transcriptional change occurs at 5 min, not at 15 min versus Vehicle","textPreview":"The strongest transcriptional change occurs at 5 min, not at 15 min versus Vehicle","textChars":82,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/wval87ed","slide":11,"text":"This supports an acute pulse rather than a persistent endpoint shift.","textPreview":"This supports an acute pulse rather than a persistent endpoint shift.","textChars":69,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/7mp0bi9s","slide":11,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/e1w7mp0b","slide":11,"bbox":[136,250,280,170]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":11,"text":"5v0","textPreview":"5v0","textChars":3,"textLines":1,"bbox":[158,270,236,58]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":11,"text":"32 relaxed DEGs; 5 strict DEGs","textPreview":"32 relaxed DEGs; 5 strict DEGs","textChars":30,"textLines":1,"bbox":[154,338,244,54]}
+{"kind":"shape","id":"sh/7u54zido","slide":11,"bbox":[500,250,280,170]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":11,"text":"15v0","textPreview":"15v0","textChars":4,"textLines":1,"bbox":[522,270,236,58]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":11,"text":"1 relaxed/strict DEG; 0 GO BP terms","textPreview":"1 relaxed/strict DEG; 0 GO BP terms","textChars":35,"textLines":1,"bbox":[518,338,244,54]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":11,"bbox":[864,250,280,170]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":11,"text":"15v5","textPreview":"15v5","textChars":4,"textLines":1,"bbox":[886,270,236,58]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":11,"text":"6 relaxed DEGs; 295 GO BP terms","textPreview":"6 relaxed DEGs; 295 GO BP terms","textChars":31,"textLines":1,"bbox":[882,338,244,54]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":11,"text":"The informative temporal contrast is 15v5: it asks whether the 5-min state is actively reversed by 15 min.","textPreview":"The informative temporal contrast is 15v5: it asks whether the 5-min state is actively reversed by 15 min.","textChars":106,"textLines":1,"bbox":[180,508,920,42]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":11,"text":"Values verified from DEG and GSEA CSV files","textPreview":"Values verified from DEG and GSEA CSV files","textChars":43,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"notes","id":"nt/wi8sat","slide":11,"text":"Make the contrast logic explicit.\n15v0 alone is limited by the shared control design; 15v5 closes the temporal loop."}
+{"kind":"slide","id":"sl/cqfqml","slide":12,"title":"5-MIN DEG EVIDENCE","textShapes":7}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":12,"text":"5-MIN DEG EVIDENCE","textPreview":"5-MIN DEG EVIDENCE","textChars":18,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/tgfmlkjm","slide":12,"text":"A small DEG set captures interpretable acute response genes","textPreview":"A small DEG set captures interpretable acute response genes","textChars":59,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/4vmtwra5","slide":12,"text":"The volcano plot identifies the strongest single-gene anchors for the pathway story.","textPreview":"The volcano plot identifies the strongest single-gene anchors for the pathway story.","textChars":84,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/bm58z25k","slide":12,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/m1cfa9w3","slide":12,"bbox":[70,190,776,446]}
+{"kind":"shape","id":"sh/47y1kre1","slide":12,"bbox":[884,228,278,348]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":12,"text":"Highlighted genes","textPreview":"Highlighted genes","textChars":17,"textLines":1,"bbox":[912,256,222,28]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":12,"text":"- Fos: acute IEG suppression\n- Rock1: cytoskeletal signaling\n- Srsf5/Snrnp70: RNA processing\n- Cntn2: axon guidance\n- Nos1/Ryr3: NO-calcium module","textPreview":"- Fos: acute IEG suppression | - Rock1: cytoskeletal signaling | - Srsf5/Snrnp70: RNA processing | - Cntn2: axon guidance | - Nos1/Ryr3: ...","textChars":146,"textLines":5,"bbox":[914,306,218,190]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":12,"text":"Source: results/03_DEG/04_volcano_5v0_v6.png","textPreview":"Source: results/03_DEG/04_volcano_5v0_v6.png","textChars":44,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/kb6xkf6d","slide":12,"name":"","alt":"5v0 volcano plot","bbox":[78,198,760,430]}
+{"kind":"notes","id":"nt/cqfqml","slide":12,"text":"The key is not the number of points; it is that the genes are biologically coherent.\nUse Fos and Rock1 as concrete anchors before moving to GSEA."}
+{"kind":"slide","id":"sl/f8iynu","slide":13,"title":"REPRESENTATIVE GENES","textShapes":7}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":13,"text":"REPRESENTATIVE GENES","textPreview":"REPRESENTATIVE GENES","textChars":20,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":13,"text":"The 5-min DEGs map to a bidirectional biological program","textPreview":"The 5-min DEGs map to a bidirectional biological program","textChars":56,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/bulwval8","slide":13,"text":"Several modest log2FC values are highly significant because baseline expression is robust.","textPreview":"Several modest log2FC values are highly significant because baseline expression is robust.","textChars":90,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/032lszqt","slide":13,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/ixczed8v","slide":13,"bbox":[910,252,226,240]}
+{"kind":"textbox","id":"sh/bi9s36hc","slide":13,"text":"Pattern","textPreview":"Pattern","textChars":7,"textLines":1,"bbox":[940,284,166,34]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":13,"text":"Guidance and signaling genes rise, while immediate-early and RNA-processing genes fall.","textPreview":"Guidance and signaling genes rise, while immediate-early and RNA-processing genes fall.","textChars":87,"textLines":1,"bbox":[934,348,178,88]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":13,"text":"Source: results/03_DEG/DEG_5v0_ALL.csv","textPreview":"Source: results/03_DEG/DEG_5v0_ALL.csv","textChars":38,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"table","id":"tb/cfa9w3m9","slide":13,"name":"","rows":7,"cols":4,"preview":"Gene | log2FC | padj | Module","bbox":[96,212,760,340]}
+{"kind":"notes","id":"nt/f8iynu","slide":13,"text":"This table is designed for oral defense: you can point to one or two genes rather than reading every row.\nMention Npas4 verbally as LRT-supported if the committee asks about IEGs."}
+{"kind":"slide","id":"sl/pnagsr","slide":14,"title":"DEG HEATMAP","textShapes":7}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":14,"text":"DEG HEATMAP","textPreview":"DEG HEATMAP","textChars":11,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":14,"text":"The 5-min DEG set forms a coherent sample-level pattern","textPreview":"The 5-min DEG set forms a coherent sample-level pattern","textChars":55,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":14,"text":"The heatmap checks whether DEG behavior is distributed across samples rather than confined to one point.","textPreview":"The heatmap checks whether DEG behavior is distributed across samples rather than confined to one point.","textChars":104,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/ed8bat47","slide":14,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/7u54zido","slide":14,"bbox":[162,192,736,446]}
+{"kind":"shape","id":"sh/l0rqd4vm","slide":14,"bbox":[928,254,224,250]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":14,"text":"Readout","textPreview":"Readout","textChars":7,"textLines":1,"bbox":[956,286,168,30]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":14,"text":"The selected DEGs separate the 5-min response while remaining consistent with the replicate-adjusted model.","textPreview":"The selected DEGs separate the 5-min response while remaining consistent with the replicate-adjusted model.","textChars":107,"textLines":1,"bbox":[958,344,164,96]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":14,"text":"Source: results/03_DEG/06_DEG_heatmap_5v0_v4.png","textPreview":"Source: results/03_DEG/06_DEG_heatmap_5v0_v4.png","textChars":48,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/hoza1gvy","slide":14,"name":"","alt":"5v0 DEG heatmap","bbox":[170,200,720,430]}
+{"kind":"notes","id":"nt/pnagsr","slide":14,"text":"Use this as a bridge from individual genes to temporal behavior.\nAvoid overclaiming clustering; the main claim is coherence, not perfect classification."}
+{"kind":"slide","id":"sl/h9zobx","slide":15,"title":"LRT ANALYSIS","textShapes":13}
+{"kind":"textbox","id":"sh/83itgfml","slide":15,"text":"LRT ANALYSIS","textPreview":"LRT ANALYSIS","textChars":12,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":15,"text":"The LRT asks whether genes change anywhere across the acute time course","textPreview":"The LRT asks whether genes change anywhere across the acute time course","textChars":71,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":15,"text":"For trajectory visualization, row-scaled VST expression is the most defensible y-axis.","textPreview":"For trajectory visualization, row-scaled VST expression is the most defensible y-axis.","textChars":86,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/x0nuxc3y","slide":15,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/4fu18jqh","slide":15,"bbox":[102,220,330,250]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":15,"text":"Statistical test","textPreview":"Statistical test","textChars":16,"textLines":1,"bbox":[134,254,266,30]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":15,"text":"Full model:\n~ replicate + timepoint\n\nReduced model:\n~ replicate","textPreview":"Full model: | ~ replicate + timepoint |  | Reduced model: | ~ replicate","textChars":63,"textLines":5,"bbox":[142,318,250,112]}
+{"kind":"shape","id":"sh/xc3ylc7u","slide":15,"bbox":[474,220,330,250]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":15,"text":"Visualization y-axis","textPreview":"Visualization y-axis","textChars":20,"textLines":1,"bbox":[506,254,266,30]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":15,"text":"Z-score of VST-normalized expression\n\nAlso label as:\nrow-scaled VST expression","textPreview":"Z-score of VST-normalized expression |  | Also label as: | row-scaled VST expression","textChars":78,"textLines":4,"bbox":[510,318,258,112]}
+{"kind":"shape","id":"sh/za1gvy90","slide":15,"bbox":[846,220,330,250]}
+{"kind":"textbox","id":"sh/svu9knih","slide":15,"text":"Why not log2FC?","textPreview":"Why not log2FC?","textChars":15,"textLines":1,"bbox":[878,254,266,30]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":15,"text":"LRT is an overall time-effect test, not a single contrast. Z-score preserves the temporal pattern across Vehicle, 5 min and 15 min.","textPreview":"LRT is an overall time-effect test, not a single contrast. Z-score preserves the temporal pattern across Vehicle, 5 min and 15 min.","textChars":131,"textLines":1,"bbox":[884,324,254,104]}
+{"kind":"shape","id":"sh/a1gvy90j","slide":15,"bbox":[486,520,308,118]}
+{"kind":"textbox","id":"sh/zidonyd0","slide":15,"text":"19","textPreview":"19","textChars":2,"textLines":1,"bbox":[508,540,264,58]}
+{"kind":"textbox","id":"sh/s36hcrmh","slide":15,"text":"LRT-significant time-varying genes","textPreview":"LRT-significant time-varying genes","textChars":34,"textLines":1,"bbox":[504,608,272,54]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":15,"text":"Source: DESeq2 LRT; trajectory plotted as VST z-score","textPreview":"Source: DESeq2 LRT; trajectory plotted as VST z-score","textChars":53,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"notes","id":"nt/h9zobx","slide":15,"text":"Use this slide to explain what the LRT tests before showing the trajectory.\nThe y-axis choice matters: row-scaled VST expression shows shape, whereas log2FC would impose a pairwise interpretation."}
+{"kind":"slide","id":"sl/yitfp3","slide":16,"title":"LRT TRAJECTORIES","textShapes":7}
+{"kind":"textbox","id":"sh/1032lszq","slide":16,"text":"LRT TRAJECTORIES","textPreview":"LRT TRAJECTORIES","textChars":16,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":16,"text":"Nineteen LRT genes show coordinated time-dependent expression patterns","textPreview":"Nineteen LRT genes show coordinated time-dependent expression patterns","textChars":70,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/judg7ads","slide":16,"text":"The plot emphasizes temporal shape rather than absolute gene abundance.","textPreview":"The plot emphasizes temporal shape rather than absolute gene abundance.","textChars":71,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/c7u54zid","slide":16,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/1orytsvu","slide":16,"bbox":[66,176,866,470]}
+{"kind":"shape","id":"sh/jm1cfa9w","slide":16,"bbox":[960,242,214,276]}
+{"kind":"textbox","id":"sh/cvixczed","slide":16,"text":"Readout","textPreview":"Readout","textChars":7,"textLines":1,"bbox":[986,276,162,30]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":16,"text":"- Rows are genes; values are scaled per gene.\n- Patterns converge on a 5-min pulse and recovery/rebound.\n- This supports temporal coordination beyond pairwise DEGs.","textPreview":"- Rows are genes; values are scaled per gene. | - Patterns converge on a 5-min pulse and recovery/rebound. | - This supports temporal coo...","textChars":164,"textLines":3,"bbox":[988,326,162,132]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":16,"text":"Source: results/objects/LRT_19_trajectory_VSTzscore_v1.png","textPreview":"Source: results/objects/LRT_19_trajectory_VSTzscore_v1.png","textChars":58,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":16,"text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/fmlkjm1c","slide":16,"name":"","alt":"LRT 19 gene trajectory with VST z-score y-axis","bbox":[74,184,850,454]}
+{"kind":"notes","id":"nt/yitfp3","slide":16,"text":"Point out that this figure uses Z-score of VST-normalized expression.\nDescribe the plot as time-dependent genes identified by LRT, not as a Wald contrast."}
+{"kind":"slide","id":"sl/e6pasn","slide":17,"title":"TEMPORAL DYNAMICS","textShapes":7}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":17,"text":"TEMPORAL DYNAMICS","textPreview":"TEMPORAL DYNAMICS","textChars":17,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":17,"text":"Representative genes show a 5-min deviation followed by partial or full return","textPreview":"Representative genes show a 5-min deviation followed by partial or full return","textChars":78,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":17,"text":"This supports pulse-like behavior at the gene level.","textPreview":"This supports pulse-like behavior at the gene level.","textChars":52,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/wjudg7ad","slide":17,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/p4r65wju","slide":17,"bbox":[74,190,788,446]}
+{"kind":"shape","id":"sh/7y1kre1w","slide":17,"bbox":[900,248,252,282]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":17,"text":"Important nuance","textPreview":"Important nuance","textChars":16,"textLines":1,"bbox":[928,278,196,30]}
+{"kind":"textbox","id":"sh/p8nqxs72","slide":17,"text":"- Most LRT-significant genes behave like a pulse.\n- Fos rebounds above Vehicle at 15 min.\n- Vehicle variation for Fos is visible and should be stated honestly.","textPreview":"- Most LRT-significant genes behave like a pulse. | - Fos rebounds above Vehicle at 15 min. | - Vehicle variation for Fos is visible and ...","textChars":159,"textLines":3,"bbox":[930,328,194,132]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":17,"text":"Source: results/03_DEG/05_trajectory_6genes.png","textPreview":"Source: results/03_DEG/05_trajectory_6genes.png","textChars":47,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/83itgfml","slide":17,"text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/fyxobm58","slide":17,"name":"","alt":"Six-gene trajectory plot","bbox":[82,198,772,430]}
+{"kind":"notes","id":"nt/e6pasn","slide":17,"text":"This is a good place to show scientific caution.\nThe pathway-level reversal is cleaner than every individual gene trajectory."}
+{"kind":"slide","id":"sl/jy4zvn","slide":18,"title":"ROCK SPECIFICITY","textShapes":7}
+{"kind":"textbox","id":"sh/judg7ads","slide":18,"text":"ROCK SPECIFICITY","textPreview":"ROCK SPECIFICITY","textChars":16,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":18,"text":"Rock1 decreases acutely, while Rock2 remains statistically unchanged","textPreview":"Rock1 decreases acutely, while Rock2 remains statistically unchanged","textChars":68,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/1032lszq","slide":18,"text":"This suggests selective regulation within a canonical cytoskeletal signaling family.","textPreview":"This suggests selective regulation within a canonical cytoskeletal signaling family.","textChars":84,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/u18jqh0f","slide":18,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/jm1cfa9w","slide":18,"bbox":[132,190,716,446]}
+{"kind":"shape","id":"sh/1orytsvu","slide":18,"bbox":[902,252,236,248]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":18,"text":"5v0 contrast","textPreview":"5v0 contrast","textChars":12,"textLines":1,"bbox":[930,286,180,28]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":18,"text":"Rock1: log2FC -0.43, padj 9.4e-6\nRock2: log2FC +0.07, padj 0.999","textPreview":"Rock1: log2FC -0.43, padj 9.4e-6 | Rock2: log2FC +0.07, padj 0.999","textChars":64,"textLines":2,"bbox":[926,348,188,82]}
+{"kind":"textbox","id":"sh/7u54zido","slide":18,"text":"Source: results/03_DEG/05b_rock1_vs_rock2_trajectory.png","textPreview":"Source: results/03_DEG/05b_rock1_vs_rock2_trajectory.png","textChars":56,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":18,"text":"18","textPreview":"18","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/pwb2hwfy","slide":18,"name":"","alt":"Rock1 and Rock2 trajectory","bbox":[140,198,700,430]}
+{"kind":"notes","id":"nt/jy4zvn","slide":18,"text":"This slide is useful for mechanism discussion because ROCK is close to canonical guidance signaling.\nDo not overstate causality: the RNA-seq shows selective transcriptional response, not protein activity."}
+{"kind":"slide","id":"sl/9ypsfi","slide":19,"title":"GO BP AT 5 MIN","textShapes":9}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":19,"text":"GO BP AT 5 MIN","textPreview":"GO BP AT 5 MIN","textChars":14,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":19,"text":"Netrin-1 activates neuron projection and axon guidance programs within 5 min","textPreview":"Netrin-1 activates neuron projection and axon guidance programs within 5 min","textChars":76,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":19,"text":"The strongest evidence is coordinated ranking across biological processes.","textPreview":"The strongest evidence is coordinated ranking across biological processes.","textChars":74,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/loj2t83i","slide":19,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/w3m94fu1","slide":19,"bbox":[76,182,826,456]}
+{"kind":"shape","id":"sh/ex0nuxc3","slide":19,"bbox":[930,228,220,148]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":19,"text":"313","textPreview":"313","textChars":3,"textLines":1,"bbox":[952,248,176,58]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":19,"text":"significant GO BP terms","textPreview":"significant GO BP terms","textChars":23,"textLines":1,"bbox":[948,316,184,54]}
+{"kind":"shape","id":"sh/il0rqd4v","slide":19,"bbox":[930,414,220,148]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":19,"text":"285 up","textPreview":"285 up","textChars":6,"textLines":1,"bbox":[952,434,176,58]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":19,"text":"positive NES terms","textPreview":"positive NES terms","textChars":18,"textLines":1,"bbox":[948,502,184,54]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":19,"text":"Source: results/04_GSEA/GSEA_GO_BP_5v0.csv","textPreview":"Source: results/04_GSEA/GSEA_GO_BP_5v0.csv","textChars":42,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":19,"text":"19","textPreview":"19","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/ih4byhgn","slide":19,"name":"","alt":"5v0 GO BP GSEA barplot","bbox":[84,190,810,440]}
+{"kind":"notes","id":"nt/9ypsfi","slide":19,"text":"Point to central nervous system neuron differentiation, neuron migration, neuron projection guidance, and axon guidance.\nThis is one of the main result slides."}
+{"kind":"slide","id":"sl/tybv4v","slide":20,"title":"KEGG AT 5 MIN","textShapes":7}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":20,"text":"KEGG AT 5 MIN","textPreview":"KEGG AT 5 MIN","textChars":13,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":20,"text":"Axon guidance is the top KEGG pathway in the acute response","textPreview":"Axon guidance is the top KEGG pathway in the acute response","textChars":59,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/bulwval8","slide":20,"text":"The pathway result aligns directly with Netrin-1 biology.","textPreview":"The pathway result aligns directly with Netrin-1 biology.","textChars":57,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/032lszqt","slide":20,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/tovahoza","slide":20,"bbox":[104,182,776,446]}
+{"kind":"shape","id":"sh/bi9s36hc","slide":20,"bbox":[918,252,234,250]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":20,"text":"Top KEGG signal","textPreview":"Top KEGG signal","textChars":15,"textLines":1,"bbox":[944,282,182,30]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":20,"text":"Axon guidance\nNES 2.16\nBH-adjusted p = 4.1e-7","textPreview":"Axon guidance | NES 2.16 | BH-adjusted p = 4.1e-7","textChars":45,"textLines":3,"bbox":[944,344,182,96]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":20,"text":"Source: results/04_GSEA/GSEA_KEGG_5v0.csv","textPreview":"Source: results/04_GSEA/GSEA_KEGG_5v0.csv","textChars":41,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/obm58z25","slide":20,"text":"20","textPreview":"20","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/rqd4vmtw","slide":20,"name":"","alt":"5v0 KEGG GSEA barplot","bbox":[112,190,760,430]}
+{"kind":"notes","id":"nt/tybv4v","slide":20,"text":"This slide connects the transcriptomic result back to the ligand's known function.\nMention that calcium and adhesion-related pathways also appear."}
+{"kind":"slide","id":"sl/i1qmjc","slide":21,"title":"PROGRAM ARCHITECTURE","textShapes":9}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":21,"text":"PROGRAM ARCHITECTURE","textPreview":"PROGRAM ARCHITECTURE","textChars":20,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":21,"text":"The 5-min response is bidirectional, not a generic activation signature","textPreview":"The 5-min response is bidirectional, not a generic activation signature","textChars":71,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/9knih4by","slide":21,"text":"Guidance-related pathways rise while RNA processing and biosynthetic modules fall.","textPreview":"Guidance-related pathways rise while RNA processing and biosynthetic modules fall.","textChars":82,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/25kb6xkf","slide":21,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/rqd4vmtw","slide":21,"bbox":[106,238,470,300]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":21,"text":"Up at 5 min","textPreview":"Up at 5 min","textChars":11,"textLines":1,"bbox":[142,276,398,42]}
+{"kind":"textbox","id":"sh/9w3m94fu","slide":21,"text":"- Neuron projection guidance\n- Axon guidance\n- Synapse assembly\n- Cell adhesion / IgSF CAM\n- NO-calcium signaling","textPreview":"- Neuron projection guidance | - Axon guidance | - Synapse assembly | - Cell adhesion / IgSF CAM | - NO-calcium signaling","textChars":113,"textLines":5,"bbox":[166,350,350,132]}
+{"kind":"shape","id":"sh/2hwfyxob","slide":21,"bbox":[704,238,470,300]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":21,"text":"Down at 5 min","textPreview":"Down at 5 min","textChars":13,"textLines":1,"bbox":[740,276,398,42]}
+{"kind":"textbox","id":"sh/7ed8bat4","slide":21,"text":"- RNA processing\n- mRNA splicing\n- Ribosome biogenesis\n- Translation-related programs\n- Fatty-acid degradation signature","textPreview":"- RNA processing | - mRNA splicing | - Ribosome biogenesis | - Translation-related programs | - Fatty-acid degradation signature","textChars":120,"textLines":5,"bbox":[764,350,350,132]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":21,"text":"Source: GSEA GO BP and KEGG 5v0 results","textPreview":"Source: GSEA GO BP and KEGG 5v0 results","textChars":39,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/pkzupwb2","slide":21,"text":"21","textPreview":"21","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"notes","id":"nt/i1qmjc","slide":21,"text":"This is a synthesis slide. It turns the gene and pathway lists into one interpretable program.\nEmphasize that the result is coordinated and bidirectional."}
+{"kind":"slide","id":"sl/a5haa0","slide":22,"title":"15V5 REVERSAL","textShapes":9}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":22,"text":"15V5 REVERSAL","textPreview":"15V5 REVERSAL","textChars":13,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/pkzupwb2","slide":22,"text":"By 15 min, the 5-min GO BP program is directionally flipped","textPreview":"By 15 min, the 5-min GO BP program is directionally flipped","textChars":59,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/0z61032l","slide":22,"text":"The temporal contrast shows active reversal from the acute state.","textPreview":"The temporal contrast shows active reversal from the acute state.","textChars":65,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/72x4nap4","slide":22,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/ih4byhgn","slide":22,"bbox":[76,182,828,456]}
+{"kind":"shape","id":"sh/0nuxc3yl","slide":22,"bbox":[930,228,220,148]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":22,"text":"295","textPreview":"295","textChars":3,"textLines":1,"bbox":[952,248,176,58]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":22,"text":"significant GO BP terms","textPreview":"significant GO BP terms","textChars":23,"textLines":1,"bbox":[948,316,184,54]}
+{"kind":"shape","id":"sh/8v6psfil","slide":22,"bbox":[930,414,220,148]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":22,"text":"264","textPreview":"264","textChars":3,"textLines":1,"bbox":[952,434,176,58]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":22,"text":"negative NES terms","textPreview":"negative NES terms","textChars":18,"textLines":1,"bbox":[948,502,184,54]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":22,"text":"Source: results/04_GSEA/GSEA_GO_BP_15v5.csv","textPreview":"Source: results/04_GSEA/GSEA_GO_BP_15v5.csv","textChars":43,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":22,"text":"22","textPreview":"22","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/kf6dcbul","slide":22,"name":"","alt":"15v5 GO BP GSEA barplot","bbox":[84,190,812,440]}
+{"kind":"notes","id":"nt/a5haa0","slide":22,"text":"The important point is not that nothing happens by 15 min; rather, 15v5 shows reversal relative to the 5-min state.\nThis is central to the transient pulse interpretation."}
+{"kind":"slide","id":"sl/wpeocq","slide":23,"title":"QUANTITATIVE REVERSAL","textShapes":7}
+{"kind":"textbox","id":"sh/z61032ls","slide":23,"text":"QUANTITATIVE REVERSAL","textPreview":"QUANTITATIVE REVERSAL","textChars":21,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":23,"text":"Shared pathways show near-perfect mirror symmetry between 5v0 and 15v5","textPreview":"Shared pathways show near-perfect mirror symmetry between 5v0 and 15v5","textChars":70,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":23,"text":"This is the strongest quantitative evidence for a transient program.","textPreview":"This is the strongest quantitative evidence for a transient program.","textChars":68,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/a9w3m94f","slide":23,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/zupwb2hw","slide":23,"bbox":[78,180,816,466]}
+{"kind":"shape","id":"sh/h0fepkzu","slide":23,"bbox":[928,252,224,250]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":23,"text":"Mirror statistic","textPreview":"Mirror statistic","textChars":16,"textLines":1,"bbox":[956,284,168,30]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":23,"text":"603 shared pathways\nNES correlation\nr = -0.991","textPreview":"603 shared pathways | NES correlation | r = -0.991","textChars":46,"textLines":3,"bbox":[952,346,176,98]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":23,"text":"Source: results/04_GSEA/13_GSEA_mirror_scatter_5v0_vs_15v5.png","textPreview":"Source: results/04_GSEA/13_GSEA_mirror_scatter_5v0_vs_15v5.png","textChars":62,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":23,"text":"23","textPreview":"23","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/d8bat47y","slide":23,"name":"","alt":"GSEA mirror scatter 5v0 versus 15v5","bbox":[86,188,800,450]}
+{"kind":"notes","id":"nt/wpeocq","slide":23,"text":"Pause on this slide. It is the headline result.\nExplain that the same pathways that rise at 5 min tend to fall in 15v5, and vice versa."}
+{"kind":"slide","id":"sl/h5d068","slide":24,"title":"RETURN TOWARD BASELINE","textShapes":7}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":24,"text":"RETURN TOWARD BASELINE","textPreview":"RETURN TOWARD BASELINE","textChars":22,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":24,"text":"15v0 has no significant GO BP terms, with a mild mitochondrial KEGG signal","textPreview":"15v0 has no significant GO BP terms, with a mild mitochondrial KEGG signal","textChars":74,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":24,"text":"This supports pathway-level return while preserving an honest caveat.","textPreview":"This supports pathway-level return while preserving an honest caveat.","textChars":69,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/w7mp0bi9","slide":24,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/psfil0rq","slide":24,"bbox":[96,190,756,446]}
+{"kind":"shape","id":"sh/7mp0bi9s","slide":24,"bbox":[900,236,252,292]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":24,"text":"Interpret carefully","textPreview":"Interpret carefully","textChars":19,"textLines":1,"bbox":[928,266,196,30]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":24,"text":"- GO BP: 0 significant terms\n- KEGG: 6 significant terms\n- OXPHOS leads the KEGG signal\n- Disease labels reflect shared mitochondrial genes, not disease biology","textPreview":"- GO BP: 0 significant terms | - KEGG: 6 significant terms | - OXPHOS leads the KEGG signal | - Disease labels reflect shared mitochondri...","textChars":160,"textLines":4,"bbox":[930,316,196,142]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":24,"text":"Source: results/04_GSEA/GSEA_GO_BP_15v0.csv and GSEA_KEGG_15v0.csv","textPreview":"Source: results/04_GSEA/GSEA_GO_BP_15v0.csv and GSEA_KEGG_15v0.csv","textChars":66,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":24,"text":"24","textPreview":"24","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/je9cvixc","slide":24,"name":"","alt":"15v0 KEGG GSEA barplot","bbox":[104,198,740,430]}
+{"kind":"notes","id":"nt/h5d068","slide":24,"text":"This slide is intentionally nuanced.\nSay that the transcriptional guidance program largely returns, while a late mitochondrial/OXPHOS signal remains detectable."}
+{"kind":"slide","id":"sl/ek2115","slide":25,"title":"INTEGRATED EVIDENCE","textShapes":5}
+{"kind":"textbox","id":"sh/7adsji5s","slide":25,"text":"INTEGRATED EVIDENCE","textPreview":"INTEGRATED EVIDENCE","textChars":19,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/wval87ed","slide":25,"text":"Multiple result layers converge on the same transient program","textPreview":"Multiple result layers converge on the same transient program","textChars":61,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":25,"text":"This table is the defense-ready summary of the core evidence chain.","textPreview":"This table is the defense-ready summary of the core evidence chain.","textChars":67,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/e1w7mp0b","slide":25,"bbox":[64,182,144,4]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":25,"text":"Source: Phase6 summary table and verified CSV outputs","textPreview":"Source: Phase6 summary table and verified CSV outputs","textChars":53,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":25,"text":"25","textPreview":"25","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"table","id":"tb/qtcj6tov","slide":25,"name":"","rows":7,"cols":4,"preview":"Module | 5 min | By 15 min | Evidence","bbox":[74,198,1130,408]}
+{"kind":"notes","id":"nt/ek2115","slide":25,"text":"This slide is useful if the committee asks you to summarize all results in one view.\nThe table intentionally combines genes, trajectories and GSEA rather than separating them."}
+{"kind":"slide","id":"sl/jjaopm","slide":26,"title":"PROPOSED MODEL","textShapes":14}
+{"kind":"textbox","id":"sh/je9cvixc","slide":26,"text":"PROPOSED MODEL","textPreview":"PROPOSED MODEL","textChars":14,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":26,"text":"Netrin-1 launches a short-lived transcriptional reallocation program","textPreview":"Netrin-1 launches a short-lived transcriptional reallocation program","textChars":68,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":26,"text":"The model integrates guidance activation with transient suppression of general RNA-processing machinery.","textPreview":"The model integrates guidance activation with transient suppression of general RNA-processing machinery.","textChars":104,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/q1orytsv","slide":26,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/fmlkjm1c","slide":26,"bbox":[92,254,220,132]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":26,"text":"Netrin-1","textPreview":"Netrin-1","textChars":8,"textLines":1,"bbox":[126,292,152,38]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":26,"text":"acute cue","textPreview":"acute cue","textChars":9,"textLines":1,"bbox":[126,338,152,24]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":26,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[332,296,42,54]}
+{"kind":"shape","id":"sh/fyxobm58","slide":26,"bbox":[392,220,320,200]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":26,"text":"5-min transcriptional pulse","textPreview":"5-min transcriptional pulse","textChars":27,"textLines":1,"bbox":[426,258,252,34]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":26,"text":"guidance / projection up\nRNA processing / ribosome down\nIEG suppression","textPreview":"guidance / projection up | RNA processing / ribosome down | IEG suppression","textChars":71,"textLines":3,"bbox":[430,324,244,78]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":26,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[738,296,42,54]}
+{"kind":"shape","id":"sh/w7mp0bi9","slide":26,"bbox":[802,254,330,132]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":26,"text":"15-min reversal","textPreview":"15-min reversal","textChars":15,"textLines":1,"bbox":[838,292,258,38]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":26,"text":"GO BP returns; 15v5 mirrors 5v0","textPreview":"GO BP returns; 15v5 mirrors 5v0","textChars":31,"textLines":1,"bbox":[838,340,258,24]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":26,"text":"Mechanistic interpretation: acute guidance cues may transiently bias nuclear programs toward remodeling and away from broad biosynthetic processing, then rapidly reset.","textPreview":"Mechanistic interpretation: acute guidance cues may transiently bias nuclear programs toward remodeling and away from broad biosynthetic ...","textChars":168,"textLines":1,"bbox":[150,510,980,54]}
+{"kind":"textbox","id":"sh/wval87ed","slide":26,"text":"Model synthesized from DEG, trajectory and GSEA results","textPreview":"Model synthesized from DEG, trajectory and GSEA results","textChars":55,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":26,"text":"26","textPreview":"26","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"notes","id":"nt/jjaopm","slide":26,"text":"Use this as the conceptual payoff of the deck.\nBe clear that this is a proposed model, not proven causality."}
+{"kind":"slide","id":"sl/067ftf","slide":27,"title":"SCIENTIFIC SIGNIFICANCE","textShapes":13}
+{"kind":"textbox","id":"sh/xczed8v6","slide":27,"text":"SCIENTIFIC SIGNIFICANCE","textPreview":"SCIENTIFIC SIGNIFICANCE","textChars":23,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":27,"text":"The novelty is minutes-scale coordination, not simply another DEG list","textPreview":"The novelty is minutes-scale coordination, not simply another DEG list","textChars":70,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":27,"text":"The data connect a classic axon guidance cue to a fast transcriptome-wide response.","textPreview":"The data connect a classic axon guidance cue to a fast transcriptome-wide response.","textChars":83,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/8jqh0fep","slide":27,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/x4nap4r6","slide":27,"bbox":[104,224,470,126]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":27,"text":"Acute transcription","textPreview":"Acute transcription","textChars":19,"textLines":1,"bbox":[132,248,414,28]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":27,"text":"Shows that a guidance cue can be transcriptomically visible within 5 min.","textPreview":"Shows that a guidance cue can be transcriptomically visible within 5 min.","textChars":73,"textLines":1,"bbox":[132,290,414,40]}
+{"kind":"shape","id":"sh/87ed8bat","slide":27,"bbox":[644,224,470,126]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":27,"text":"Bidirectional program","textPreview":"Bidirectional program","textChars":21,"textLines":1,"bbox":[672,248,414,28]}
+{"kind":"textbox","id":"sh/xkf6dcbu","slide":27,"text":"Guidance-related pathways rise while RNA processing and ribosome modules fall.","textPreview":"Guidance-related pathways rise while RNA processing and ribosome modules fall.","textChars":78,"textLines":1,"bbox":[672,290,414,40]}
+{"kind":"shape","id":"sh/4zidonyd","slide":27,"bbox":[104,394,470,126]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":27,"text":"Quantified reversibility","textPreview":"Quantified reversibility","textChars":24,"textLines":1,"bbox":[132,418,414,28]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":27,"text":"The response reverses with r = -0.991 across shared GSEA pathways.","textPreview":"The response reverses with r = -0.991 across shared GSEA pathways.","textChars":66,"textLines":1,"bbox":[132,460,414,40]}
+{"kind":"shape","id":"sh/xc3ylc7u","slide":27,"bbox":[644,394,470,126]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":27,"text":"Mechanistic anchors","textPreview":"Mechanistic anchors","textChars":19,"textLines":1,"bbox":[672,418,414,28]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":27,"text":"Fos/Npas4 suppression and Rock1 specificity provide hypotheses for follow-up.","textPreview":"Fos/Npas4 suppression and Rock1 specificity provide hypotheses for follow-up.","textChars":77,"textLines":1,"bbox":[672,460,414,40]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":27,"text":"Acute Netrin-1 RNA-seq analysis","textPreview":"Acute Netrin-1 RNA-seq analysis","textChars":31,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":27,"text":"27","textPreview":"27","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"notes","id":"nt/067ftf","slide":27,"text":"This is a discussion slide.\nFrame novelty conservatively: the dataset suggests a fast transcriptional layer that merits mechanistic validation."}
+{"kind":"slide","id":"sl/tcazxf","slide":28,"title":"LIMITATIONS","textShapes":7}
+{"kind":"textbox","id":"sh/61032lsz","slide":28,"text":"LIMITATIONS","textPreview":"LIMITATIONS","textChars":11,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":28,"text":"The strongest conclusions are pathway-level and temporal, with clear design boundaries","textPreview":"The strongest conclusions are pathway-level and temporal, with clear design boundaries","textChars":86,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":28,"text":"Being explicit here makes the defense more credible.","textPreview":"Being explicit here makes the defense more credible.","textChars":52,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/vy90je9c","slide":28,"bbox":[64,182,144,4]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":28,"text":"- n = 3 per condition: adequate for a focused RNA-seq pilot, but small for subtle single-gene effects.\n- No independent PBS-15 min control: 15v0 is useful but should be interpreted with this design caveat.\n- Only three timepoints: pulse shape is inferred from 0/5/15 min rather than dense time-course modeling.\n- Bulk RNA-seq: marker analysis supports composition stability, but cell-type-specific responses remain unresolved.\n- RNA abundance is not protein activity: ROCK, DCC/UNC5 and cytoskeletal mechanisms require orthogonal validation.","textPreview":"- n = 3 per condition: adequate for a focused RNA-seq pilot, but small for subtle single-gene effects. | - No independent PBS-15 min cont...","textChars":541,"textLines":5,"bbox":[130,220,1010,260]}
+{"kind":"shape","id":"sh/d4vmtwra","slide":28,"bbox":[184,536,912,60]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":28,"text":"Defensible conclusion: acute Netrin-1 produces a coherent, reversible transcriptional signature; mechanism and causality require targeted follow-up.","textPreview":"Defensible conclusion: acute Netrin-1 produces a coherent, reversible transcriptional signature; mechanism and causality require targeted...","textChars":148,"textLines":1,"bbox":[216,552,848,30]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":28,"text":"Acute Netrin-1 RNA-seq analysis","textPreview":"Acute Netrin-1 RNA-seq analysis","textChars":31,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":28,"text":"28","textPreview":"28","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"notes","id":"nt/tcazxf","slide":28,"text":"This slide is meant to pre-empt the most likely committee critiques.\nDo not apologize for the study; define exactly what the design supports."}
+{"kind":"slide","id":"sl/h5apjk","slide":29,"title":"NEXT EXPERIMENTS","textShapes":13}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":29,"text":"NEXT EXPERIMENTS","textPreview":"NEXT EXPERIMENTS","textChars":16,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/ulwval87","slide":29,"text":"Follow-up should test timing, mechanism, and cell specificity","textPreview":"Follow-up should test timing, mechanism, and cell specificity","textChars":61,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":29,"text":"These experiments convert the RNA-seq signature into mechanistic biology.","textPreview":"These experiments convert the RNA-seq signature into mechanistic biology.","textChars":73,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/c3ylc7u5","slide":29,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/1kre1w7m","slide":29,"bbox":[108,214,474,132]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":29,"text":"Dense time course","textPreview":"Dense time course","textChars":17,"textLines":1,"bbox":[136,238,420,28]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":29,"text":"0, 2, 5, 10, 15, 30 min qPCR/RNA-seq for Fos, Npas4, Rock1 and pathway markers.","textPreview":"0, 2, 5, 10, 15, 30 min qPCR/RNA-seq for Fos, Npas4, Rock1 and pathway markers.","textChars":79,"textLines":1,"bbox":[136,278,420,50]}
+{"kind":"shape","id":"sh/8bat47y1","slide":29,"bbox":[650,214,474,132]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":29,"text":"Perturb receptors","textPreview":"Perturb receptors","textChars":17,"textLines":1,"bbox":[678,238,420,28]}
+{"kind":"textbox","id":"sh/d0z61032","slide":29,"text":"DCC/UNC5 blockade or knockdown to test whether the transcriptional pulse is receptor-dependent.","textPreview":"DCC/UNC5 blockade or knockdown to test whether the transcriptional pulse is receptor-dependent.","textChars":95,"textLines":1,"bbox":[678,278,420,50]}
+{"kind":"shape","id":"sh/kf6dcbul","slide":29,"bbox":[108,392,474,132]}
+{"kind":"textbox","id":"sh/vu9knih4","slide":29,"text":"Protein/signaling","textPreview":"Protein/signaling","textChars":17,"textLines":1,"bbox":[136,416,420,28]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":29,"text":"ROCK1 protein, phospho-signaling and cytoskeletal readouts after acute stimulation.","textPreview":"ROCK1 protein, phospho-signaling and cytoskeletal readouts after acute stimulation.","textChars":83,"textLines":1,"bbox":[136,456,420,50]}
+{"kind":"shape","id":"sh/d8bat47y","slide":29,"bbox":[650,392,474,132]}
+{"kind":"textbox","id":"sh/knih4byh","slide":29,"text":"Cell resolution","textPreview":"Cell resolution","textChars":15,"textLines":1,"bbox":[678,416,420,28]}
+{"kind":"textbox","id":"sh/v6psfil0","slide":29,"text":"Single-cell or sorted-neuron validation to localize the response within culture heterogeneity.","textPreview":"Single-cell or sorted-neuron validation to localize the response within culture heterogeneity.","textChars":94,"textLines":1,"bbox":[678,456,420,50]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":29,"text":"Acute Netrin-1 RNA-seq analysis","textPreview":"Acute Netrin-1 RNA-seq analysis","textChars":31,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":29,"text":"29","textPreview":"29","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"notes","id":"nt/h5apjk","slide":29,"text":"Use this slide to show that the project has a clear next phase.\nThe most direct validation is dense time-course qPCR plus receptor perturbation."}
+{"kind":"slide","id":"sl/9axpgg","slide":30,"title":"FINAL TAKE-HOME","textShapes":8}
+{"kind":"textbox","id":"sh/at47y1kr","slide":30,"text":"FINAL TAKE-HOME","textPreview":"FINAL TAKE-HOME","textChars":15,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":30,"text":"Acute Netrin-1 stimulation reveals a fast, reversible neuronal transcriptional program","textPreview":"Acute Netrin-1 stimulation reveals a fast, reversible neuronal transcriptional program","textChars":86,"textLines":1,"bbox":[64,66,920,86]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":30,"text":"The result expands the time scale on which guidance cues can be discussed.","textPreview":"The result expands the time scale on which guidance cues can be discussed.","textChars":74,"textLines":1,"bbox":[64,144,930,34]}
+{"kind":"shape","id":"sh/32lszqtc","slide":30,"bbox":[64,182,144,4]}
+{"kind":"shape","id":"sh/ahoza1gv","slide":30,"bbox":[112,214,1056,300]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":30,"text":"One-sentence conclusion","textPreview":"One-sentence conclusion","textChars":23,"textLines":1,"bbox":[152,254,976,32]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":30,"text":"Within 5 minutes, Netrin-1 activates guidance/projection programs and suppresses RNA-processing/biosynthetic modules, and by 15 minutes this pathway program is almost perfectly reversed.","textPreview":"Within 5 minutes, Netrin-1 activates guidance/projection programs and suppresses RNA-processing/biosynthetic modules, and by 15 minutes t...","textChars":186,"textLines":1,"bbox":[178,324,924,86]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":30,"text":"Thank you","textPreview":"Thank you","textChars":9,"textLines":1,"bbox":[492,548,296,48]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":30,"text":"Acute Netrin-1 RNA-seq analysis","textPreview":"Acute Netrin-1 RNA-seq analysis","textChars":31,"textLines":1,"bbox":[64,686,880,20]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":30,"text":"30","textPreview":"30","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"notes","id":"nt/9axpgg","slide":30,"text":"End by returning to the central claim.\nDo not add new data here; leave the final sentence clean and memorable."}

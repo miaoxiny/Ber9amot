@@ -1,0 +1,47 @@
+Source ledger for RNA-seq PhD defense deck.
+
+User-provided local source:
+- THESIS_writing_pack.md: thesis writing handoff for Acute Netrin-1 RNA-seq. Used for study design, methods, interpretation, limitations, and figure recommendations.
+
+Generated result files used:
+- results/01_QC/01_library_size.png: library-size QC.
+- results/01_QC/02_detected_genes.png: detected-genes QC.
+- results/01_QC/03_sample_correlation_heatmap_FINAL.png: sample correlation.
+- results/01_QC/04_PCA_before_correction.png: PCA before replicate correction.
+- results/01_QC/05_PCA_after_correction_FINAL.png: PCA after replicate correction for visualization.
+- results/02_composition/07_celltype_marker_TPM.png: marker expression supporting neuron-dominant, composition-stable cultures.
+- results/03_DEG/04_volcano_5v0_v6.png: main 5v0 volcano plot.
+- results/03_DEG/05_trajectory_6genes.png: representative gene trajectories.
+- results/03_DEG/05b_rock1_vs_rock2_trajectory.png: ROCK1 versus ROCK2 trajectory.
+- results/03_DEG/06_DEG_heatmap_5v0_v4.png: 5v0 DEG heatmap.
+- results/04_GSEA/08_GSEA_GO_BP_5v0_barplot.png: 5v0 GO BP GSEA.
+- results/04_GSEA/09_GSEA_KEGG_5v0_barplot.png: 5v0 KEGG GSEA.
+- results/04_GSEA/10_GSEA_GO_BP_15v5_barplot.png: 15v5 GO BP GSEA.
+- results/04_GSEA/12_GSEA_KEGG_15v0_barplot.png: 15v0 KEGG GSEA.
+- results/04_GSEA/13_GSEA_mirror_scatter_5v0_vs_15v5.png: mirror-scatter GSEA reversal.
+
+CSV values verified live:
+- DEG_5v0_RELAXED.csv: 32 genes, 14 up and 18 down.
+- DEG_5v0_STRICT.csv: 5 genes, 2 up and 3 down.
+- DEG_15v0_RELAXED.csv and DEG_15v0_STRICT.csv: 1 significant gene each.
+- DEG_15v5_RELAXED.csv: 6 genes, all up.
+- GSEA_GO_BP_5v0.csv: 313 significant terms, 285 positive NES and 28 negative NES.
+- GSEA_KEGG_5v0.csv: 14 significant terms; Axon guidance top positive term.
+- GSEA_GO_BP_15v0.csv: 0 significant GO BP terms.
+- GSEA_KEGG_15v0.csv: 6 significant KEGG terms, led by oxidative phosphorylation and mitochondrial shared-gene pathways.
+- GSEA_GO_BP_15v5.csv: 295 significant terms, 31 positive NES and 264 negative NES.
+- GSEA_KEGG_15v5.csv: 49 significant terms, 25 positive NES and 24 negative NES.
+- Key 5v0 genes from DEG_5v0_ALL.csv: Fos, Rock1, Srsf5, Snrnp70, Cntn2, Nos1, Ryr3, Tln2, Rock2, Npas4.
+
+Terminology ledger:
+- Netrin-1: ligand/stimulus, use Netrin-1 consistently.
+- Vehicle: PBS 5-min control; use Vehicle rather than PBS except where design limitation is discussed.
+- 5v0: 5 min Netrin-1 versus Vehicle.
+- 15v0: 15 min Netrin-1 versus Vehicle.
+- 15v5: 15 min Netrin-1 versus 5 min Netrin-1.
+- DEG: differentially expressed gene.
+- GSEA: gene set enrichment analysis.
+- GO BP: Gene Ontology Biological Process.
+- KEGG: Kyoto Encyclopedia of Genes and Genomes.
+- NES: normalized enrichment score.
+- LRT: likelihood-ratio test.

@@ -1,0 +1,482 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/a0m6zo",
+    "id": "a0m6zo",
+    "slide": 4,
+    "layoutId": "f6da9391-7cf3-48b4-8512-728511088328",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "0625e0f2-f3b9-4f0e-b6e7-70dfa5b2994c",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7FAFC",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "f6da9391-7cf3-48b4-8512-728511088328",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "0625e0f2-f3b9-4f0e-b6e7-70dfa5b2994c",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "0625e0f2-f3b9-4f0e-b6e7-70dfa5b2994c",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dg7adsji",
+      "id": "1",
+      "bbox": [
+        64,
+        34,
+        520,
+        24
+      ],
+      "geometry": "rect",
+      "text": "REPLICATE AND TIMEPOINT STRUCTURE",
+      "textPreview": "REPLICATE AND TIMEPOINT STRUCTURE",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#0B7285",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "REPLICATE AND TIMEPOINT STRUCTURE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "REPLICATE AND TIMEPOINT STRUCTURE",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#0B7285",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "REPLICATE AND TIMEPOINT STRUCTURE",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#0B7285",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6tovahoz",
+      "id": "2",
+      "bbox": [
+        64,
+        68,
+        980,
+        78
+      ],
+      "geometry": "rect",
+      "text": "Replicate effects are visible, but corrected PCA reveals timepoint separation",
+      "textPreview": "Replicate effects are visible, but corrected PCA reveals timepoint separation",
+      "resolvedFontSize": 31,
+      "resolvedTextStyle": {
+        "fontSize": 31,
+        "typeface": "Aptos Display",
+        "color": "#102033",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Replicate effects are visible, but corrected PCA reveals timepoint"
+          },
+          {
+            "index": 2,
+            "text": "separation"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Replicate effects are visible, but corrected PCA reveals timepoint separation",
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "Aptos Display",
+            "color": "#102033",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Replicate effects are visible, but corrected PCA reveals timepoint separation",
+              "fontSize": 31,
+              "typeface": "Aptos Display",
+              "color": "#102033",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vahoza1g",
+      "id": "3",
+      "bbox": [
+        64,
+        145,
+        980,
+        32
+      ],
+      "geometry": "rect",
+      "text": "This justifies modeling replicate and interpreting the acute timepoint signal.",
+      "textPreview": "This justifies modeling replicate and interpreting the acute timepoint signal.",
+      "resolvedFontSize": 16.51,
+      "resolvedTextStyle": {
+        "fontSize": 16.51,
+        "typeface": "Aptos",
+        "color": "#5B6878",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "This justifies modeling replicate and interpreting the acute timepoint signal."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "This justifies modeling replicate and interpreting the acute timepoint signal.",
+          "resolvedTextStyle": {
+            "fontSize": 16.51,
+            "typeface": "Aptos",
+            "color": "#5B6878",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "This justifies modeling replicate and interpreting the acute timepoint signal.",
+              "fontSize": 16.51,
+              "typeface": "Aptos",
+              "color": "#5B6878",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/onyd0z61",
+      "id": "4",
+      "bbox": [
+        64,
+        182,
+        132,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#D97706",
+      "lineColor": "#D97706",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8v6psfi",
+      "id": "5",
+      "bbox": [
+        78,
+        202,
+        472,
+        386
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/7mp0bi9s",
+      "id": "6",
+      "bbox": [
+        86,
+        210,
+        456,
+        370
+      ],
+      "alt": "Sample correlation heatmap",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "6358e403-4ca5-43da-a25a-5d79a472b9b9",
+        "contentType": "image/png",
+        "byteLength": 18860
+      }
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z25kb6xk",
+      "id": "7",
+      "bbox": [
+        618,
+        202,
+        556,
+        386
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/l0rqd4vm",
+      "id": "8",
+      "bbox": [
+        626,
+        210,
+        540,
+        370
+      ],
+      "alt": "PCA after replicate correction",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "50d768d4-f382-46a6-ab33-b5cfffbf13e9",
+        "contentType": "image/png",
+        "byteLength": 64282
+      }
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d4vmtwra",
+      "id": "9",
+      "bbox": [
+        64,
+        686,
+        900,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Source: results/01_QC",
+      "textPreview": "Source: results/01_QC",
+      "resolvedFontSize": 10.51,
+      "resolvedTextStyle": {
+        "fontSize": 10.51,
+        "typeface": "Aptos",
+        "color": "#778395",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Source: results/01_QC"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Source: results/01_QC",
+          "resolvedTextStyle": {
+            "fontSize": 10.51,
+            "typeface": "Aptos",
+            "color": "#778395",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Source: results/01_QC",
+              "fontSize": 10.51,
+              "typeface": "Aptos",
+              "color": "#778395",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4byhgn2",
+      "id": "10",
+      "bbox": [
+        1168,
+        684,
+        48,
+        22
+      ],
+      "geometry": "rect",
+      "text": "04",
+      "textPreview": "04",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#778395",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "04"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "04",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#778395",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "04",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#778395",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

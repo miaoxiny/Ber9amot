@@ -1,0 +1,609 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/laefah",
+    "id": "laefah",
+    "slide": 16,
+    "layoutId": "165128df-ab08-4fbc-ad42-dd2df993b3ac",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "135bdc61-3a8c-4bd4-b671-ac3dbf38a688",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "165128df-ab08-4fbc-ad42-dd2df993b3ac",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "135bdc61-3a8c-4bd4-b671-ac3dbf38a688",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "135bdc61-3a8c-4bd4-b671-ac3dbf38a688",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dg7adsji",
+      "id": "1",
+      "name": "left-color-bar",
+      "bbox": [
+        0,
+        0,
+        12,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#D88040",
+      "lineColor": "#D88040",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6tovahoz",
+      "id": "2",
+      "name": "kicker-square",
+      "bbox": [
+        54,
+        38,
+        12,
+        12
+      ],
+      "geometry": "rect",
+      "fillColor": "#D88040",
+      "lineColor": "#D88040",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vahoza1g",
+      "id": "3",
+      "name": "kicker",
+      "bbox": [
+        84,
+        29,
+        520,
+        20
+      ],
+      "geometry": "rect",
+      "text": "C2 ORA",
+      "textPreview": "C2 ORA",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#5C6470",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "C2 ORA"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "C2 ORA",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#5C6470",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "C2 ORA",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#5C6470",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/onyd0z61",
+      "id": "4",
+      "name": "title",
+      "bbox": [
+        66,
+        74,
+        1060,
+        66
+      ],
+      "geometry": "rect",
+      "text": "GO BP ORA confirms developmental maturation and immune/progenitor shifts",
+      "textPreview": "GO BP ORA confirms developmental maturation and immune/progenitor shifts",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Aptos Display",
+        "color": "#222832",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "GO BP ORA confirms developmental maturation and immune/progenitor"
+          },
+          {
+            "index": 2,
+            "text": "shifts"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "GO BP ORA confirms developmental maturation and immune/progenitor shifts",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Aptos Display",
+            "color": "#222832",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "GO BP ORA confirms developmental maturation and immune/progenitor shifts",
+              "fontSize": 34,
+              "typeface": "Aptos Display",
+              "color": "#222832",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8v6psfi",
+      "id": "5",
+      "name": "subtitle",
+      "bbox": [
+        68,
+        146,
+        1010,
+        26
+      ],
+      "geometry": "rect",
+      "text": "ORA uses strict DEG input; GO terms are simplified to reduce redundancy.",
+      "textPreview": "ORA uses strict DEG input; GO terms are simplified to reduce redundancy.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "color": "#5C6470",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ORA uses strict DEG input; GO terms are simplified to reduce redundancy."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ORA uses strict DEG input; GO terms are simplified to reduce redundancy.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#5C6470",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ORA uses strict DEG input; GO terms are simplified to reduce redundancy.",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#5C6470",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6hcrmhk3",
+      "id": "6",
+      "name": "page-number",
+      "bbox": [
+        1168,
+        680,
+        44,
+        18
+      ],
+      "geometry": "rect",
+      "text": "16",
+      "textPreview": "16",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#5C6470",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "16"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "16",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#5C6470",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "16",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#5C6470",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z25kb6xk",
+      "id": "7",
+      "name": "footer",
+      "bbox": [
+        66,
+        680,
+        360,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Netrin-1 RNA-seq | group meeting",
+      "textPreview": "Netrin-1 RNA-seq | group meeting",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#5C6470",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Netrin-1 RNA-seq | group meeting"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Netrin-1 RNA-seq | group meeting",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#5C6470",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Netrin-1 RNA-seq | group meeting",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#5C6470",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/1032lszq",
+      "id": "8",
+      "bbox": [
+        56,
+        188,
+        570,
+        430
+      ],
+      "alt": "C2 GO BP ORA up",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "97de2b82-32d8-4f5d-b075-46b688b47943",
+        "contentType": "image/png",
+        "byteLength": 284379
+      }
+    },
+    {
+      "order": 9,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/cfa9w3m9",
+      "id": "9",
+      "bbox": [
+        668,
+        188,
+        546,
+        430
+      ],
+      "alt": "C2 GO BP ORA down",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "63f42641-059e-4748-b43b-6da42c725afd",
+        "contentType": "image/png",
+        "byteLength": 274404
+      }
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4byhgn2",
+      "id": "10",
+      "name": "text",
+      "bbox": [
+        74,
+        632,
+        550,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Input: 985 up strict genes with Entrez ID; simplified significant GO BP terms = 160",
+      "textPreview": "Input: 985 up strict genes with Entrez ID; simplified significant GO BP terms = 160",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Aptos",
+        "color": "#5C6470",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Input: 985 up strict genes with Entrez ID; simplified significant GO BP terms = 160"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Input: 985 up strict genes with Entrez ID; simplified significant GO BP terms = 160",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Aptos",
+            "color": "#5C6470",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Input: 985 up strict genes with Entrez ID; simplified significant GO BP terms = 160",
+              "fontSize": 13,
+              "typeface": "Aptos",
+              "color": "#5C6470",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sji5snel",
+      "id": "11",
+      "name": "text",
+      "bbox": [
+        686,
+        632,
+        550,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Input: 356 down strict genes with Entrez ID; simplified significant GO BP terms = 91",
+      "textPreview": "Input: 356 down strict genes with Entrez ID; simplified significant GO BP terms = 91",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Aptos",
+        "color": "#5C6470",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Input: 356 down strict genes with Entrez ID; simplified significant GO BP terms = 91"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Input: 356 down strict genes with Entrez ID; simplified significant GO BP terms = 91",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Aptos",
+            "color": "#5C6470",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Input: 356 down strict genes with Entrez ID; simplified significant GO BP terms = 91",
+              "fontSize": 13,
+              "typeface": "Aptos",
+              "color": "#5C6470",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

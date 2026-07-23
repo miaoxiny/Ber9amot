@@ -1,0 +1,894 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/kydjc3",
+    "id": "kydjc3",
+    "slide": 19,
+    "layoutId": "6e37a0d9-c161-4af4-ac6c-eeb1436eaa6f",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "69003fbc-2b26-44fe-8129-5dfe26d1a19c",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7FAFC",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "6e37a0d9-c161-4af4-ac6c-eeb1436eaa6f",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "69003fbc-2b26-44fe-8129-5dfe26d1a19c",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "69003fbc-2b26-44fe-8129-5dfe26d1a19c",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mp0bi9s3",
+      "id": "1",
+      "bbox": [
+        64,
+        34,
+        520,
+        24
+      ],
+      "geometry": "rect",
+      "text": "PROGRAM ARCHITECTURE",
+      "textPreview": "PROGRAM ARCHITECTURE",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#0B7285",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PROGRAM ARCHITECTURE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PROGRAM ARCHITECTURE",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#0B7285",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PROGRAM ARCHITECTURE",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#0B7285",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tgfmlkjm",
+      "id": "2",
+      "bbox": [
+        64,
+        66,
+        920,
+        86
+      ],
+      "geometry": "rect",
+      "text": "The 5-min response is bidirectional, not a generic activation signature",
+      "textPreview": "The 5-min response is bidirectional, not a generic activation signature",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "fontSize": 36,
+        "typeface": "Aptos Display",
+        "color": "#102033",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The 5-min response is bidirectional, not a generic activation"
+          },
+          {
+            "index": 2,
+            "text": "signature"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The 5-min response is bidirectional, not a generic activation signature",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "typeface": "Aptos Display",
+            "color": "#102033",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The 5-min response is bidirectional, not a generic activation signature",
+              "fontSize": 36,
+              "typeface": "Aptos Display",
+              "color": "#102033",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4vmtwra5",
+      "id": "3",
+      "bbox": [
+        64,
+        144,
+        930,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Guidance-related pathways rise while RNA processing and biosynthetic modules fall.",
+      "textPreview": "Guidance-related pathways rise while RNA processing and biosynthetic modules fall.",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "Aptos",
+        "color": "#5B6878",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Guidance-related pathways rise while RNA processing and biosynthetic modules fall."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Guidance-related pathways rise while RNA processing and biosynthetic modules fall.",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#5B6878",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Guidance-related pathways rise while RNA processing and biosynthetic modules fall.",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#5B6878",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bm58z25k",
+      "id": "4",
+      "bbox": [
+        64,
+        182,
+        144,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#D97706",
+      "lineColor": "#D97706",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m1cfa9w3",
+      "id": "5",
+      "bbox": [
+        106,
+        238,
+        470,
+        300
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E6F4F1",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tsvu9kni",
+      "id": "6",
+      "bbox": [
+        142,
+        276,
+        398,
+        42
+      ],
+      "geometry": "rect",
+      "text": "Up at 5 min",
+      "textPreview": "Up at 5 min",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "fontSize": 30,
+        "typeface": "Aptos",
+        "color": "#047857",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Up at 5 min"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Up at 5 min",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Aptos",
+            "color": "#047857",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Up at 5 min",
+              "fontSize": 30,
+              "typeface": "Aptos",
+              "color": "#047857",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/47y1kre1",
+      "id": "7",
+      "bbox": [
+        166,
+        350,
+        350,
+        132
+      ],
+      "geometry": "rect",
+      "text": "- Neuron projection guidance\n- Axon guidance\n- Synapse assembly\n- Cell adhesion / IgSF CAM\n- NO-calcium signaling",
+      "textPreview": "- Neuron projection guidance | - Axon guidance | - Synapse assembly | - Cell adhesion / IgSF CAM | - NO-calcium signaling",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "Aptos",
+        "color": "#102033",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "- Neuron projection guidance"
+          },
+          {
+            "index": 2,
+            "text": "- Axon guidance"
+          },
+          {
+            "index": 3,
+            "text": "- Synapse assembly"
+          },
+          {
+            "index": 4,
+            "text": "- Cell adhesion / IgSF CAM"
+          },
+          {
+            "index": 5,
+            "text": "- NO-calcium signaling"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "- Neuron projection guidance",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Aptos",
+            "color": "#102033",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- Neuron projection guidance",
+              "fontSize": 20,
+              "typeface": "Aptos",
+              "color": "#102033",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "- Axon guidance",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Aptos",
+            "color": "#102033",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- Axon guidance",
+              "fontSize": 20,
+              "typeface": "Aptos",
+              "color": "#102033",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "- Synapse assembly",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Aptos",
+            "color": "#102033",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- Synapse assembly",
+              "fontSize": 20,
+              "typeface": "Aptos",
+              "color": "#102033",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "- Cell adhesion / IgSF CAM",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Aptos",
+            "color": "#102033",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- Cell adhesion / IgSF CAM",
+              "fontSize": 20,
+              "typeface": "Aptos",
+              "color": "#102033",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "- NO-calcium signaling",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Aptos",
+            "color": "#102033",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- NO-calcium signaling",
+              "fontSize": 20,
+              "typeface": "Aptos",
+              "color": "#102033",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bq1oryts",
+      "id": "8",
+      "bbox": [
+        704,
+        238,
+        470,
+        300
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m58z25kb",
+      "id": "9",
+      "bbox": [
+        740,
+        276,
+        398,
+        42
+      ],
+      "geometry": "rect",
+      "text": "Down at 5 min",
+      "textPreview": "Down at 5 min",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "fontSize": 30,
+        "typeface": "Aptos",
+        "color": "#B91C1C",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Down at 5 min"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Down at 5 min",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Aptos",
+            "color": "#B91C1C",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Down at 5 min",
+              "fontSize": 30,
+              "typeface": "Aptos",
+              "color": "#B91C1C",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o7qpg3ex",
+      "id": "10",
+      "bbox": [
+        764,
+        350,
+        350,
+        132
+      ],
+      "geometry": "rect",
+      "text": "- RNA processing\n- mRNA splicing\n- Ribosome biogenesis\n- Translation-related programs\n- Fatty-acid degradation signature",
+      "textPreview": "- RNA processing | - mRNA splicing | - Ribosome biogenesis | - Translation-related programs | - Fatty-acid degradation signature",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "Aptos",
+        "color": "#102033",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "- RNA processing"
+          },
+          {
+            "index": 2,
+            "text": "- mRNA splicing"
+          },
+          {
+            "index": 3,
+            "text": "- Ribosome biogenesis"
+          },
+          {
+            "index": 4,
+            "text": "- Translation-related programs"
+          },
+          {
+            "index": 5,
+            "text": "- Fatty-acid degradation signature"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "- RNA processing",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Aptos",
+            "color": "#102033",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- RNA processing",
+              "fontSize": 20,
+              "typeface": "Aptos",
+              "color": "#102033",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "- mRNA splicing",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Aptos",
+            "color": "#102033",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- mRNA splicing",
+              "fontSize": 20,
+              "typeface": "Aptos",
+              "color": "#102033",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "- Ribosome biogenesis",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Aptos",
+            "color": "#102033",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- Ribosome biogenesis",
+              "fontSize": 20,
+              "typeface": "Aptos",
+              "color": "#102033",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "- Translation-related programs",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Aptos",
+            "color": "#102033",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- Translation-related programs",
+              "fontSize": 20,
+              "typeface": "Aptos",
+              "color": "#102033",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "- Fatty-acid degradation signature",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Aptos",
+            "color": "#102033",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- Fatty-acid degradation signature",
+              "fontSize": 20,
+              "typeface": "Aptos",
+              "color": "#102033",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dsji5sne",
+      "id": "11",
+      "bbox": [
+        64,
+        686,
+        880,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Source: GSEA GO BP and KEGG 5v0 results",
+      "textPreview": "Source: GSEA GO BP and KEGG 5v0 results",
+      "resolvedFontSize": 10.51,
+      "resolvedTextStyle": {
+        "fontSize": 10.51,
+        "typeface": "Aptos",
+        "color": "#778395",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Source: GSEA GO BP and KEGG 5v0 results"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Source: GSEA GO BP and KEGG 5v0 results",
+          "resolvedTextStyle": {
+            "fontSize": 10.51,
+            "typeface": "Aptos",
+            "color": "#778395",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Source: GSEA GO BP and KEGG 5v0 results",
+              "fontSize": 10.51,
+              "typeface": "Aptos",
+              "color": "#778395",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/61032lsz",
+      "id": "12",
+      "bbox": [
+        1168,
+        684,
+        48,
+        22
+      ],
+      "geometry": "rect",
+      "text": "19",
+      "textPreview": "19",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#778395",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "19"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "19",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#778395",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "19",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#778395",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

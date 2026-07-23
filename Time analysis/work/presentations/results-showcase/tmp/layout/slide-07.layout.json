@@ -1,0 +1,684 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/28i564",
+    "id": "28i564",
+    "slide": 7,
+    "layoutId": "f6da9391-7cf3-48b4-8512-728511088328",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "0625e0f2-f3b9-4f0e-b6e7-70dfa5b2994c",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7FAFC",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "f6da9391-7cf3-48b4-8512-728511088328",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "0625e0f2-f3b9-4f0e-b6e7-70dfa5b2994c",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "0625e0f2-f3b9-4f0e-b6e7-70dfa5b2994c",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/83itgfml",
+      "id": "1",
+      "bbox": [
+        64,
+        34,
+        520,
+        24
+      ],
+      "geometry": "rect",
+      "text": "5-MIN DIFFERENTIAL EXPRESSION",
+      "textPreview": "5-MIN DIFFERENTIAL EXPRESSION",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#0B7285",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "5-MIN DIFFERENTIAL EXPRESSION"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "5-MIN DIFFERENTIAL EXPRESSION",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#0B7285",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "5-MIN DIFFERENTIAL EXPRESSION",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#0B7285",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fil0rqd4",
+      "id": "2",
+      "bbox": [
+        64,
+        68,
+        980,
+        78
+      ],
+      "geometry": "rect",
+      "text": "The 5-min volcano plot identifies biologically interpretable acute anchors",
+      "textPreview": "The 5-min volcano plot identifies biologically interpretable acute anchors",
+      "resolvedFontSize": 31,
+      "resolvedTextStyle": {
+        "fontSize": 31,
+        "typeface": "Aptos Display",
+        "color": "#102033",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The 5-min volcano plot identifies biologically interpretable acute anchors"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The 5-min volcano plot identifies biologically interpretable acute anchors",
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "Aptos Display",
+            "color": "#102033",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The 5-min volcano plot identifies biologically interpretable acute anchors",
+              "fontSize": 31,
+              "typeface": "Aptos Display",
+              "color": "#102033",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qxs72x4n",
+      "id": "3",
+      "bbox": [
+        64,
+        145,
+        980,
+        32
+      ],
+      "geometry": "rect",
+      "text": "The small DEG set is coherent rather than random.",
+      "textPreview": "The small DEG set is coherent rather than random.",
+      "resolvedFontSize": 16.51,
+      "resolvedTextStyle": {
+        "fontSize": 16.51,
+        "typeface": "Aptos",
+        "color": "#5B6878",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The small DEG set is coherent rather than random."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The small DEG set is coherent rather than random.",
+          "resolvedTextStyle": {
+            "fontSize": 16.51,
+            "typeface": "Aptos",
+            "color": "#5B6878",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The small DEG set is coherent rather than random.",
+              "fontSize": 16.51,
+              "typeface": "Aptos",
+              "color": "#5B6878",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0nuxc3y",
+      "id": "4",
+      "bbox": [
+        64,
+        182,
+        132,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#D97706",
+      "lineColor": "#D97706",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4fu18jqh",
+      "id": "5",
+      "bbox": [
+        70,
+        190,
+        776,
+        446
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ytsvu9kn",
+      "id": "6",
+      "bbox": [
+        78,
+        198,
+        760,
+        430
+      ],
+      "alt": "5v0 volcano plot",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "0539dbb4-7a73-4acc-887a-814f5a908b3f",
+        "contentType": "image/png",
+        "byteLength": 267599
+      }
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m94fu18j",
+      "id": "7",
+      "bbox": [
+        884,
+        236,
+        278,
+        316
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xc3ylc7u",
+      "id": "8",
+      "bbox": [
+        912,
+        264,
+        222,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Highlighted modules",
+      "textPreview": "Highlighted modules",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "Aptos",
+        "color": "#0B7285",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Highlighted modules"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Highlighted modules",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Aptos",
+            "color": "#0B7285",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Highlighted modules",
+              "fontSize": 21,
+              "typeface": "Aptos",
+              "color": "#0B7285",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4r65wjud",
+      "id": "9",
+      "bbox": [
+        914,
+        316,
+        218,
+        170
+      ],
+      "geometry": "rect",
+      "text": "- IEG suppression: Fos\n- Cytoskeleton: Rock1\n- Splicing: Srsf5, Snrnp70\n- Guidance: Cntn2\n- NO-calcium: Nos1, Ryr3",
+      "textPreview": "- IEG suppression: Fos | - Cytoskeleton: Rock1 | - Splicing: Srsf5, Snrnp70 | - Guidance: Cntn2 | - NO-calcium: Nos1, Ryr3",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#102033",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "- IEG suppression: Fos"
+          },
+          {
+            "index": 2,
+            "text": "- Cytoskeleton: Rock1"
+          },
+          {
+            "index": 3,
+            "text": "- Splicing: Srsf5, Snrnp70"
+          },
+          {
+            "index": 4,
+            "text": "- Guidance: Cntn2"
+          },
+          {
+            "index": 5,
+            "text": "- NO-calcium: Nos1, Ryr3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "- IEG suppression: Fos",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#102033",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- IEG suppression: Fos",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#102033",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "- Cytoskeleton: Rock1",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#102033",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- Cytoskeleton: Rock1",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#102033",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "- Splicing: Srsf5, Snrnp70",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#102033",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- Splicing: Srsf5, Snrnp70",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#102033",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "- Guidance: Cntn2",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#102033",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- Guidance: Cntn2",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#102033",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "- NO-calcium: Nos1, Ryr3",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#102033",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- NO-calcium: Nos1, Ryr3",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#102033",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ap4r65wj",
+      "id": "10",
+      "bbox": [
+        64,
+        686,
+        900,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Source: results/03_DEG/04_volcano_5v0_v6.png",
+      "textPreview": "Source: results/03_DEG/04_volcano_5v0_v6.png",
+      "resolvedFontSize": 10.51,
+      "resolvedTextStyle": {
+        "fontSize": 10.51,
+        "typeface": "Aptos",
+        "color": "#778395",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Source: results/03_DEG/04_volcano_5v0_v6.png"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Source: results/03_DEG/04_volcano_5v0_v6.png",
+          "resolvedTextStyle": {
+            "fontSize": 10.51,
+            "typeface": "Aptos",
+            "color": "#778395",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Source: results/03_DEG/04_volcano_5v0_v6.png",
+              "fontSize": 10.51,
+              "typeface": "Aptos",
+              "color": "#778395",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/za1gvy90",
+      "id": "11",
+      "bbox": [
+        1168,
+        684,
+        48,
+        22
+      ],
+      "geometry": "rect",
+      "text": "07",
+      "textPreview": "07",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#778395",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "07"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "07",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#778395",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "07",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#778395",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

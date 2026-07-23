@@ -1,0 +1,605 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/8ovu8n",
+    "id": "8ovu8n",
+    "slide": 10,
+    "layoutId": "165128df-ab08-4fbc-ad42-dd2df993b3ac",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "135bdc61-3a8c-4bd4-b671-ac3dbf38a688",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "165128df-ab08-4fbc-ad42-dd2df993b3ac",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "135bdc61-3a8c-4bd4-b671-ac3dbf38a688",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "135bdc61-3a8c-4bd4-b671-ac3dbf38a688",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/onyd0z61",
+      "id": "1",
+      "name": "left-color-bar",
+      "bbox": [
+        0,
+        0,
+        12,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#D88040",
+      "lineColor": "#D88040",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z25kb6xk",
+      "id": "2",
+      "name": "kicker-square",
+      "bbox": [
+        54,
+        38,
+        12,
+        12
+      ],
+      "geometry": "rect",
+      "fillColor": "#D88040",
+      "lineColor": "#D88040",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6hcrmhk3",
+      "id": "3",
+      "name": "kicker",
+      "bbox": [
+        84,
+        29,
+        520,
+        20
+      ],
+      "geometry": "rect",
+      "text": "C1 GSEA",
+      "textPreview": "C1 GSEA",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#5C6470",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "C1 GSEA"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "C1 GSEA",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#5C6470",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "C1 GSEA",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#5C6470",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dg7adsji",
+      "id": "4",
+      "name": "title",
+      "bbox": [
+        66,
+        74,
+        1060,
+        66
+      ],
+      "geometry": "rect",
+      "text": "Gene-set analysis reveals the neuronal program beneath the top genes",
+      "textPreview": "Gene-set analysis reveals the neuronal program beneath the top genes",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Aptos Display",
+        "color": "#222832",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Gene-set analysis reveals the neuronal program beneath the top genes"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Gene-set analysis reveals the neuronal program beneath the top genes",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Aptos Display",
+            "color": "#222832",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Gene-set analysis reveals the neuronal program beneath the top genes",
+              "fontSize": 34,
+              "typeface": "Aptos Display",
+              "color": "#222832",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ovahoza1",
+      "id": "5",
+      "name": "subtitle",
+      "bbox": [
+        68,
+        146,
+        1010,
+        26
+      ],
+      "geometry": "rect",
+      "text": "Synaptic and axon-guidance programs rise; cell-cycle programs fall.",
+      "textPreview": "Synaptic and axon-guidance programs rise; cell-cycle programs fall.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "color": "#5C6470",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Synaptic and axon-guidance programs rise; cell-cycle programs fall."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Synaptic and axon-guidance programs rise; cell-cycle programs fall.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#5C6470",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Synaptic and axon-guidance programs rise; cell-cycle programs fall.",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#5C6470",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vahoza1g",
+      "id": "6",
+      "name": "page-number",
+      "bbox": [
+        1168,
+        680,
+        44,
+        18
+      ],
+      "geometry": "rect",
+      "text": "10",
+      "textPreview": "10",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#5C6470",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "10",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#5C6470",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "10",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#5C6470",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6tovahoz",
+      "id": "7",
+      "name": "footer",
+      "bbox": [
+        66,
+        680,
+        360,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Netrin-1 RNA-seq | group meeting",
+      "textPreview": "Netrin-1 RNA-seq | group meeting",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#5C6470",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Netrin-1 RNA-seq | group meeting"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Netrin-1 RNA-seq | group meeting",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#5C6470",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Netrin-1 RNA-seq | group meeting",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#5C6470",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/0fepkzup",
+      "id": "8",
+      "bbox": [
+        56,
+        188,
+        570,
+        430
+      ],
+      "alt": "C1 GO BP GSEA",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "c1139fba-f1ea-46a2-aa41-428da5e8f039",
+        "contentType": "image/png",
+        "byteLength": 285528
+      }
+    },
+    {
+      "order": 9,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/p0bi9s36",
+      "id": "9",
+      "bbox": [
+        668,
+        188,
+        546,
+        430
+      ],
+      "alt": "C1 KEGG GSEA",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "9b5b5472-22be-43d4-ba88-2b95e87fd021",
+        "contentType": "image/png",
+        "byteLength": 234472
+      }
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q5o7qpg3",
+      "id": "10",
+      "name": "text",
+      "bbox": [
+        82,
+        632,
+        520,
+        22
+      ],
+      "geometry": "rect",
+      "text": "GO BP: 481 significant terms (255 activated / 226 suppressed)",
+      "textPreview": "GO BP: 481 significant terms (255 activated / 226 suppressed)",
+      "resolvedFontSize": 13.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13.51,
+        "typeface": "Aptos",
+        "color": "#5C6470",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "GO BP: 481 significant terms (255 activated / 226 suppressed)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "GO BP: 481 significant terms (255 activated / 226 suppressed)",
+          "resolvedTextStyle": {
+            "fontSize": 13.51,
+            "typeface": "Aptos",
+            "color": "#5C6470",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "GO BP: 481 significant terms (255 activated / 226 suppressed)",
+              "fontSize": 13.51,
+              "typeface": "Aptos",
+              "color": "#5C6470",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jqh0fepk",
+      "id": "11",
+      "name": "text",
+      "bbox": [
+        690,
+        632,
+        500,
+        22
+      ],
+      "geometry": "rect",
+      "text": "KEGG: 42 significant pathways (20 activated / 22 suppressed)",
+      "textPreview": "KEGG: 42 significant pathways (20 activated / 22 suppressed)",
+      "resolvedFontSize": 13.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13.51,
+        "typeface": "Aptos",
+        "color": "#5C6470",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "KEGG: 42 significant pathways (20 activated / 22 suppressed)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "KEGG: 42 significant pathways (20 activated / 22 suppressed)",
+          "resolvedTextStyle": {
+            "fontSize": 13.51,
+            "typeface": "Aptos",
+            "color": "#5C6470",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "KEGG: 42 significant pathways (20 activated / 22 suppressed)",
+              "fontSize": 13.51,
+              "typeface": "Aptos",
+              "color": "#5C6470",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,7 @@
+Visual QA
+Final PPTX: D:\Dropbox\Dropbox\RNAseq 2025\Time analysis\outputs\handmade_results_showcase_revised.pptx
+Slide count: 18
+Generated PNG previews for every slide and a montage.
+All scientific figures are embedded from local result PNG files.
+Speaker notes are present on every slide.
+Known caveat retained: 15v0 GO BP has 0 significant terms but 15v0 has 1 DEG and a mild KEGG/OXPHOS signal.

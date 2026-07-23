@@ -1,0 +1,485 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/s1x147",
+    "id": "s1x147",
+    "slide": 12,
+    "layoutId": "80067c56-590c-4472-bd84-a878118c64df",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "a3417d51-0a7b-4868-a35a-2bfe9a33303e",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#EEF3F7",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "80067c56-590c-4472-bd84-a878118c64df",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "a3417d51-0a7b-4868-a35a-2bfe9a33303e",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "a3417d51-0a7b-4868-a35a-2bfe9a33303e",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sneloj2t",
+      "id": "1",
+      "bbox": [
+        70,
+        38,
+        420,
+        22
+      ],
+      "geometry": "rect",
+      "text": "GENE-LEVEL DYNAMICS",
+      "textPreview": "GENE-LEVEL DYNAMICS",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#087F8C",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "GENE-LEVEL DYNAMICS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "GENE-LEVEL DYNAMICS",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#087F8C",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "GENE-LEVEL DYNAMICS",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#087F8C",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/32lszqtc",
+      "id": "2",
+      "bbox": [
+        70,
+        76,
+        900,
+        74
+      ],
+      "geometry": "rect",
+      "text": "Representative trajectories show pulse-like behavior and ROCK1 specificity",
+      "textPreview": "Representative trajectories show pulse-like behavior and ROCK1 specificity",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "fontSize": 34,
+        "typeface": "Aptos Display",
+        "color": "#102033",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Representative trajectories show pulse-like behavior and"
+          },
+          {
+            "index": 2,
+            "text": "ROCK1 specificity"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Representative trajectories show pulse-like behavior and ROCK1 specificity",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Aptos Display",
+            "color": "#102033",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Representative trajectories show pulse-like behavior and ROCK1 specificity",
+              "fontSize": 34,
+              "typeface": "Aptos Display",
+              "color": "#102033",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ahoza1gv",
+      "id": "3",
+      "bbox": [
+        68,
+        188,
+        564,
+        386
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/k3q5o7qp",
+      "id": "4",
+      "bbox": [
+        76,
+        196,
+        548,
+        370
+      ],
+      "alt": "Representative gene trajectories",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "2765b3aa-55f9-4a8b-99da-fd4fdefe16c9",
+        "contentType": "image/png",
+        "byteLength": 264312
+      }
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szqtcj6t",
+      "id": "5",
+      "bbox": [
+        682,
+        188,
+        516,
+        386
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/2x4nap4r",
+      "id": "6",
+      "bbox": [
+        690,
+        196,
+        500,
+        370
+      ],
+      "alt": "ROCK trajectories",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "9de5b803-7653-497e-bfe1-b2793ff05fdc",
+        "contentType": "image/png",
+        "byteLength": 181940
+      }
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/at47y1kr",
+      "id": "7",
+      "bbox": [
+        265,
+        600,
+        750,
+        42
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/loj2t83i",
+      "id": "8",
+      "bbox": [
+        292,
+        611,
+        696,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Rock1 is down at 5 min; Rock2 remains statistically unchanged.",
+      "textPreview": "Rock1 is down at 5 min; Rock2 remains statistically unchanged.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Aptos",
+        "color": "#102033",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Rock1 is down at 5 min; Rock2 remains statistically unchanged."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Rock1 is down at 5 min; Rock2 remains statistically unchanged.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Aptos",
+            "color": "#102033",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Rock1 is down at 5 min; Rock2 remains statistically unchanged.",
+              "fontSize": 18,
+              "typeface": "Aptos",
+              "color": "#102033",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w3m94fu1",
+      "id": "9",
+      "bbox": [
+        54,
+        686,
+        820,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Source: results/03_DEG trajectory figures",
+      "textPreview": "Source: results/03_DEG trajectory figures",
+      "resolvedFontSize": 10.51,
+      "resolvedTextStyle": {
+        "fontSize": 10.51,
+        "typeface": "Aptos",
+        "color": "#7B8794",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Source: results/03_DEG trajectory figures"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Source: results/03_DEG trajectory figures",
+          "resolvedTextStyle": {
+            "fontSize": 10.51,
+            "typeface": "Aptos",
+            "color": "#7B8794",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Source: results/03_DEG trajectory figures",
+              "fontSize": 10.51,
+              "typeface": "Aptos",
+              "color": "#7B8794",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/udg7adsj",
+      "id": "10",
+      "bbox": [
+        1172,
+        684,
+        50,
+        20
+      ],
+      "geometry": "rect",
+      "text": "12",
+      "textPreview": "12",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#7B8794",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "12"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "12",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#7B8794",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "12",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#7B8794",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

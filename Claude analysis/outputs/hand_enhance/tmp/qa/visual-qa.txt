@@ -1,0 +1,7 @@
+QA summary:
+Final PPTX: D:\Dropbox\Dropbox\RNAseq 2025\Claude analysis\Hand_enhanced.pptx
+Dated copy: D:\Dropbox\Dropbox\RNAseq 2025\Claude analysis\Hand_enhanced_2026-06-18.pptx
+Slides rendered: 26
+Preview PNGs and contact sheet generated.
+Original Hand.pptx was not overwritten.
+Known caveat: direct import of Hand.pptx failed due missing embedded Excel worksheet relationship; rebuilt enhanced copy instead.

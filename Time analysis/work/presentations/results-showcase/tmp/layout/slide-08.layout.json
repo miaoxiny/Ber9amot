@@ -1,0 +1,1429 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/5pkn43",
+    "id": "5pkn43",
+    "slide": 8,
+    "layoutId": "f6da9391-7cf3-48b4-8512-728511088328",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "0625e0f2-f3b9-4f0e-b6e7-70dfa5b2994c",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7FAFC",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "f6da9391-7cf3-48b4-8512-728511088328",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "0625e0f2-f3b9-4f0e-b6e7-70dfa5b2994c",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "0625e0f2-f3b9-4f0e-b6e7-70dfa5b2994c",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xs72x4na",
+      "id": "1",
+      "bbox": [
+        64,
+        34,
+        520,
+        24
+      ],
+      "geometry": "rect",
+      "text": "KEY 5-MIN GENES",
+      "textPreview": "KEY 5-MIN GENES",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#0B7285",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "KEY 5-MIN GENES"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "KEY 5-MIN GENES",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#0B7285",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "KEY 5-MIN GENES",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#0B7285",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q1orytsv",
+      "id": "2",
+      "bbox": [
+        64,
+        68,
+        980,
+        78
+      ],
+      "geometry": "rect",
+      "text": "Representative DEGs point to a bidirectional acute program",
+      "textPreview": "Representative DEGs point to a bidirectional acute program",
+      "resolvedFontSize": 35,
+      "resolvedTextStyle": {
+        "fontSize": 35,
+        "typeface": "Aptos Display",
+        "color": "#102033",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Representative DEGs point to a bidirectional acute program"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Representative DEGs point to a bidirectional acute program",
+          "resolvedTextStyle": {
+            "fontSize": 35,
+            "typeface": "Aptos Display",
+            "color": "#102033",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Representative DEGs point to a bidirectional acute program",
+              "fontSize": 35,
+              "typeface": "Aptos Display",
+              "color": "#102033",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fmlkjm1c",
+      "id": "3",
+      "bbox": [
+        64,
+        145,
+        980,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Guidance/signaling genes rise while IEG and RNA-processing genes fall.",
+      "textPreview": "Guidance/signaling genes rise while IEG and RNA-processing genes fall.",
+      "resolvedFontSize": 16.51,
+      "resolvedTextStyle": {
+        "fontSize": 16.51,
+        "typeface": "Aptos",
+        "color": "#5B6878",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Guidance/signaling genes rise while IEG and RNA-processing genes fall."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Guidance/signaling genes rise while IEG and RNA-processing genes fall.",
+          "resolvedTextStyle": {
+            "fontSize": 16.51,
+            "typeface": "Aptos",
+            "color": "#5B6878",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Guidance/signaling genes rise while IEG and RNA-processing genes fall.",
+              "fontSize": 16.51,
+              "typeface": "Aptos",
+              "color": "#5B6878",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8z25kb6x",
+      "id": "4",
+      "bbox": [
+        64,
+        182,
+        132,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#D97706",
+      "lineColor": "#D97706",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/wjudg7ad",
+      "id": "5",
+      "bbox": [
+        112,
+        206,
+        850,
+        394
+      ],
+      "text": "Gene | log2FC | padj | Module\nFos | -2.35 | 2.4e-3 | IEG suppression\nRock1 | -0.43 | 9.4e-6 | cytoskeleton\nSrsf5 | -0.31 | 4.5e-5 | splicing\nSnrnp70 | -0.27 | 1.2e-2 | splicing\nCntn2 | +0.25 | 1.4e-2 | axon guidance\nNos1 / Ryr3 | +0.32 / +0.47 | 3.5e-2 / 2.4e-2 | NO-calcium\nTln2 | +0.39 | 1.2e-2 | adhesion",
+      "textPreview": "Gene | log2FC | padj | Module | Fos | -2.35 | 2.4e-3 | IEG suppression | Rock1 | -0.43 | 9.4e-6 | cytoskeleton | Srsf5 | -0.31 | 4.5e-5 |...",
+      "rows": 8,
+      "cols": 4,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            112,
+            206,
+            212.5,
+            49.25
+          ],
+          "text": "Gene",
+          "textPreview": "Gene",
+          "fillColor": "#16324F",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Gene",
+              "resolvedTextStyle": {
+                "fontSize": 14,
+                "typeface": "Aptos",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Gene",
+                  "fontSize": 14,
+                  "typeface": "Aptos",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            324.5,
+            206,
+            212.5,
+            49.25
+          ],
+          "text": "log2FC",
+          "textPreview": "log2FC",
+          "fillColor": "#16324F",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "log2FC",
+              "resolvedTextStyle": {
+                "fontSize": 14,
+                "typeface": "Aptos",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "log2FC",
+                  "fontSize": 14,
+                  "typeface": "Aptos",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            537,
+            206,
+            212.5,
+            49.25
+          ],
+          "text": "padj",
+          "textPreview": "padj",
+          "fillColor": "#16324F",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "padj",
+              "resolvedTextStyle": {
+                "fontSize": 14,
+                "typeface": "Aptos",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "padj",
+                  "fontSize": 14,
+                  "typeface": "Aptos",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "column": 4,
+          "bbox": [
+            749.5,
+            206,
+            212.5,
+            49.25
+          ],
+          "text": "Module",
+          "textPreview": "Module",
+          "fillColor": "#16324F",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Module",
+              "resolvedTextStyle": {
+                "fontSize": 14,
+                "typeface": "Aptos",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Module",
+                  "fontSize": 14,
+                  "typeface": "Aptos",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            112,
+            255.25,
+            212.5,
+            49.25
+          ],
+          "text": "Fos",
+          "textPreview": "Fos",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Fos",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fos"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            324.5,
+            255.25,
+            212.5,
+            49.25
+          ],
+          "text": "-2.35",
+          "textPreview": "-2.35",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "-2.35",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "-2.35"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            537,
+            255.25,
+            212.5,
+            49.25
+          ],
+          "text": "2.4e-3",
+          "textPreview": "2.4e-3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "2.4e-3",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "2.4e-3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "column": 4,
+          "bbox": [
+            749.5,
+            255.25,
+            212.5,
+            49.25
+          ],
+          "text": "IEG suppression",
+          "textPreview": "IEG suppression",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "IEG suppression",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "IEG suppression"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            112,
+            304.5,
+            212.5,
+            49.25
+          ],
+          "text": "Rock1",
+          "textPreview": "Rock1",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Rock1",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Rock1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            324.5,
+            304.5,
+            212.5,
+            49.25
+          ],
+          "text": "-0.43",
+          "textPreview": "-0.43",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "-0.43",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "-0.43"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            537,
+            304.5,
+            212.5,
+            49.25
+          ],
+          "text": "9.4e-6",
+          "textPreview": "9.4e-6",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "9.4e-6",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "9.4e-6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 3,
+          "column": 4,
+          "bbox": [
+            749.5,
+            304.5,
+            212.5,
+            49.25
+          ],
+          "text": "cytoskeleton",
+          "textPreview": "cytoskeleton",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "cytoskeleton",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "cytoskeleton"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            112,
+            353.75,
+            212.5,
+            49.25
+          ],
+          "text": "Srsf5",
+          "textPreview": "Srsf5",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Srsf5",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Srsf5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            324.5,
+            353.75,
+            212.5,
+            49.25
+          ],
+          "text": "-0.31",
+          "textPreview": "-0.31",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "-0.31",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "-0.31"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            537,
+            353.75,
+            212.5,
+            49.25
+          ],
+          "text": "4.5e-5",
+          "textPreview": "4.5e-5",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "4.5e-5",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "4.5e-5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "row": 4,
+          "column": 4,
+          "bbox": [
+            749.5,
+            353.75,
+            212.5,
+            49.25
+          ],
+          "text": "splicing",
+          "textPreview": "splicing",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "splicing",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "splicing"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "row": 5,
+          "column": 1,
+          "bbox": [
+            112,
+            403,
+            212.5,
+            49.25
+          ],
+          "text": "Snrnp70",
+          "textPreview": "Snrnp70",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Snrnp70",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Snrnp70"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "row": 5,
+          "column": 2,
+          "bbox": [
+            324.5,
+            403,
+            212.5,
+            49.25
+          ],
+          "text": "-0.27",
+          "textPreview": "-0.27",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "-0.27",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "-0.27"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "row": 5,
+          "column": 3,
+          "bbox": [
+            537,
+            403,
+            212.5,
+            49.25
+          ],
+          "text": "1.2e-2",
+          "textPreview": "1.2e-2",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "1.2e-2",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "1.2e-2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "row": 5,
+          "column": 4,
+          "bbox": [
+            749.5,
+            403,
+            212.5,
+            49.25
+          ],
+          "text": "splicing",
+          "textPreview": "splicing",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "splicing",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "splicing"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "row": 6,
+          "column": 1,
+          "bbox": [
+            112,
+            452.25,
+            212.5,
+            49.25
+          ],
+          "text": "Cntn2",
+          "textPreview": "Cntn2",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Cntn2",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Cntn2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "row": 6,
+          "column": 2,
+          "bbox": [
+            324.5,
+            452.25,
+            212.5,
+            49.25
+          ],
+          "text": "+0.25",
+          "textPreview": "+0.25",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "+0.25",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "+0.25"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "row": 6,
+          "column": 3,
+          "bbox": [
+            537,
+            452.25,
+            212.5,
+            49.25
+          ],
+          "text": "1.4e-2",
+          "textPreview": "1.4e-2",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "1.4e-2",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "1.4e-2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "row": 6,
+          "column": 4,
+          "bbox": [
+            749.5,
+            452.25,
+            212.5,
+            49.25
+          ],
+          "text": "axon guidance",
+          "textPreview": "axon guidance",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "axon guidance",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "axon guidance"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "row": 7,
+          "column": 1,
+          "bbox": [
+            112,
+            501.5,
+            212.5,
+            49.25
+          ],
+          "text": "Nos1 / Ryr3",
+          "textPreview": "Nos1 / Ryr3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Nos1 / Ryr3",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Nos1 / Ryr3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "row": 7,
+          "column": 2,
+          "bbox": [
+            324.5,
+            501.5,
+            212.5,
+            49.25
+          ],
+          "text": "+0.32 / +0.47",
+          "textPreview": "+0.32 / +0.47",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "+0.32 / +0.47",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "+0.32 / +0.47"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "row": 7,
+          "column": 3,
+          "bbox": [
+            537,
+            501.5,
+            212.5,
+            49.25
+          ],
+          "text": "3.5e-2 / 2.4e-2",
+          "textPreview": "3.5e-2 / 2.4e-2",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "3.5e-2 / 2.4e-2",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "3.5e-2 / 2.4e-2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "row": 7,
+          "column": 4,
+          "bbox": [
+            749.5,
+            501.5,
+            212.5,
+            49.25
+          ],
+          "text": "NO-calcium",
+          "textPreview": "NO-calcium",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "NO-calcium",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "NO-calcium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "row": 8,
+          "column": 1,
+          "bbox": [
+            112,
+            550.75,
+            212.5,
+            49.25
+          ],
+          "text": "Tln2",
+          "textPreview": "Tln2",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Tln2",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Tln2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "row": 8,
+          "column": 2,
+          "bbox": [
+            324.5,
+            550.75,
+            212.5,
+            49.25
+          ],
+          "text": "+0.39",
+          "textPreview": "+0.39",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "+0.39",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "+0.39"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "row": 8,
+          "column": 3,
+          "bbox": [
+            537,
+            550.75,
+            212.5,
+            49.25
+          ],
+          "text": "1.2e-2",
+          "textPreview": "1.2e-2",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "1.2e-2",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "1.2e-2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "row": 8,
+          "column": 4,
+          "bbox": [
+            749.5,
+            550.75,
+            212.5,
+            49.25
+          ],
+          "text": "adhesion",
+          "textPreview": "adhesion",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "adhesion",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "adhesion"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qtcj6tov",
+      "id": "6",
+      "bbox": [
+        1008,
+        288,
+        150,
+        190
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E6F4F1",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/je9cvixc",
+      "id": "7",
+      "bbox": [
+        1030,
+        314,
+        106,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Pattern",
+      "textPreview": "Pattern",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "Aptos",
+        "color": "#0B7285",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Pattern"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Pattern",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Aptos",
+            "color": "#0B7285",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Pattern",
+              "fontSize": 20,
+              "typeface": "Aptos",
+              "color": "#0B7285",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8v6psfil",
+      "id": "8",
+      "bbox": [
+        1028,
+        370,
+        110,
+        64
+      ],
+      "geometry": "rect",
+      "text": "This table becomes the gene-level bridge into pathway analysis.",
+      "textPreview": "This table becomes the gene-level bridge into pathway analysis.",
+      "resolvedFontSize": 15.51,
+      "resolvedTextStyle": {
+        "fontSize": 15.51,
+        "typeface": "Aptos",
+        "color": "#102033",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "This table"
+          },
+          {
+            "index": 2,
+            "text": "becomes the"
+          },
+          {
+            "index": 3,
+            "text": "gene-level"
+          },
+          {
+            "index": 4,
+            "text": "bridge into"
+          },
+          {
+            "index": 5,
+            "text": "pathway"
+          },
+          {
+            "index": 6,
+            "text": "analysis."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "This table becomes the gene-level bridge into pathway analysis.",
+          "resolvedTextStyle": {
+            "fontSize": 15.51,
+            "typeface": "Aptos",
+            "color": "#102033",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "This table becomes the gene-level bridge into pathway analysis.",
+              "fontSize": 15.51,
+              "typeface": "Aptos",
+              "color": "#102033",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xczed8v6",
+      "id": "9",
+      "bbox": [
+        64,
+        686,
+        900,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Source: DEG_5v0_ALL.csv and handmade slide 7",
+      "textPreview": "Source: DEG_5v0_ALL.csv and handmade slide 7",
+      "resolvedFontSize": 10.51,
+      "resolvedTextStyle": {
+        "fontSize": 10.51,
+        "typeface": "Aptos",
+        "color": "#778395",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Source: DEG_5v0_ALL.csv and handmade slide 7"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Source: DEG_5v0_ALL.csv and handmade slide 7",
+          "resolvedTextStyle": {
+            "fontSize": 10.51,
+            "typeface": "Aptos",
+            "color": "#778395",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Source: DEG_5v0_ALL.csv and handmade slide 7",
+              "fontSize": 10.51,
+              "typeface": "Aptos",
+              "color": "#778395",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/donyd0z6",
+      "id": "10",
+      "bbox": [
+        1168,
+        684,
+        48,
+        22
+      ],
+      "geometry": "rect",
+      "text": "08",
+      "textPreview": "08",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#778395",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "08"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "08",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#778395",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "08",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#778395",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

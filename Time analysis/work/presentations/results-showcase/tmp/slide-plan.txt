@@ -1,0 +1,30 @@
+Deck: Results-focused revision based on handmade.pptx
+Language: English
+Purpose: scientific results presentation with cleaner layout and smoother logic, not full PhD defense narrative.
+Mode: create, because handmade.pptx has an incomplete embedded Excel reference and cannot be safely imported for precise in-place editing.
+
+Style:
+- 16:9, 1280 x 720 px.
+- Palette: light scientific background #F7FAFC, ink #102033, teal #0B7285, navy #16324F, accent amber #D97706, muted gray #5B6878, pale teal #E6F4F1.
+- Fonts: Aptos Display for headings; Aptos for body, tables and captions.
+- Result pages use one conclusion-style title, one large figure, and one narrow interpretation rail.
+
+Slide structure:
+1. Results storyline
+2. Experimental contrasts and analysis map
+3. Filtering and sample QC
+4. Replicate structure and corrected PCA
+5. Neuron-dominant culture composition
+6. DEG overview across contrasts
+7. Five-minute volcano plot
+8. Key 5-min DEGs and modules
+9. DEG heatmap
+10. LRT identifies 19 time-varying genes
+11. LRT trajectory plot
+12. Representative trajectories and ROCK specificity
+13. 5-min GO BP enrichment
+14. 5-min KEGG enrichment
+15. 15v5 GO BP reversal
+16. Mirror-scatter quantifies reversal
+17. 15v0 baseline return and OXPHOS caveat
+18. Integrated model and take-home

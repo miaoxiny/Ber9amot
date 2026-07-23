@@ -1,0 +1,31 @@
+Source deck:
+- handmade.pptx, 16-slide user-provided initial draft. Used to identify existing slide content, order, and missing sections.
+
+Primary local result sources:
+- THESIS_writing_pack.md: study design, methods, validated quantitative summary and interpretation.
+- results/01_QC/*.png: library size, detected genes, correlation heatmap and PCA figures.
+- results/02_composition/07_celltype_marker_TPM.png: cell-type marker expression.
+- results/03_DEG/DEG_*csv: DEG counts and representative gene statistics.
+- results/03_DEG/04_volcano_5v0_v6.png: 5v0 volcano plot.
+- results/03_DEG/06_DEG_heatmap_5v0_v4.png: DEG heatmap.
+- results/objects/LRT_19_trajectory_VSTzscore_v1.png: 19 LRT gene trajectory figure.
+- results/03_DEG/05_trajectory_6genes.png: representative gene trajectory figure.
+- results/03_DEG/05b_rock1_vs_rock2_trajectory.png: ROCK1 versus ROCK2 trajectory.
+- results/04_GSEA/GSEA_*csv and matching barplot PNGs: GO BP and KEGG enrichment summaries.
+- results/04_GSEA/13_GSEA_mirror_scatter_5v0_vs_15v5.png: mirror-scatter pathway reversal.
+
+Verified key values:
+- 5v0 DEG: 32 relaxed, 5 strict, 14 up and 18 down.
+- 15v5 DEG: 6 relaxed, 2 strict, all up.
+- 15v0 DEG: 1 significant gene.
+- LRT: 19 time-varying genes.
+- 5v0 GO BP: 313 significant terms, 285 up and 28 down.
+- 15v5 GO BP: 295 significant terms, 31 up and 264 down.
+- 15v0 GO BP: 0 significant terms.
+- 5v0 KEGG: 14 significant pathways; Axon guidance top positive pathway.
+- Mirror GSEA: 603 shared pathways, NES correlation r = -0.991.
+
+Terminology decisions:
+- Use Vehicle, 5 min Netrin-1 and 15 min Netrin-1 consistently.
+- Use 5v0, 15v0 and 15v5 only after defining them.
+- LRT trajectory y-axis: Z-score of VST-normalized expression / row-scaled VST expression.

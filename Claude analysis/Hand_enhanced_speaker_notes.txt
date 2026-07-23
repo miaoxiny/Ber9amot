@@ -1,0 +1,77 @@
+Slide 1
+开场：这版是安全兼容版，内容与增强版一致，但底层对象更保守，避免 PowerPoint 打开时要求修复。重点按 C1、C2、cell-type interpretation 三条线讲。
+
+Slide 2
+这页是总览。强调 C1 是小而聚焦的 Netrin 响应，C2 是规模大得多的发育/时间背景。C1 的 GSEA 是双向平衡，C2 更偏 activation。
+
+Slide 3
+方法页。过滤后 14,148 genes，DESeq2 设计是 batch + condition。批次校正只用于 PCA 和 heatmap 展示，不用于统计。GSEA 用 Wald statistic 排序。
+
+Slide 4
+QC 相关性页。样本之间相关性很高，没有 outlier；因此可以进入差异表达和通路分析。
+
+Slide 5
+PCA 页。校正前后对比说明 batch effect 存在，所以可视化需要 correction；统计仍然在 raw counts 上做。
+
+Slide 6
+进入结果一：主对比 C1，也就是 Netrin 处理效应。
+
+Slide 7
+火山图页。C1 的响应很聚焦：strict 25 个，7 上调 18 下调；relaxed 66 个。C3 是最显著上调，Olig1 是最显著下调。
+
+Slide 8
+单基因页。上调模块偏 immune/microglial，下调模块偏 Olig/progenitor/glial。主动承认 bulk mixed culture 的细胞来源问题。
+
+Slide 9
+热图和 trajectory 合并页。左边看两模块结构；右边看表达轨迹。重点：P1=0，不能简单说 Netrin 加速成熟。
+
+Slide 10
+GSEA 是 C1 的核心结果。全排序显示神经元通路协同变化：synapse、axon guidance、exocytosis 上调；cell cycle 和 DNA replication 下调。
+
+Slide 11
+GSEA 曲线页。强调 axon guidance 是 Netrin 的经典通路，在 GO 和 KEGG 都显著；synapse assembly 同方向；cell cycle 相关通路被抑制。
+
+Slide 12
+解释模型页。左边是神经元通路激活，右边是 cell-cycle/progenitor 抑制。最后一句：这是 bidirectional tuning，不是 broad developmental acceleration。
+
+Slide 13
+进入结果二：C2 发育/时间背景。
+
+Slide 14
+C2 火山图。STRICT 1495，RELAXED 4636，远大于 C1。Olig1 在 C2 上调但在 C1 下调，说明 Netrin 不是简单顺着发育方向推进。
+
+Slide 15
+C2 top hits 页。C2 规模很大，是 24 小时发育/背景。混合培养导致细胞组成变化可能贡献很多 DEG。
+
+Slide 16
+C2 GO ORA 页。上调端偏神经成熟、膜电位、突触、离子通道；下调端偏免疫反应、趋化、吞噬。
+
+Slide 17
+C2 KEGG ORA 页。上调端是神经递质受体、突触、Ca-cAMP 等；下调端有感染、补体、细胞因子等免疫机制。
+
+Slide 18
+C2 heatmap 页。DIV1 单独分开，DIV2 和 DIV2+Netrin 更近；发育差异远大于 Netrin 处理效应。
+
+Slide 19
+C2 GSEA 页。DIV2 富集 mature neuronal programs；DIV1 富集 chromatin remodeling、ribosome biogenesis、DNA repair 等。
+
+Slide 20
+进入结果三：细胞类型 marker 分析。这部分是解释 bulk signal 的关键。
+
+Slide 21
+细胞类型背景页。说明这是 mixed culture，bulk RNA-seq 不能直接分配细胞来源。marker 分析用于解释信号来源，但不是直接测量细胞数量。
+
+Slide 22
+C2 marker 页。宏胶质/OPC 和 astrocyte marker 上升，microglia marker 下降，神经元 marker 相对稳定。C2 的许多 DEG 很可能包含细胞组成变化。
+
+Slide 23
+C1 marker 页。microglia effect genes 上升，但身份 marker 只是趋势且误差大。因此最好说 consistent with microglial activation，不要说 Netrin 直接激活 microglia。
+
+Slide 24
+工作模型页。最可信的是神经元直接轴：受体表达丰富，axon guidance/synapse 通路上调。免疫轴是真实信号，但来源和因果有限。
+
+Slide 25
+跨对比整合页。C1 的 GO/KEGG 激活和抑制大约平衡；C2 明显偏 activation。结论：发育是大规模开启神经程序，Netrin 是双向微调。
+
+Slide 26
+最后总结页。建议把讨论引向下一步：单细胞或分选解决来源，IHC 验证 microglia 和组成变化，DCC/UNC5 扰动测试直接依赖，polymyxin B/TLR inhibitor 控制排除免疫污染。

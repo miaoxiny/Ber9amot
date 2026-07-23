@@ -1,0 +1,650 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/zkhrv6",
+    "id": "zkhrv6",
+    "slide": 5,
+    "layoutId": "80067c56-590c-4472-bd84-a878118c64df",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "a3417d51-0a7b-4868-a35a-2bfe9a33303e",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F6F8FA",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "80067c56-590c-4472-bd84-a878118c64df",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "a3417d51-0a7b-4868-a35a-2bfe9a33303e",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "a3417d51-0a7b-4868-a35a-2bfe9a33303e",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0z61032",
+      "id": "1",
+      "bbox": [
+        72,
+        36,
+        420,
+        22
+      ],
+      "geometry": "rect",
+      "text": "CULTURE COMPOSITION",
+      "textPreview": "CULTURE COMPOSITION",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#087F8C",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CULTURE COMPOSITION"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CULTURE COMPOSITION",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#087F8C",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CULTURE COMPOSITION",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#087F8C",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/29gr2p8n",
+      "id": "2",
+      "bbox": [
+        72,
+        72,
+        980,
+        76
+      ],
+      "geometry": "rect",
+      "text": "Marker expression supports neuron-dominant, composition-stable cultures",
+      "textPreview": "Marker expression supports neuron-dominant, composition-stable cultures",
+      "resolvedFontSize": 35,
+      "resolvedTextStyle": {
+        "fontSize": 35,
+        "typeface": "Aptos Display",
+        "color": "#102033",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Marker expression supports neuron-dominant,"
+          },
+          {
+            "index": 2,
+            "text": "composition-stable cultures"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Marker expression supports neuron-dominant, composition-stable cultures",
+          "resolvedTextStyle": {
+            "fontSize": 35,
+            "typeface": "Aptos Display",
+            "color": "#102033",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Marker expression supports neuron-dominant, composition-stable cultures",
+              "fontSize": 35,
+              "typeface": "Aptos Display",
+              "color": "#102033",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vu9knih4",
+      "id": "3",
+      "bbox": [
+        72,
+        148,
+        930,
+        28
+      ],
+      "geometry": "rect",
+      "text": "The transcriptomic response is not explained by a visible cell-composition shift.",
+      "textPreview": "The transcriptomic response is not explained by a visible cell-composition shift.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#5B6878",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The transcriptomic response is not explained by a visible cell-composition shift."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The transcriptomic response is not explained by a visible cell-composition shift.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#5B6878",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The transcriptomic response is not explained by a visible cell-composition shift.",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#5B6878",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/knih4byh",
+      "id": "4",
+      "bbox": [
+        72,
+        184,
+        118,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#D97706",
+      "lineColor": "#D97706",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8bat47y",
+      "id": "5",
+      "bbox": [
+        88,
+        196,
+        796,
+        436
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/7mp0bi9s",
+      "id": "6",
+      "bbox": [
+        96,
+        204,
+        780,
+        420
+      ],
+      "alt": "Cell marker TPM",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "47bad8f1-5dd1-46cd-a6ae-37a8ae1e0bd5",
+        "contentType": "image/png",
+        "byteLength": 221561
+      }
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v6psfil0",
+      "id": "7",
+      "bbox": [
+        940,
+        270,
+        220,
+        246
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E3F4F1",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kre1w7mp",
+      "id": "8",
+      "bbox": [
+        970,
+        300,
+        160,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Key readout",
+      "textPreview": "Key readout",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "Aptos",
+        "color": "#087F8C",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Key readout"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Key readout",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Aptos",
+            "color": "#087F8C",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Key readout",
+              "fontSize": 22,
+              "typeface": "Aptos",
+              "color": "#087F8C",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dcbulwva",
+      "id": "9",
+      "bbox": [
+        970,
+        354,
+        160,
+        110
+      ],
+      "geometry": "rect",
+      "text": "- Neuronal markers dominate.\n- Glial/endothelial markers remain low.\n- Conditions are nearly overlapping.",
+      "textPreview": "- Neuronal markers dominate. | - Glial/endothelial markers remain low. | - Conditions are nearly overlapping.",
+      "resolvedFontSize": 15.51,
+      "resolvedTextStyle": {
+        "fontSize": 15.51,
+        "typeface": "Aptos",
+        "color": "#102033",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "- Neuronal markers"
+          },
+          {
+            "index": 2,
+            "text": "dominate."
+          },
+          {
+            "index": 3,
+            "text": "- Glial/endothelial"
+          },
+          {
+            "index": 4,
+            "text": "markers remain low."
+          },
+          {
+            "index": 5,
+            "text": "- Conditions are"
+          },
+          {
+            "index": 6,
+            "text": "nearly overlapping."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "- Neuronal markers dominate.",
+          "resolvedTextStyle": {
+            "fontSize": 15.51,
+            "typeface": "Aptos",
+            "color": "#102033",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- Neuronal markers dominate.",
+              "fontSize": 15.51,
+              "typeface": "Aptos",
+              "color": "#102033",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "- Glial/endothelial markers remain low.",
+          "resolvedTextStyle": {
+            "fontSize": 15.51,
+            "typeface": "Aptos",
+            "color": "#102033",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- Glial/endothelial markers remain low.",
+              "fontSize": 15.51,
+              "typeface": "Aptos",
+              "color": "#102033",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "- Conditions are nearly overlapping.",
+          "resolvedTextStyle": {
+            "fontSize": 15.51,
+            "typeface": "Aptos",
+            "color": "#102033",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- Conditions are nearly overlapping.",
+              "fontSize": 15.51,
+              "typeface": "Aptos",
+              "color": "#102033",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lszqtcj6",
+      "id": "10",
+      "bbox": [
+        54,
+        686,
+        820,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Source: results/02_composition",
+      "textPreview": "Source: results/02_composition",
+      "resolvedFontSize": 10.51,
+      "resolvedTextStyle": {
+        "fontSize": 10.51,
+        "typeface": "Aptos",
+        "color": "#7B8794",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Source: results/02_composition"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Source: results/02_composition",
+          "resolvedTextStyle": {
+            "fontSize": 10.51,
+            "typeface": "Aptos",
+            "color": "#7B8794",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Source: results/02_composition",
+              "fontSize": 10.51,
+              "typeface": "Aptos",
+              "color": "#7B8794",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s72x4nap",
+      "id": "11",
+      "bbox": [
+        1172,
+        684,
+        50,
+        20
+      ],
+      "geometry": "rect",
+      "text": "05",
+      "textPreview": "05",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#7B8794",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "05"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "05",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#7B8794",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "05",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#7B8794",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

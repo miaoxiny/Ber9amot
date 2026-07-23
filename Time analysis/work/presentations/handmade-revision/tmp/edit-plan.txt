@@ -1,0 +1,24 @@
+Mode: create, using handmade.pptx as the content source and the project result files as authoritative data/figure sources.
+
+Reason for create mode:
+The source handmade.pptx has an incomplete embedded Excel workbook reference that prevents reliable import through the presentation API. The revised deck is therefore rebuilt as a clean, editable deck while preserving and improving the scientific content.
+
+Revision goals:
+- Make the style unified for a PhD defense: consistent palette, typography, title system, footers and scientific framing.
+- Reorder the material into a question-to-evidence arc.
+- Add missing defense content: central claim, biological gap, experimental design, analysis logic, interpretation strategy, model, limitations and next experiments.
+- Strengthen the LRT section by adding a slide that explains the LRT model and the proper trajectory y-axis, followed by the 19-gene VST z-score trajectory figure.
+- Keep every major number traceable to local result files.
+
+Final planned structure:
+1. Central claim and roadmap
+2. Biological context
+3. Thesis question
+4. Experimental design
+5. Analysis workflow
+6-9. QC and culture composition
+10-14. DEG evidence
+15-18. LRT and gene trajectory evidence
+19-24. GSEA evidence and reversal
+25-26. Integrated evidence and model
+27-30. Significance, limitations, next experiments and final take-home

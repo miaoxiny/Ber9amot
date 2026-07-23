@@ -1,0 +1,146 @@
+{"kind":"slide","id":"sl/7q75bb","slide":1,"title":"RESULTS STORYLINE","textShapes":14}
+{"kind":"textbox","id":"sh/ed8bat47","slide":1,"textChars":17,"textLines":1}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":1,"textChars":77,"textLines":1}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":1,"textChars":100,"textLines":1}
+{"kind":"shape","id":"sh/36hcrmhk","slide":1,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/eloj2t83","slide":1,"bbox":[108,252,220,150]}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":1,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":1,"textChars":17,"textLines":1}
+{"kind":"shape","id":"sh/7adsji5s","slide":1,"bbox":[394,252,220,150]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":1,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":1,"textChars":22,"textLines":1}
+{"kind":"shape","id":"sh/x4nap4r6","slide":1,"bbox":[680,252,220,150]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":1,"textChars":3,"textLines":1}
+{"kind":"textbox","id":"sh/fyxobm58","slide":1,"textChars":15,"textLines":1}
+{"kind":"shape","id":"sh/8v6psfil","slide":1,"bbox":[966,252,220,150]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":1,"textChars":10,"textLines":1}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":1,"textChars":26,"textLines":1}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":1,"textChars":160,"textLines":1}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":1,"textChars":30,"textLines":1}
+{"kind":"textbox","id":"sh/1gvy90je","slide":1,"textChars":2,"textLines":1}
+{"kind":"notes","id":"nt/7q75bb","slide":1,"text":"Open with the result, not the methods. This deck is organized around the evid..."}
+{"kind":"slide","id":"sl/m3booz","slide":2,"title":"ANALYSIS MAP","textShapes":23}
+{"kind":"textbox","id":"sh/4vmtwra5","slide":2,"textChars":12,"textLines":1}
+{"kind":"textbox","id":"sh/bat47y1k","slide":2,"textChars":72,"textLines":1}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":2,"textChars":73,"textLines":1}
+{"kind":"shape","id":"sh/tsvu9kni","slide":2,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/47y1kre1","slide":2,"bbox":[90,246,170,112]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":2,"textChars":7,"textLines":1}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":2,"textChars":11,"textLines":1}
+{"kind":"textbox","id":"sh/twra5gbq","slide":2,"textChars":1,"textLines":1}
+{"kind":"shape","id":"sh/4byhgn29","slide":2,"bbox":[286,246,170,112]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":2,"textChars":5,"textLines":1}
+{"kind":"textbox","id":"sh/bq1oryts","slide":2,"textChars":14,"textLines":1}
+{"kind":"textbox","id":"sh/4byhgn29","slide":2,"textChars":1,"textLines":1}
+{"kind":"shape","id":"sh/twra5gbq","slide":2,"bbox":[482,246,170,112]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":2,"textChars":6,"textLines":1}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":2,"textChars":14,"textLines":1}
+{"kind":"textbox","id":"sh/4nap4r65","slide":2,"textChars":1,"textLines":1}
+{"kind":"shape","id":"sh/t83itgfm","slide":2,"bbox":[678,246,170,112]}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":2,"textChars":3,"textLines":1}
+{"kind":"textbox","id":"sh/bat47y1k","slide":2,"textChars":16,"textLines":1}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":2,"textChars":1,"textLines":1}
+{"kind":"shape","id":"sh/at47y1kr","slide":2,"bbox":[874,246,170,112]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":2,"textChars":4,"textLines":1}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":2,"textChars":17,"textLines":1}
+{"kind":"textbox","id":"sh/32lszqtc","slide":2,"textChars":1,"textLines":1}
+{"kind":"shape","id":"sh/ahoza1gv","slide":2,"bbox":[1070,246,170,112]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":2,"textChars":4,"textLines":1}
+{"kind":"textbox","id":"sh/sneloj2t","slide":2,"textChars":17,"textLines":1}
+{"kind":"shape","id":"sh/3q5o7qpg","slide":2,"bbox":[158,488,964,72]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":2,"textChars":124,"textLines":1}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":2,"textChars":58,"textLines":1}
+{"kind":"textbox","id":"sh/dsji5sne","slide":2,"textChars":2,"textLines":1}
+{"kind":"notes","id":"nt/m3booz","slide":2,"text":"Keep this concise. It replaces several scattered method statements from the h..."}
+{"kind":"slide","id":"sl/61sm2f","slide":3,"title":"FILTERING AND SAMPLE QC","textShapes":6}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":3,"textChars":23,"textLines":1}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":3,"textChars":61,"textLines":1}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":3,"textChars":81,"textLines":1}
+{"kind":"shape","id":"sh/8nqxs72x","slide":3,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/18jqh0fe","slide":3,"bbox":[72,214,516,326]}
+{"kind":"shape","id":"sh/j2t83itg","slide":3,"bbox":[640,214,516,326]}
+{"kind":"shape","id":"sh/1cfa9w3m","slide":3,"bbox":[320,570,640,50]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":3,"textChars":88,"textLines":1}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":3,"textChars":42,"textLines":1}
+{"kind":"textbox","id":"sh/je9cvixc","slide":3,"textChars":2,"textLines":1}
+{"kind":"image","id":"im/zidonyd0","slide":3,"name":"","alt":"Library size QC","bbox":[80,222,500,310]}
+{"kind":"image","id":"im/lszqtcj6","slide":3,"name":"","alt":"Detected gene QC","bbox":[648,222,500,310]}
+{"kind":"notes","id":"nt/61sm2f","slide":3,"text":"This combines handmade filtering with the two QC plots so the audience sees b..."}
+{"kind":"slide","id":"sl/a0m6zo","slide":4,"title":"REPLICATE AND TIMEPOINT STRUCTURE","textShapes":5}
+{"kind":"textbox","id":"sh/dg7adsji","slide":4,"textChars":33,"textLines":1}
+{"kind":"textbox","id":"sh/6tovahoz","slide":4,"textChars":77,"textLines":1}
+{"kind":"textbox","id":"sh/vahoza1g","slide":4,"textChars":78,"textLines":1}
+{"kind":"shape","id":"sh/onyd0z61","slide":4,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":4,"bbox":[78,202,472,386]}
+{"kind":"shape","id":"sh/z25kb6xk","slide":4,"bbox":[618,202,556,386]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":4,"textChars":21,"textLines":1}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":4,"textChars":2,"textLines":1}
+{"kind":"image","id":"im/7mp0bi9s","slide":4,"name":"","alt":"Sample correlation heatmap","bbox":[86,210,456,370]}
+{"kind":"image","id":"im/l0rqd4vm","slide":4,"name":"","alt":"PCA after replicate correction","bbox":[626,210,540,370]}
+{"kind":"notes","id":"nt/a0m6zo","slide":4,"text":"State clearly that replicate is modeled statistically; corrected PCA is only ..."}
+{"kind":"slide","id":"sl/daa76y","slide":5,"title":"CULTURE COMPOSITION","textShapes":7}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":5,"textChars":19,"textLines":1}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":5,"textChars":71,"textLines":1}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":5,"textChars":78,"textLines":1}
+{"kind":"shape","id":"sh/hcrmhk3q","slide":5,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/orytsvu9","slide":5,"bbox":[82,198,776,432]}
+{"kind":"shape","id":"sh/al87ed8b","slide":5,"bbox":[902,264,234,238]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":5,"textChars":14,"textLines":1}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":5,"textChars":120,"textLines":3}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":5,"textChars":30,"textLines":1}
+{"kind":"textbox","id":"sh/vu9knih4","slide":5,"textChars":2,"textLines":1}
+{"kind":"image","id":"im/adsji5sn","slide":5,"name":"","alt":"Cell marker TPM plot","bbox":[90,206,760,416]}
+{"kind":"notes","id":"nt/daa76y","slide":5,"text":"This slide preserves handmade slide 4 but makes the conclusion more compact."}
+{"kind":"slide","id":"sl/7vm6e3","slide":6,"title":"DEG OVERVIEW","textShapes":6}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":6,"textChars":12,"textLines":1}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":6,"textChars":53,"textLines":1}
+{"kind":"textbox","id":"sh/y90je9cv","slide":6,"textChars":80,"textLines":1}
+{"kind":"shape","id":"sh/58z25kb6","slide":6,"bbox":[64,182,132,4]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":6,"textChars":112,"textLines":1}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":6,"textChars":42,"textLines":1}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":6,"textChars":2,"textLines":1}
+{"kind":"table","id":"tb/tsvu9kni","slide":6,"name":"","rows":5,"cols":5,"preview":"Contrast | Question | Relaxed | Strict | Direction","bbox":[118,226,1044,270]}
+{"kind":"notes","id":"nt/7vm6e3","slide":6,"text":"This cleans up the DEG table and gives it one interpretation."}
+{"kind":"slide","id":"sl/28i564","slide":7,"title":"5-MIN DIFFERENTIAL EXPRESSION","textShapes":7}
+{"kind":"textbox","id":"sh/83itgfml","slide":7,"textChars":29,"textLines":1}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":7,"textChars":74,"textLines":1}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":7,"textChars":49,"textLines":1}
+{"kind":"shape","id":"sh/x0nuxc3y","slide":7,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/4fu18jqh","slide":7,"bbox":[70,190,776,446]}
+{"kind":"shape","id":"sh/m94fu18j","slide":7,"bbox":[884,236,278,316]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":7,"textChars":19,"textLines":1}
+{"kind":"textbox","id":"sh/4r65wjud","slide":7,"textChars":114,"textLines":5}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":7,"textChars":44,"textLines":1}
+{"kind":"textbox","id":"sh/za1gvy90","slide":7,"textChars":2,"textLines":1}
+{"kind":"image","id":"im/ytsvu9kn","slide":7,"name":"","alt":"5v0 volcano plot","bbox":[78,198,760,430]}
+{"kind":"notes","id":"nt/28i564","slide":7,"text":"This corresponds to handmade slide 6, but with a conclusion-style title and a..."}
+{"kind":"slide","id":"sl/5pkn43","slide":8,"title":"KEY 5-MIN GENES","textShapes":7}
+{"kind":"textbox","id":"sh/xs72x4na","slide":8,"textChars":15,"textLines":1}
+{"kind":"textbox","id":"sh/q1orytsv","slide":8,"textChars":58,"textLines":1}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":8,"textChars":70,"textLines":1}
+{"kind":"shape","id":"sh/8z25kb6x","slide":8,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/qtcj6tov","slide":8,"bbox":[1008,288,150,190]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":8,"textChars":7,"textLines":1}
+{"kind":"textbox","id":"sh/8v6psfil","slide":8,"textChars":63,"textLines":1}
+{"kind":"textbox","id":"sh/xczed8v6","slide":8,"textChars":44,"textLines":1}
+{"kind":"textbox","id":"sh/donyd0z6","slide":8,"textChars":2,"textLines":1}
+{"kind":"table","id":"tb/wjudg7ad","slide":8,"name":"","rows":8,"cols":4,"preview":"Gene | log2FC | padj | Module","bbox":[112,206,850,394]}
+{"kind":"notes","id":"nt/5pkn43","slide":8,"text":"This table is intentionally compact and readable at presentation scale."}
+{"kind":"slide","id":"sl/c1n7jn","slide":9,"title":"5-MIN DEG HEATMAP","textShapes":7}
+{"kind":"textbox","id":"sh/vixczed8","slide":9,"textChars":17,"textLines":1}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":9,"textChars":55,"textLines":1}
+{"kind":"textbox","id":"sh/donyd0z6","slide":9,"textChars":64,"textLines":1}
+{"kind":"shape","id":"sh/6psfil0r","slide":9,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/val87ed8","slide":9,"bbox":[162,194,736,446]}
+{"kind":"shape","id":"sh/dcbulwva","slide":9,"bbox":[930,264,222,226]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":9,"textChars":7,"textLines":1}
+{"kind":"textbox","id":"sh/v6psfil0","slide":9,"textChars":104,"textLines":1}
+{"kind":"textbox","id":"sh/bq1oryts","slide":9,"textChars":48,"textLines":1}
+{"kind":"textbox","id":"sh/m58z25kb","slide":9,"textChars":2,"textLines":1}
+{"kind":"image","id":"im/1cfa9w3m","slide":9,"name":"","alt":"5v0 DEG heatmap","bbox":[170,202,720,430]}
+{"kind":"notes","id":"nt/c1n7jn","slide":9,"text":"This replaces the more crowded handmade heatmap slide."}
+{"kind":"slide","id":"sl/cadajj","slide":10,"title":"LRT RESULT","textShapes":12}
+{"kind":"textbox","id":"sh/bat47y1k","slide":10,"textChars":10,"textLines":1}
+{"kind":"textbox","id":"sh/4vmtwra5","slide":10,"textChars":68,"textLines":1}
+{"kind":"textbox","id":"sh/tgfmlkjm","slide":10,"textChars":67,"textLines":1}
+{"kind":"notice","message":"Truncated: omitted 133 lines. Increase maxChars or narrow target."}

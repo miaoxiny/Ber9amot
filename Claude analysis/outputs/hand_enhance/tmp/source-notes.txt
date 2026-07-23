@@ -1,0 +1,4 @@
+Deck enhanced from Hand.pptx using local Claude analysis project files.
+Sources: Hand.pptx, netrin_handoff_FULL_2026-06-14_v4 (2).md, netrin_notes.txt, QC final table.xlsx, results/ exported PNG/PDF/CSV/RDS outputs.
+Primary facts: C1 strict 25 (7 up/18 down), relaxed 66; C1 GSEA GO BP 481 (255/226), KEGG 42 (20/22); C2 strict 1495 (1098/397), relaxed 4636; C2 GSEA GO BP 534 (410/124), KEGG 99 (89/10).
+All image assets are local result exports from the user workspace.

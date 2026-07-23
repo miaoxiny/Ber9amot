@@ -1,0 +1,4 @@
+Mode: create enhanced copy rather than direct import edit.
+Reason: Hand.pptx import/render through artifact-tool failed due a missing embedded Excel worksheet relationship, so the enhanced deck is rebuilt in the same visual style.
+Style preservation: white background, large black title, minimal text, large result figures, orange accent bar/page numbering.
+Enhancements: unified Aptos/Aptos Display typography, consistent headers/footers, complete speaker notes, added ORA/GSEA/cell-type synthesis/working model/next-steps slides.

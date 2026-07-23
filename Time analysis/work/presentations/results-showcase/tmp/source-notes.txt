@@ -1,0 +1,37 @@
+Source deck:
+- handmade.pptx, 16-slide initial user draft. Used as the content basis and ordering reference.
+
+Local result sources used:
+- THESIS_writing_pack.md for analysis summary and caveats.
+- results/01_QC/01_library_size.png
+- results/01_QC/02_detected_genes.png
+- results/01_QC/03_sample_correlation_heatmap_FINAL.png
+- results/01_QC/05_PCA_after_correction_FINAL.png
+- results/02_composition/07_celltype_marker_TPM.png
+- results/03_DEG/04_volcano_5v0_v6.png
+- results/03_DEG/06_DEG_heatmap_5v0_v4.png
+- results/objects/LRT_19_trajectory_VSTzscore_v1.png
+- results/03_DEG/05_trajectory_6genes.png
+- results/03_DEG/05b_rock1_vs_rock2_trajectory.png
+- results/04_GSEA/08_GSEA_GO_BP_5v0_barplot.png
+- results/04_GSEA/09_GSEA_KEGG_5v0_barplot.png
+- results/04_GSEA/10_GSEA_GO_BP_15v5_barplot.png
+- results/04_GSEA/12_GSEA_KEGG_15v0_barplot.png
+- results/04_GSEA/13_GSEA_mirror_scatter_5v0_vs_15v5.png
+
+Verified key numbers:
+- Filtered genes: 32623 to 14161.
+- 5v0 DEG: 32 relaxed, 5 strict, 14 up / 18 down.
+- 15v5 DEG: 6 relaxed, 2 strict, 6 up / 0 down.
+- 15v0 DEG: 1 relaxed/strict, 0 up / 1 down.
+- LRT: 19 time-varying genes.
+- 5v0 GO BP: 313 significant terms, 285 up / 28 down.
+- 5v0 KEGG: 14 significant pathways; Axon guidance NES 2.16, BH-adjusted p = 4.1e-7.
+- 15v5 GO BP: 295 significant terms, 31 up / 264 down.
+- 15v0 GO BP: 0 significant terms; KEGG shows OXPHOS/mitochondrial signal.
+- Mirror-scatter: 603 shared pathways, NES correlation r = -0.991.
+
+Terminology:
+- Use Vehicle, 5 min Netrin-1 and 15 min Netrin-1.
+- Define 5v0, 15v0 and 15v5 on the contrast map slide.
+- LRT trajectory y-axis: Z-score of VST-normalized expression / row-scaled VST expression.

@@ -1,0 +1,7 @@
+Visual QA draft
+Final PPTX: D:\Dropbox\Dropbox\RNAseq 2025\Time analysis\outputs\acute_netrin1_rnaseq_phd_defense.pptx
+Slide count: 28
+Generated previews: one PNG per slide plus deck-montage.webp.
+All scientific figures are embedded from local results PNG files.
+Speaker notes are included on every slide.
+Known caveat intentionally represented: 15v0 has 0 significant GO BP terms but a mild KEGG/OXPHOS signal; 15v0 also has 1 DEG in verified CSV outputs.

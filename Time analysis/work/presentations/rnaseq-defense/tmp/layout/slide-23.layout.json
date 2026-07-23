@@ -1,0 +1,1169 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/iefhbb",
+    "id": "iefhbb",
+    "slide": 23,
+    "layoutId": "6e37a0d9-c161-4af4-ac6c-eeb1436eaa6f",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "69003fbc-2b26-44fe-8129-5dfe26d1a19c",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7FAFC",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "6e37a0d9-c161-4af4-ac6c-eeb1436eaa6f",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "69003fbc-2b26-44fe-8129-5dfe26d1a19c",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "69003fbc-2b26-44fe-8129-5dfe26d1a19c",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ixczed8v",
+      "id": "1",
+      "bbox": [
+        64,
+        34,
+        520,
+        24
+      ],
+      "geometry": "rect",
+      "text": "INTEGRATED EVIDENCE",
+      "textPreview": "INTEGRATED EVIDENCE",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#0B7285",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "INTEGRATED EVIDENCE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "INTEGRATED EVIDENCE",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#0B7285",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "INTEGRATED EVIDENCE",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#0B7285",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tovahoza",
+      "id": "2",
+      "bbox": [
+        64,
+        66,
+        920,
+        86
+      ],
+      "geometry": "rect",
+      "text": "Multiple result layers converge on the same transient program",
+      "textPreview": "Multiple result layers converge on the same transient program",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "fontSize": 36,
+        "typeface": "Aptos Display",
+        "color": "#102033",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Multiple result layers converge on the same transient"
+          },
+          {
+            "index": 2,
+            "text": "program"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Multiple result layers converge on the same transient program",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "typeface": "Aptos Display",
+            "color": "#102033",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Multiple result layers converge on the same transient program",
+              "fontSize": 36,
+              "typeface": "Aptos Display",
+              "color": "#102033",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/032lszqt",
+      "id": "3",
+      "bbox": [
+        64,
+        144,
+        930,
+        34
+      ],
+      "geometry": "rect",
+      "text": "This table is the defense-ready summary of the core evidence chain.",
+      "textPreview": "This table is the defense-ready summary of the core evidence chain.",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "Aptos",
+        "color": "#5B6878",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "This table is the defense-ready summary of the core evidence chain."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "This table is the defense-ready summary of the core evidence chain.",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#5B6878",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "This table is the defense-ready summary of the core evidence chain.",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#5B6878",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bulwval8",
+      "id": "4",
+      "bbox": [
+        64,
+        182,
+        144,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#D97706",
+      "lineColor": "#D97706",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/r65wjudg",
+      "id": "5",
+      "bbox": [
+        74,
+        198,
+        1130,
+        408
+      ],
+      "text": "Module | 5 min | By 15 min | Evidence\nAxon guidance / projection | up | falls back | GO BP, KEGG, Cntn2\nRNA processing / splicing | down | recovers | Srsf5, Snrnp70, GO BP\nIEG response | down | rebound/return | Fos, Npas4/LRT\nROCK / cytoskeleton | Rock1 down | Rock2 stable | DEG + trajectory\nNO-calcium / adhesion | up | falls back | Nos1, Ryr3, Tln2\nMitochondria / OXPHOS | minor | late rise | 15v0/15v5 KEGG",
+      "textPreview": "Module | 5 min | By 15 min | Evidence | Axon guidance / projection | up | falls back | GO BP, KEGG, Cntn2 | RNA processing / splicing | d...",
+      "rows": 7,
+      "cols": 4,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            74,
+            198,
+            282.5,
+            58.29
+          ],
+          "text": "Module",
+          "textPreview": "Module",
+          "fillColor": "#16324F",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Module",
+              "resolvedTextStyle": {
+                "fontSize": 14,
+                "typeface": "Aptos",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Module",
+                  "fontSize": 14,
+                  "typeface": "Aptos",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            356.5,
+            198,
+            282.5,
+            58.29
+          ],
+          "text": "5 min",
+          "textPreview": "5 min",
+          "fillColor": "#16324F",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "5 min",
+              "resolvedTextStyle": {
+                "fontSize": 14,
+                "typeface": "Aptos",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "5 min",
+                  "fontSize": 14,
+                  "typeface": "Aptos",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            639,
+            198,
+            282.5,
+            58.29
+          ],
+          "text": "By 15 min",
+          "textPreview": "By 15 min",
+          "fillColor": "#16324F",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "By 15 min",
+              "resolvedTextStyle": {
+                "fontSize": 14,
+                "typeface": "Aptos",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "By 15 min",
+                  "fontSize": 14,
+                  "typeface": "Aptos",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "column": 4,
+          "bbox": [
+            921.5,
+            198,
+            282.5,
+            58.29
+          ],
+          "text": "Evidence",
+          "textPreview": "Evidence",
+          "fillColor": "#16324F",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Evidence",
+              "resolvedTextStyle": {
+                "fontSize": 14,
+                "typeface": "Aptos",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Evidence",
+                  "fontSize": 14,
+                  "typeface": "Aptos",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            74,
+            256.29,
+            282.5,
+            58.29
+          ],
+          "text": "Axon guidance / projection",
+          "textPreview": "Axon guidance / projection",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Axon guidance / projection",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Axon guidance / projection"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            356.5,
+            256.29,
+            282.5,
+            58.29
+          ],
+          "text": "up",
+          "textPreview": "up",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "up",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "up"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            639,
+            256.29,
+            282.5,
+            58.29
+          ],
+          "text": "falls back",
+          "textPreview": "falls back",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "falls back",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "falls back"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "column": 4,
+          "bbox": [
+            921.5,
+            256.29,
+            282.5,
+            58.29
+          ],
+          "text": "GO BP, KEGG, Cntn2",
+          "textPreview": "GO BP, KEGG, Cntn2",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "GO BP, KEGG, Cntn2",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "GO BP, KEGG, Cntn2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            74,
+            314.57,
+            282.5,
+            58.29
+          ],
+          "text": "RNA processing / splicing",
+          "textPreview": "RNA processing / splicing",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "RNA processing / splicing",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "RNA processing / splicing"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            356.5,
+            314.57,
+            282.5,
+            58.29
+          ],
+          "text": "down",
+          "textPreview": "down",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "down",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            639,
+            314.57,
+            282.5,
+            58.29
+          ],
+          "text": "recovers",
+          "textPreview": "recovers",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "recovers",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "recovers"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 3,
+          "column": 4,
+          "bbox": [
+            921.5,
+            314.57,
+            282.5,
+            58.29
+          ],
+          "text": "Srsf5, Snrnp70, GO BP",
+          "textPreview": "Srsf5, Snrnp70, GO BP",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Srsf5, Snrnp70, GO BP",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Srsf5, Snrnp70, GO BP"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            74,
+            372.86,
+            282.5,
+            58.29
+          ],
+          "text": "IEG response",
+          "textPreview": "IEG response",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "IEG response",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "IEG response"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            356.5,
+            372.86,
+            282.5,
+            58.29
+          ],
+          "text": "down",
+          "textPreview": "down",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "down",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            639,
+            372.86,
+            282.5,
+            58.29
+          ],
+          "text": "rebound/return",
+          "textPreview": "rebound/return",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "rebound/return",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "rebound/return"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "row": 4,
+          "column": 4,
+          "bbox": [
+            921.5,
+            372.86,
+            282.5,
+            58.29
+          ],
+          "text": "Fos, Npas4/LRT",
+          "textPreview": "Fos, Npas4/LRT",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Fos, Npas4/LRT",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fos, Npas4/LRT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "row": 5,
+          "column": 1,
+          "bbox": [
+            74,
+            431.14,
+            282.5,
+            58.29
+          ],
+          "text": "ROCK / cytoskeleton",
+          "textPreview": "ROCK / cytoskeleton",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "ROCK / cytoskeleton",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "ROCK / cytoskeleton"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "row": 5,
+          "column": 2,
+          "bbox": [
+            356.5,
+            431.14,
+            282.5,
+            58.29
+          ],
+          "text": "Rock1 down",
+          "textPreview": "Rock1 down",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Rock1 down",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Rock1 down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "row": 5,
+          "column": 3,
+          "bbox": [
+            639,
+            431.14,
+            282.5,
+            58.29
+          ],
+          "text": "Rock2 stable",
+          "textPreview": "Rock2 stable",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Rock2 stable",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Rock2 stable"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "row": 5,
+          "column": 4,
+          "bbox": [
+            921.5,
+            431.14,
+            282.5,
+            58.29
+          ],
+          "text": "DEG + trajectory",
+          "textPreview": "DEG + trajectory",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "DEG + trajectory",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "DEG + trajectory"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "row": 6,
+          "column": 1,
+          "bbox": [
+            74,
+            489.43,
+            282.5,
+            58.29
+          ],
+          "text": "NO-calcium / adhesion",
+          "textPreview": "NO-calcium / adhesion",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "NO-calcium / adhesion",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "NO-calcium / adhesion"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "row": 6,
+          "column": 2,
+          "bbox": [
+            356.5,
+            489.43,
+            282.5,
+            58.29
+          ],
+          "text": "up",
+          "textPreview": "up",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "up",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "up"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "row": 6,
+          "column": 3,
+          "bbox": [
+            639,
+            489.43,
+            282.5,
+            58.29
+          ],
+          "text": "falls back",
+          "textPreview": "falls back",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "falls back",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "falls back"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "row": 6,
+          "column": 4,
+          "bbox": [
+            921.5,
+            489.43,
+            282.5,
+            58.29
+          ],
+          "text": "Nos1, Ryr3, Tln2",
+          "textPreview": "Nos1, Ryr3, Tln2",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Nos1, Ryr3, Tln2",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Nos1, Ryr3, Tln2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "row": 7,
+          "column": 1,
+          "bbox": [
+            74,
+            547.71,
+            282.5,
+            58.29
+          ],
+          "text": "Mitochondria / OXPHOS",
+          "textPreview": "Mitochondria / OXPHOS",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Mitochondria / OXPHOS",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Mitochondria / OXPHOS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "row": 7,
+          "column": 2,
+          "bbox": [
+            356.5,
+            547.71,
+            282.5,
+            58.29
+          ],
+          "text": "minor",
+          "textPreview": "minor",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "minor",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "minor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "row": 7,
+          "column": 3,
+          "bbox": [
+            639,
+            547.71,
+            282.5,
+            58.29
+          ],
+          "text": "late rise",
+          "textPreview": "late rise",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "late rise",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "late rise"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "row": 7,
+          "column": 4,
+          "bbox": [
+            921.5,
+            547.71,
+            282.5,
+            58.29
+          ],
+          "text": "15v0/15v5 KEGG",
+          "textPreview": "15v0/15v5 KEGG",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "15v0/15v5 KEGG",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "15v0/15v5 KEGG"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p0bi9s36",
+      "id": "6",
+      "bbox": [
+        64,
+        686,
+        880,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Source: Phase6 summary table and verified CSV outputs",
+      "textPreview": "Source: Phase6 summary table and verified CSV outputs",
+      "resolvedFontSize": 10.51,
+      "resolvedTextStyle": {
+        "fontSize": 10.51,
+        "typeface": "Aptos",
+        "color": "#778395",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Source: Phase6 summary table and verified CSV outputs"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Source: Phase6 summary table and verified CSV outputs",
+          "resolvedTextStyle": {
+            "fontSize": 10.51,
+            "typeface": "Aptos",
+            "color": "#778395",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Source: Phase6 summary table and verified CSV outputs",
+              "fontSize": 10.51,
+              "typeface": "Aptos",
+              "color": "#778395",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0fepkzup",
+      "id": "7",
+      "bbox": [
+        1168,
+        684,
+        48,
+        22
+      ],
+      "geometry": "rect",
+      "text": "23",
+      "textPreview": "23",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#778395",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "23"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "23",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#778395",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "23",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#778395",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

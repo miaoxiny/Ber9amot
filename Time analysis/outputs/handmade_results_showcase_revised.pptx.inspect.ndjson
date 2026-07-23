@@ -1,0 +1,281 @@
+{"kind":"deck","id":"pr/g2dsjf","name":"Deck"}
+{"kind":"layout","layoutId":"0625e0f2-f3b9-4f0e-b6e7-70dfa5b2994c","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"f6da9391-7cf3-48b4-8512-728511088328","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/7q75bb","slide":1,"title":"RESULTS STORYLINE","textShapes":14}
+{"kind":"textbox","id":"sh/ed8bat47","slide":1,"text":"RESULTS STORYLINE","textPreview":"RESULTS STORYLINE","textChars":17,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":1,"text":"Acute Netrin-1 produces a 5-min transcriptional pulse that reverses by 15 min","textPreview":"Acute Netrin-1 produces a 5-min transcriptional pulse that reverses by 15 min","textChars":77,"textLines":1,"bbox":[64,68,980,78]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":1,"text":"A results-focused version of the handmade deck: cleaner sequence, unified layout, and fewer detours.","textPreview":"A results-focused version of the handmade deck: cleaner sequence, unified layout, and fewer detours.","textChars":100,"textLines":1,"bbox":[64,145,980,32]}
+{"kind":"shape","id":"sh/36hcrmhk","slide":1,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/eloj2t83","slide":1,"bbox":[108,252,220,150]}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":1,"text":"32","textPreview":"32","textChars":2,"textLines":1,"bbox":[124,270,188,54]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":1,"text":"5v0 DEGs, relaxed","textPreview":"5v0 DEGs, relaxed","textChars":17,"textLines":1,"bbox":[126,334,184,46]}
+{"kind":"shape","id":"sh/7adsji5s","slide":1,"bbox":[394,252,220,150]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":1,"text":"19","textPreview":"19","textChars":2,"textLines":1,"bbox":[410,270,188,54]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":1,"text":"LRT time-varying genes","textPreview":"LRT time-varying genes","textChars":22,"textLines":1,"bbox":[412,334,184,46]}
+{"kind":"shape","id":"sh/x4nap4r6","slide":1,"bbox":[680,252,220,150]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":1,"text":"313","textPreview":"313","textChars":3,"textLines":1,"bbox":[696,270,188,54]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":1,"text":"5v0 GO BP terms","textPreview":"5v0 GO BP terms","textChars":15,"textLines":1,"bbox":[698,334,184,46]}
+{"kind":"shape","id":"sh/8v6psfil","slide":1,"bbox":[966,252,220,150]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":1,"text":"r = -0.991","textPreview":"r = -0.991","textChars":10,"textLines":1,"bbox":[982,270,188,54]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":1,"text":"5v0 vs 15v5 pathway mirror","textPreview":"5v0 vs 15v5 pathway mirror","textChars":26,"textLines":1,"bbox":[984,334,184,46]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":1,"text":"Result logic: QC supports interpretability -> 5-min DEGs define acute anchors -> LRT captures time-dependent genes -> GSEA reveals coordinated pathway reversal.","textPreview":"Result logic: QC supports interpretability -> 5-min DEGs define acute anchors -> LRT captures time-dependent genes -> GSEA reveals coordi...","textChars":160,"textLines":1,"bbox":[158,496,964,60]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":1,"text":"Acute Netrin-1 RNA-seq results","textPreview":"Acute Netrin-1 RNA-seq results","textChars":30,"textLines":1,"bbox":[64,686,900,20]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"notes","id":"nt/7q75bb","slide":1,"text":"Open with the result, not the methods. This deck is organized around the evidence chain in the handmade slides."}
+{"kind":"slide","id":"sl/m3booz","slide":2,"title":"ANALYSIS MAP","textShapes":23}
+{"kind":"textbox","id":"sh/4vmtwra5","slide":2,"text":"ANALYSIS MAP","textPreview":"ANALYSIS MAP","textChars":12,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":2,"text":"The three contrasts ask onset, reversal and return-to-baseline questions","textPreview":"The three contrasts ask onset, reversal and return-to-baseline questions","textChars":72,"textLines":1,"bbox":[64,68,980,78]}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":2,"text":"This slide gives the audience the vocabulary used throughout the results.","textPreview":"This slide gives the audience the vocabulary used throughout the results.","textChars":73,"textLines":1,"bbox":[64,145,980,32]}
+{"kind":"shape","id":"sh/tsvu9kni","slide":2,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/47y1kre1","slide":2,"bbox":[90,246,170,112]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":2,"text":"Vehicle","textPreview":"Vehicle","textChars":7,"textLines":1,"bbox":[104,264,142,30]}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":2,"text":"PBS control","textPreview":"PBS control","textChars":11,"textLines":1,"bbox":[106,300,138,40]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":2,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[264,282,20,30]}
+{"kind":"shape","id":"sh/4byhgn29","slide":2,"bbox":[286,246,170,112]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":2,"text":"5 min","textPreview":"5 min","textChars":5,"textLines":1,"bbox":[300,264,142,30]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":2,"text":"acute Netrin-1","textPreview":"acute Netrin-1","textChars":14,"textLines":1,"bbox":[302,300,138,40]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":2,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[460,282,20,30]}
+{"kind":"shape","id":"sh/twra5gbq","slide":2,"bbox":[482,246,170,112]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":2,"text":"15 min","textPreview":"15 min","textChars":6,"textLines":1,"bbox":[496,264,142,30]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":2,"text":"later Netrin-1","textPreview":"later Netrin-1","textChars":14,"textLines":1,"bbox":[498,300,138,40]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":2,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[656,282,20,30]}
+{"kind":"shape","id":"sh/t83itgfm","slide":2,"bbox":[678,246,170,112]}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":2,"text":"5v0","textPreview":"5v0","textChars":3,"textLines":1,"bbox":[692,264,142,30]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":2,"text":"onset vs Vehicle","textPreview":"onset vs Vehicle","textChars":16,"textLines":1,"bbox":[694,300,138,40]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":2,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[852,282,20,30]}
+{"kind":"shape","id":"sh/at47y1kr","slide":2,"bbox":[874,246,170,112]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":2,"text":"15v5","textPreview":"15v5","textChars":4,"textLines":1,"bbox":[888,264,142,30]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":2,"text":"reversal vs 5 min","textPreview":"reversal vs 5 min","textChars":17,"textLines":1,"bbox":[890,300,138,40]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":2,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[1048,282,20,30]}
+{"kind":"shape","id":"sh/ahoza1gv","slide":2,"bbox":[1070,246,170,112]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":2,"text":"15v0","textPreview":"15v0","textChars":4,"textLines":1,"bbox":[1084,264,142,30]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":2,"text":"return vs Vehicle","textPreview":"return vs Vehicle","textChars":17,"textLines":1,"bbox":[1086,300,138,40]}
+{"kind":"shape","id":"sh/3q5o7qpg","slide":2,"bbox":[158,488,964,72]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":2,"text":"Statistical model: DESeq2 ~ replicate + timepoint; batch correction was used only for PCA visualization, not for DE testing.","textPreview":"Statistical model: DESeq2 ~ replicate + timepoint; batch correction was used only for PCA visualization, not for DE testing.","textChars":124,"textLines":1,"bbox":[192,510,896,28]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":2,"text":"Source: handmade methods slides and THESIS_writing_pack.md","textPreview":"Source: handmade methods slides and THESIS_writing_pack.md","textChars":58,"textLines":1,"bbox":[64,686,900,20]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"notes","id":"nt/m3booz","slide":2,"text":"Keep this concise. It replaces several scattered method statements from the handmade version."}
+{"kind":"slide","id":"sl/61sm2f","slide":3,"title":"FILTERING AND SAMPLE QC","textShapes":6}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":3,"text":"FILTERING AND SAMPLE QC","textPreview":"FILTERING AND SAMPLE QC","textChars":23,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":3,"text":"Filtering retains 14,161 genes and sample depth is comparable","textPreview":"Filtering retains 14,161 genes and sample depth is comparable","textChars":61,"textLines":1,"bbox":[64,68,980,78]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":3,"text":"The first result block establishes that downstream differences are interpretable.","textPreview":"The first result block establishes that downstream differences are interpretable.","textChars":81,"textLines":1,"bbox":[64,145,980,32]}
+{"kind":"shape","id":"sh/8nqxs72x","slide":3,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/18jqh0fe","slide":3,"bbox":[72,214,516,326]}
+{"kind":"shape","id":"sh/j2t83itg","slide":3,"bbox":[640,214,516,326]}
+{"kind":"shape","id":"sh/1cfa9w3m","slide":3,"bbox":[320,570,640,50]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":3,"text":"Two-step filtering: 32,623 quantified genes -> 14,161 genes for differential expression.","textPreview":"Two-step filtering: 32,623 quantified genes -> 14,161 genes for differential expression.","textChars":88,"textLines":1,"bbox":[348,584,584,22]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":3,"text":"Source: results/01_QC and handmade slide 1","textPreview":"Source: results/01_QC and handmade slide 1","textChars":42,"textLines":1,"bbox":[64,686,900,20]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/zidonyd0","slide":3,"name":"","alt":"Library size QC","bbox":[80,222,500,310]}
+{"kind":"image","id":"im/lszqtcj6","slide":3,"name":"","alt":"Detected gene QC","bbox":[648,222,500,310]}
+{"kind":"notes","id":"nt/61sm2f","slide":3,"text":"This combines handmade filtering with the two QC plots so the audience sees both gene filtering and sample-level QC."}
+{"kind":"slide","id":"sl/a0m6zo","slide":4,"title":"REPLICATE AND TIMEPOINT STRUCTURE","textShapes":5}
+{"kind":"textbox","id":"sh/dg7adsji","slide":4,"text":"REPLICATE AND TIMEPOINT STRUCTURE","textPreview":"REPLICATE AND TIMEPOINT STRUCTURE","textChars":33,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":4,"text":"Replicate effects are visible, but corrected PCA reveals timepoint separation","textPreview":"Replicate effects are visible, but corrected PCA reveals timepoint separation","textChars":77,"textLines":1,"bbox":[64,68,980,78]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":4,"text":"This justifies modeling replicate and interpreting the acute timepoint signal.","textPreview":"This justifies modeling replicate and interpreting the acute timepoint signal.","textChars":78,"textLines":1,"bbox":[64,145,980,32]}
+{"kind":"shape","id":"sh/onyd0z61","slide":4,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":4,"bbox":[78,202,472,386]}
+{"kind":"shape","id":"sh/z25kb6xk","slide":4,"bbox":[618,202,556,386]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":4,"text":"Source: results/01_QC","textPreview":"Source: results/01_QC","textChars":21,"textLines":1,"bbox":[64,686,900,20]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/7mp0bi9s","slide":4,"name":"","alt":"Sample correlation heatmap","bbox":[86,210,456,370]}
+{"kind":"image","id":"im/l0rqd4vm","slide":4,"name":"","alt":"PCA after replicate correction","bbox":[626,210,540,370]}
+{"kind":"notes","id":"nt/a0m6zo","slide":4,"text":"State clearly that replicate is modeled statistically; corrected PCA is only a visualization."}
+{"kind":"slide","id":"sl/daa76y","slide":5,"title":"CULTURE COMPOSITION","textShapes":7}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":5,"text":"CULTURE COMPOSITION","textPreview":"CULTURE COMPOSITION","textChars":19,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":5,"text":"Marker expression supports neuron-dominant, composition-stable cultures","textPreview":"Marker expression supports neuron-dominant, composition-stable cultures","textChars":71,"textLines":1,"bbox":[64,68,980,78]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":5,"text":"This rules against a simple cell-composition explanation for the acute signal.","textPreview":"This rules against a simple cell-composition explanation for the acute signal.","textChars":78,"textLines":1,"bbox":[64,145,980,32]}
+{"kind":"shape","id":"sh/hcrmhk3q","slide":5,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/orytsvu9","slide":5,"bbox":[82,198,776,432]}
+{"kind":"shape","id":"sh/al87ed8b","slide":5,"bbox":[902,264,234,238]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":5,"text":"Interpretation","textPreview":"Interpretation","textChars":14,"textLines":1,"bbox":[930,294,178,28]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":5,"text":"- Pan-neuronal markers are high.\n- Glial/endothelial markers remain low.\n- Marker profiles are stable across conditions.","textPreview":"- Pan-neuronal markers are high. | - Glial/endothelial markers remain low. | - Marker profiles are stable across conditions.","textChars":120,"textLines":3,"bbox":[932,348,178,110]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":5,"text":"Source: results/02_composition","textPreview":"Source: results/02_composition","textChars":30,"textLines":1,"bbox":[64,686,900,20]}
+{"kind":"textbox","id":"sh/vu9knih4","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/adsji5sn","slide":5,"name":"","alt":"Cell marker TPM plot","bbox":[90,206,760,416]}
+{"kind":"notes","id":"nt/daa76y","slide":5,"text":"This slide preserves handmade slide 4 but makes the conclusion more compact."}
+{"kind":"slide","id":"sl/7vm6e3","slide":6,"title":"DEG OVERVIEW","textShapes":6}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":6,"text":"DEG OVERVIEW","textPreview":"DEG OVERVIEW","textChars":12,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":6,"text":"The largest single-gene response is detected at 5 min","textPreview":"The largest single-gene response is detected at 5 min","textChars":53,"textLines":1,"bbox":[64,68,980,78]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":6,"text":"15v5 is the key contrast for reversal; 15v0 is comparatively quiet at DEG level.","textPreview":"15v5 is the key contrast for reversal; 15v0 is comparatively quiet at DEG level.","textChars":80,"textLines":1,"bbox":[64,145,980,32]}
+{"kind":"shape","id":"sh/58z25kb6","slide":6,"bbox":[64,182,132,4]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":6,"text":"Takeaway: single-gene changes are modest but time-structured, motivating LRT and GSEA as the main result layers.","textPreview":"Takeaway: single-gene changes are modest but time-structured, motivating LRT and GSEA as the main result layers.","textChars":112,"textLines":1,"bbox":[170,548,940,36]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":6,"text":"Source: DEG CSV files and handmade slide 5","textPreview":"Source: DEG CSV files and handmade slide 5","textChars":42,"textLines":1,"bbox":[64,686,900,20]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"table","id":"tb/tsvu9kni","slide":6,"name":"","rows":5,"cols":5,"preview":"Contrast | Question | Relaxed | Strict | Direction","bbox":[118,226,1044,270]}
+{"kind":"notes","id":"nt/7vm6e3","slide":6,"text":"This cleans up the DEG table and gives it one interpretation."}
+{"kind":"slide","id":"sl/28i564","slide":7,"title":"5-MIN DIFFERENTIAL EXPRESSION","textShapes":7}
+{"kind":"textbox","id":"sh/83itgfml","slide":7,"text":"5-MIN DIFFERENTIAL EXPRESSION","textPreview":"5-MIN DIFFERENTIAL EXPRESSION","textChars":29,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":7,"text":"The 5-min volcano plot identifies biologically interpretable acute anchors","textPreview":"The 5-min volcano plot identifies biologically interpretable acute anchors","textChars":74,"textLines":1,"bbox":[64,68,980,78]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":7,"text":"The small DEG set is coherent rather than random.","textPreview":"The small DEG set is coherent rather than random.","textChars":49,"textLines":1,"bbox":[64,145,980,32]}
+{"kind":"shape","id":"sh/x0nuxc3y","slide":7,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/4fu18jqh","slide":7,"bbox":[70,190,776,446]}
+{"kind":"shape","id":"sh/m94fu18j","slide":7,"bbox":[884,236,278,316]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":7,"text":"Highlighted modules","textPreview":"Highlighted modules","textChars":19,"textLines":1,"bbox":[912,264,222,28]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":7,"text":"- IEG suppression: Fos\n- Cytoskeleton: Rock1\n- Splicing: Srsf5, Snrnp70\n- Guidance: Cntn2\n- NO-calcium: Nos1, Ryr3","textPreview":"- IEG suppression: Fos | - Cytoskeleton: Rock1 | - Splicing: Srsf5, Snrnp70 | - Guidance: Cntn2 | - NO-calcium: Nos1, Ryr3","textChars":114,"textLines":5,"bbox":[914,316,218,170]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":7,"text":"Source: results/03_DEG/04_volcano_5v0_v6.png","textPreview":"Source: results/03_DEG/04_volcano_5v0_v6.png","textChars":44,"textLines":1,"bbox":[64,686,900,20]}
+{"kind":"textbox","id":"sh/za1gvy90","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/ytsvu9kn","slide":7,"name":"","alt":"5v0 volcano plot","bbox":[78,198,760,430]}
+{"kind":"notes","id":"nt/28i564","slide":7,"text":"This corresponds to handmade slide 6, but with a conclusion-style title and a cleaner right rail."}
+{"kind":"slide","id":"sl/5pkn43","slide":8,"title":"KEY 5-MIN GENES","textShapes":7}
+{"kind":"textbox","id":"sh/xs72x4na","slide":8,"text":"KEY 5-MIN GENES","textPreview":"KEY 5-MIN GENES","textChars":15,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":8,"text":"Representative DEGs point to a bidirectional acute program","textPreview":"Representative DEGs point to a bidirectional acute program","textChars":58,"textLines":1,"bbox":[64,68,980,78]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":8,"text":"Guidance/signaling genes rise while IEG and RNA-processing genes fall.","textPreview":"Guidance/signaling genes rise while IEG and RNA-processing genes fall.","textChars":70,"textLines":1,"bbox":[64,145,980,32]}
+{"kind":"shape","id":"sh/8z25kb6x","slide":8,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/qtcj6tov","slide":8,"bbox":[1008,288,150,190]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":8,"text":"Pattern","textPreview":"Pattern","textChars":7,"textLines":1,"bbox":[1030,314,106,28]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":8,"text":"This table becomes the gene-level bridge into pathway analysis.","textPreview":"This table becomes the gene-level bridge into pathway analysis.","textChars":63,"textLines":1,"bbox":[1028,370,110,64]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":8,"text":"Source: DEG_5v0_ALL.csv and handmade slide 7","textPreview":"Source: DEG_5v0_ALL.csv and handmade slide 7","textChars":44,"textLines":1,"bbox":[64,686,900,20]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"table","id":"tb/wjudg7ad","slide":8,"name":"","rows":8,"cols":4,"preview":"Gene | log2FC | padj | Module","bbox":[112,206,850,394]}
+{"kind":"notes","id":"nt/5pkn43","slide":8,"text":"This table is intentionally compact and readable at presentation scale."}
+{"kind":"slide","id":"sl/c1n7jn","slide":9,"title":"5-MIN DEG HEATMAP","textShapes":7}
+{"kind":"textbox","id":"sh/vixczed8","slide":9,"text":"5-MIN DEG HEATMAP","textPreview":"5-MIN DEG HEATMAP","textChars":17,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":9,"text":"The DEG set forms a coherent sample-level 5-min pattern","textPreview":"The DEG set forms a coherent sample-level 5-min pattern","textChars":55,"textLines":1,"bbox":[64,68,980,78]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":9,"text":"This checks whether selected genes move together across samples.","textPreview":"This checks whether selected genes move together across samples.","textChars":64,"textLines":1,"bbox":[64,145,980,32]}
+{"kind":"shape","id":"sh/6psfil0r","slide":9,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/val87ed8","slide":9,"bbox":[162,194,736,446]}
+{"kind":"shape","id":"sh/dcbulwva","slide":9,"bbox":[930,264,222,226]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":9,"text":"Readout","textPreview":"Readout","textChars":7,"textLines":1,"bbox":[958,294,166,28]}
+{"kind":"textbox","id":"sh/v6psfil0","slide":9,"text":"The heatmap supports a coordinated 5-min expression pattern rather than an isolated single-gene outlier.","textPreview":"The heatmap supports a coordinated 5-min expression pattern rather than an isolated single-gene outlier.","textChars":104,"textLines":1,"bbox":[958,350,166,88]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":9,"text":"Source: results/03_DEG/06_DEG_heatmap_5v0_v4.png","textPreview":"Source: results/03_DEG/06_DEG_heatmap_5v0_v4.png","textChars":48,"textLines":1,"bbox":[64,686,900,20]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/1cfa9w3m","slide":9,"name":"","alt":"5v0 DEG heatmap","bbox":[170,202,720,430]}
+{"kind":"notes","id":"nt/c1n7jn","slide":9,"text":"This replaces the more crowded handmade heatmap slide."}
+{"kind":"slide","id":"sl/cadajj","slide":10,"title":"LRT RESULT","textShapes":12}
+{"kind":"textbox","id":"sh/bat47y1k","slide":10,"text":"LRT RESULT","textPreview":"LRT RESULT","textChars":10,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/4vmtwra5","slide":10,"text":"The LRT identifies 19 genes with significant time-dependent behavior","textPreview":"The LRT identifies 19 genes with significant time-dependent behavior","textChars":68,"textLines":1,"bbox":[64,68,980,78]}
+{"kind":"textbox","id":"sh/tgfmlkjm","slide":10,"text":"For trajectories, row-scaled VST expression is the clearest y-axis.","textPreview":"For trajectories, row-scaled VST expression is the clearest y-axis.","textChars":67,"textLines":1,"bbox":[64,145,980,32]}
+{"kind":"shape","id":"sh/m1cfa9w3","slide":10,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/bm58z25k","slide":10,"bbox":[110,238,300,226]}
+{"kind":"textbox","id":"sh/47y1kre1","slide":10,"text":"LRT model","textPreview":"LRT model","textChars":9,"textLines":1,"bbox":[140,268,240,30]}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":10,"text":"Full: ~ replicate + timepoint\nReduced: ~ replicate","textPreview":"Full: ~ replicate + timepoint | Reduced: ~ replicate","textChars":50,"textLines":2,"bbox":[140,340,240,62]}
+{"kind":"shape","id":"sh/m58z25kb","slide":10,"bbox":[490,238,300,226]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":10,"text":"Visualization","textPreview":"Visualization","textChars":13,"textLines":1,"bbox":[520,268,240,30]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":10,"text":"Y-axis:\nZ-score of VST-normalized expression","textPreview":"Y-axis: | Z-score of VST-normalized expression","textChars":44,"textLines":2,"bbox":[520,334,240,72]}
+{"kind":"shape","id":"sh/at47y1kr","slide":10,"bbox":[870,266,240,154]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":10,"text":"19","textPreview":"19","textChars":2,"textLines":1,"bbox":[886,284,208,54]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":10,"text":"LRT-significant genes","textPreview":"LRT-significant genes","textChars":21,"textLines":1,"bbox":[888,348,204,46]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":10,"text":"This makes the LRT slide scientifically explicit: it tests time dependence, not a single pairwise contrast.","textPreview":"This makes the LRT slide scientifically explicit: it tests time dependence, not a single pairwise contrast.","textChars":107,"textLines":1,"bbox":[208,540,864,34]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":10,"text":"Source: DEG_LRT_ALL.csv and LRT trajectory file","textPreview":"Source: DEG_LRT_ALL.csv and LRT trajectory file","textChars":47,"textLines":1,"bbox":[64,686,900,20]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"notes","id":"nt/cadajj","slide":10,"text":"This slide fills the weak handmade LRT slide, which had only a title."}
+{"kind":"slide","id":"sl/fldicw","slide":11,"title":"LRT TRAJECTORIES","textShapes":7}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":11,"text":"LRT TRAJECTORIES","textPreview":"LRT TRAJECTORIES","textChars":16,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":11,"text":"The 19 time-varying genes show coordinated 5-min deviation and recovery/rebound","textPreview":"The 19 time-varying genes show coordinated 5-min deviation and recovery/rebound","textChars":79,"textLines":1,"bbox":[64,68,980,78]}
+{"kind":"textbox","id":"sh/lwval87e","slide":11,"text":"The trajectory plot emphasizes shape rather than absolute gene abundance.","textPreview":"The trajectory plot emphasizes shape rather than absolute gene abundance.","textChars":73,"textLines":1,"bbox":[64,145,980,32]}
+{"kind":"shape","id":"sh/ex0nuxc3","slide":11,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/3itgfmlk","slide":11,"bbox":[66,176,866,470]}
+{"kind":"shape","id":"sh/loj2t83i","slide":11,"bbox":[960,246,214,266]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":11,"text":"Readout","textPreview":"Readout","textChars":7,"textLines":1,"bbox":[988,276,158,28]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":11,"text":"- Rows are genes.\n- Values are scaled per gene.\n- Most profiles converge on a pulse-like shape.\n- Fos/Npas4 support IEG suppression.","textPreview":"- Rows are genes. | - Values are scaled per gene. | - Most profiles converge on a pulse-like shape. | - Fos/Npas4 support IEG suppression.","textChars":132,"textLines":4,"bbox":[988,326,162,140]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":11,"text":"Source: results/objects/LRT_19_trajectory_VSTzscore_v1.png","textPreview":"Source: results/objects/LRT_19_trajectory_VSTzscore_v1.png","textChars":58,"textLines":1,"bbox":[64,686,900,20]}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/58z25kb6","slide":11,"name":"","alt":"LRT 19 trajectory plot","bbox":[74,184,850,454]}
+{"kind":"notes","id":"nt/fldicw","slide":11,"text":"Use the y-axis wording exactly: Z-score of VST-normalized expression or row-scaled VST expression."}
+{"kind":"slide","id":"sl/xj9vk9","slide":12,"title":"TEMPORAL GENE EXAMPLES","textShapes":6}
+{"kind":"textbox","id":"sh/tovahoza","slide":12,"text":"TEMPORAL GENE EXAMPLES","textPreview":"TEMPORAL GENE EXAMPLES","textChars":22,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":12,"text":"Representative genes and ROCK paralogues support a transient, selective response","textPreview":"Representative genes and ROCK paralogues support a transient, selective response","textChars":80,"textLines":1,"bbox":[64,68,980,78]}
+{"kind":"textbox","id":"sh/bi9s36hc","slide":12,"text":"This slide keeps the gene-level story compact before moving to pathways.","textPreview":"This slide keeps the gene-level story compact before moving to pathways.","textChars":72,"textLines":1,"bbox":[64,145,980,32]}
+{"kind":"shape","id":"sh/0fepkzup","slide":12,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/p0bi9s36","slide":12,"bbox":[62,206,576,386]}
+{"kind":"shape","id":"sh/bulwval8","slide":12,"bbox":[682,206,516,386]}
+{"kind":"shape","id":"sh/t47y1kre","slide":12,"bbox":[230,612,820,42]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":12,"text":"Rock1 is down at 5 min (padj 9.4e-6), while Rock2 is unchanged (padj ~1.0).","textPreview":"Rock1 is down at 5 min (padj 9.4e-6), while Rock2 is unchanged (padj ~1.0).","textChars":75,"textLines":1,"bbox":[260,623,760,20]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":12,"text":"Source: results/03_DEG trajectory plots and handmade slide 8","textPreview":"Source: results/03_DEG trajectory plots and handmade slide 8","textChars":60,"textLines":1,"bbox":[64,686,900,20]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/f6dcbulw","slide":12,"name":"","alt":"Representative gene trajectories","bbox":[70,214,560,370]}
+{"kind":"image","id":"im/x0nuxc3y","slide":12,"name":"","alt":"ROCK1 versus ROCK2 trajectory","bbox":[690,214,500,370]}
+{"kind":"notes","id":"nt/xj9vk9","slide":12,"text":"This merges two handmade concepts into one better-flowing result page."}
+{"kind":"slide","id":"sl/5gt6x8","slide":13,"title":"5-MIN GO BP ENRICHMENT","textShapes":9}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":13,"text":"5-MIN GO BP ENRICHMENT","textPreview":"5-MIN GO BP ENRICHMENT","textChars":22,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":13,"text":"At 5 min, Netrin-1 activates neuron projection and axon guidance programs","textPreview":"At 5 min, Netrin-1 activates neuron projection and axon guidance programs","textChars":73,"textLines":1,"bbox":[64,68,980,78]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":13,"text":"Pathway aggregation reveals coordination beyond the modest DEG count.","textPreview":"Pathway aggregation reveals coordination beyond the modest DEG count.","textChars":69,"textLines":1,"bbox":[64,145,980,32]}
+{"kind":"shape","id":"sh/xczed8v6","slide":13,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/8v6psfil","slide":13,"bbox":[76,182,826,456]}
+{"kind":"shape","id":"sh/qpg3ex0n","slide":13,"bbox":[930,230,220,148]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":13,"text":"313","textPreview":"313","textChars":3,"textLines":1,"bbox":[946,248,188,54]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":13,"text":"significant GO BP terms","textPreview":"significant GO BP terms","textChars":23,"textLines":1,"bbox":[948,312,184,46]}
+{"kind":"shape","id":"sh/a9w3m94f","slide":13,"bbox":[930,414,220,148]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":13,"text":"285 up","textPreview":"285 up","textChars":6,"textLines":1,"bbox":[946,432,188,54]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":13,"text":"positive NES terms","textPreview":"positive NES terms","textChars":18,"textLines":1,"bbox":[948,496,184,46]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":13,"text":"Source: results/04_GSEA/GSEA_GO_BP_5v0.csv","textPreview":"Source: results/04_GSEA/GSEA_GO_BP_5v0.csv","textChars":42,"textLines":1,"bbox":[64,686,900,20]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/qxs72x4n","slide":13,"name":"","alt":"5v0 GO BP GSEA","bbox":[84,190,810,440]}
+{"kind":"notes","id":"nt/5gt6x8","slide":13,"text":"This is the central pathway result from handmade slide 10."}
+{"kind":"slide","id":"sl/mrcnia","slide":14,"title":"5-MIN KEGG ENRICHMENT","textShapes":7}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":14,"text":"5-MIN KEGG ENRICHMENT","textPreview":"5-MIN KEGG ENRICHMENT","textChars":21,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":14,"text":"Axon guidance is the top KEGG pathway in the acute response","textPreview":"Axon guidance is the top KEGG pathway in the acute response","textChars":59,"textLines":1,"bbox":[64,68,980,78]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":14,"text":"This connects the RNA-seq signal directly to canonical Netrin-1 biology.","textPreview":"This connects the RNA-seq signal directly to canonical Netrin-1 biology.","textChars":72,"textLines":1,"bbox":[64,145,980,32]}
+{"kind":"shape","id":"sh/fyxobm58","slide":14,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/qd4vmtwr","slide":14,"bbox":[104,182,776,446]}
+{"kind":"shape","id":"sh/8jqh0fep","slide":14,"bbox":[918,252,234,250]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":14,"text":"Top KEGG","textPreview":"Top KEGG","textChars":8,"textLines":1,"bbox":[946,282,178,28]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":14,"text":"Axon guidance\nNES 2.16\nBH-adjusted p = 4.1e-7","textPreview":"Axon guidance | NES 2.16 | BH-adjusted p = 4.1e-7","textChars":45,"textLines":3,"bbox":[944,344,182,96]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":14,"text":"Source: results/04_GSEA/GSEA_KEGG_5v0.csv","textPreview":"Source: results/04_GSEA/GSEA_KEGG_5v0.csv","textChars":41,"textLines":1,"bbox":[64,686,900,20]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/83itgfml","slide":14,"name":"","alt":"5v0 KEGG GSEA","bbox":[112,190,760,430]}
+{"kind":"notes","id":"nt/mrcnia","slide":14,"text":"This keeps the handmade KEGG result but reduces text clutter."}
+{"kind":"slide","id":"sl/i7oama","slide":15,"title":"15V5 REVERSAL","textShapes":9}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":15,"text":"15V5 REVERSAL","textPreview":"15V5 REVERSAL","textChars":13,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":15,"text":"By 15 min, the 5-min GO BP program is directionally flipped","textPreview":"By 15 min, the 5-min GO BP program is directionally flipped","textChars":59,"textLines":1,"bbox":[64,68,980,78]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":15,"text":"The same pathway themes reverse when 15 min is compared with 5 min.","textPreview":"The same pathway themes reverse when 15 min is compared with 5 min.","textChars":67,"textLines":1,"bbox":[64,145,980,32]}
+{"kind":"shape","id":"sh/1cfa9w3m","slide":15,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/crmhk3q5","slide":15,"bbox":[76,182,828,456]}
+{"kind":"shape","id":"sh/ulwval87","slide":15,"bbox":[930,230,220,148]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":15,"text":"295","textPreview":"295","textChars":3,"textLines":1,"bbox":[946,248,188,54]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":15,"text":"significant GO BP terms","textPreview":"significant GO BP terms","textChars":23,"textLines":1,"bbox":[948,312,184,46]}
+{"kind":"shape","id":"sh/al87ed8b","slide":15,"bbox":[930,414,220,148]}
+{"kind":"textbox","id":"sh/z61032ls","slide":15,"text":"264","textPreview":"264","textChars":3,"textLines":1,"bbox":[946,432,188,54]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":15,"text":"negative NES terms","textPreview":"negative NES terms","textChars":18,"textLines":1,"bbox":[948,496,184,46]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":15,"text":"Source: results/04_GSEA/GSEA_GO_BP_15v5.csv","textPreview":"Source: results/04_GSEA/GSEA_GO_BP_15v5.csv","textChars":43,"textLines":1,"bbox":[64,686,900,20]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/a9w3m94f","slide":15,"name":"","alt":"15v5 GO BP GSEA","bbox":[84,190,812,440]}
+{"kind":"notes","id":"nt/i7oama","slide":15,"text":"This makes the reversal logic explicit and avoids overcrowding the slide."}
+{"kind":"slide","id":"sl/3ucvg4","slide":16,"title":"PATHWAY MIRROR","textShapes":7}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":16,"text":"PATHWAY MIRROR","textPreview":"PATHWAY MIRROR","textChars":14,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/vixczed8","slide":16,"text":"Shared pathways show near-perfect mirror symmetry between 5v0 and 15v5","textPreview":"Shared pathways show near-perfect mirror symmetry between 5v0 and 15v5","textChars":70,"textLines":1,"bbox":[64,68,980,78]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":16,"text":"This is the quantitative anchor for the transient-response claim.","textPreview":"This is the quantitative anchor for the transient-response claim.","textChars":65,"textLines":1,"bbox":[64,145,980,32]}
+{"kind":"shape","id":"sh/dcbulwva","slide":16,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/kre1w7mp","slide":16,"bbox":[78,180,816,466]}
+{"kind":"shape","id":"sh/6psfil0r","slide":16,"bbox":[928,252,224,250]}
+{"kind":"textbox","id":"sh/d8bat47y","slide":16,"text":"Mirror statistic","textPreview":"Mirror statistic","textChars":16,"textLines":1,"bbox":[956,284,168,28]}
+{"kind":"textbox","id":"sh/knih4byh","slide":16,"text":"603 shared pathways\nNES correlation\nr = -0.991","textPreview":"603 shared pathways | NES correlation | r = -0.991","textChars":46,"textLines":3,"bbox":[952,346,176,98]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":16,"text":"Source: results/04_GSEA/13_GSEA_mirror_scatter_5v0_vs_15v5.png","textPreview":"Source: results/04_GSEA/13_GSEA_mirror_scatter_5v0_vs_15v5.png","textChars":62,"textLines":1,"bbox":[64,686,900,20]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":16,"text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/ixczed8v","slide":16,"name":"","alt":"GSEA mirror scatter","bbox":[86,188,800,450]}
+{"kind":"notes","id":"nt/3ucvg4","slide":16,"text":"This should be one of the strongest slides in the results presentation."}
+{"kind":"slide","id":"sl/qajutd","slide":17,"title":"15V0 ENDPOINT","textShapes":7}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":17,"text":"15V0 ENDPOINT","textPreview":"15V0 ENDPOINT","textChars":13,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":17,"text":"15v0 supports return toward baseline, with a mild mitochondrial KEGG signal","textPreview":"15v0 supports return toward baseline, with a mild mitochondrial KEGG signal","textChars":75,"textLines":1,"bbox":[64,68,980,78]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":17,"text":"This keeps the interpretation accurate and avoids overclaiming complete silence.","textPreview":"This keeps the interpretation accurate and avoids overclaiming complete silence.","textChars":80,"textLines":1,"bbox":[64,145,980,32]}
+{"kind":"shape","id":"sh/idonyd0z","slide":17,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/byhgn29g","slide":17,"bbox":[96,190,756,446]}
+{"kind":"shape","id":"sh/t47y1kre","slide":17,"bbox":[900,236,252,292]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":17,"text":"Interpret carefully","textPreview":"Interpret carefully","textChars":19,"textLines":1,"bbox":[928,266,196,28]}
+{"kind":"textbox","id":"sh/bulwval8","slide":17,"text":"- GO BP: 0 significant terms\n- DEG: 1 significant gene\n- KEGG: OXPHOS/mitochondrial signal\n- Disease labels reflect shared mitochondrial genes","textPreview":"- GO BP: 0 significant terms | - DEG: 1 significant gene | - KEGG: OXPHOS/mitochondrial signal | - Disease labels reflect shared mitochon...","textChars":142,"textLines":4,"bbox":[930,316,196,142]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":17,"text":"Source: GSEA_GO_BP_15v0.csv and GSEA_KEGG_15v0.csv","textPreview":"Source: GSEA_GO_BP_15v0.csv and GSEA_KEGG_15v0.csv","textChars":50,"textLines":1,"bbox":[64,686,900,20]}
+{"kind":"textbox","id":"sh/ulwval87","slide":17,"text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"image","id":"im/d8v6psfi","slide":17,"name":"","alt":"15v0 KEGG GSEA","bbox":[104,198,740,430]}
+{"kind":"notes","id":"nt/qajutd","slide":17,"text":"This slide is scientifically important because it states the caveat clearly."}
+{"kind":"slide","id":"sl/hqm2ys","slide":18,"title":"INTEGRATED RESULT","textShapes":14}
+{"kind":"textbox","id":"sh/ed8bat47","slide":18,"text":"INTEGRATED RESULT","textPreview":"INTEGRATED RESULT","textChars":17,"textLines":1,"bbox":[64,34,520,24]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":18,"text":"Acute Netrin-1 engages a reversible transcriptional program","textPreview":"Acute Netrin-1 engages a reversible transcriptional program","textChars":59,"textLines":1,"bbox":[64,68,980,78]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":18,"text":"The result is strongest when DEG, LRT and GSEA are interpreted together.","textPreview":"The result is strongest when DEG, LRT and GSEA are interpreted together.","textChars":72,"textLines":1,"bbox":[64,145,980,32]}
+{"kind":"shape","id":"sh/36hcrmhk","slide":18,"bbox":[64,182,132,4]}
+{"kind":"shape","id":"sh/eloj2t83","slide":18,"bbox":[92,246,230,132]}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":18,"text":"Netrin-1","textPreview":"Netrin-1","textChars":8,"textLines":1,"bbox":[126,286,162,34]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":18,"text":"acute cue","textPreview":"acute cue","textChars":9,"textLines":1,"bbox":[126,332,162,24]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":18,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[342,290,42,54]}
+{"kind":"shape","id":"sh/epkzupwb","slide":18,"bbox":[410,212,326,202]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":18,"text":"5-min pulse","textPreview":"5-min pulse","textChars":11,"textLines":1,"bbox":[450,248,246,32]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":18,"text":"guidance / projection up\nRNA processing / ribosome down\nIEG suppression","textPreview":"guidance / projection up | RNA processing / ribosome down | IEG suppression","textChars":71,"textLines":3,"bbox":[454,314,238,78]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":18,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[760,290,42,54]}
+{"kind":"shape","id":"sh/fyxobm58","slide":18,"bbox":[832,246,330,132]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":18,"text":"15-min reversal","textPreview":"15-min reversal","textChars":15,"textLines":1,"bbox":[868,286,258,34]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":18,"text":"pathway mirror r = -0.991","textPreview":"pathway mirror r = -0.991","textChars":25,"textLines":1,"bbox":[868,334,258,24]}
+{"kind":"shape","id":"sh/qpg3ex0n","slide":18,"bbox":[160,506,960,70]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":18,"text":"Take-home: the 5-min signal is modest at the DEG level but highly coordinated at the pathway level, and it is rapidly reversed by 15 min.","textPreview":"Take-home: the 5-min signal is modest at the DEG level but highly coordinated at the pathway level, and it is rapidly reversed by 15 min.","textChars":137,"textLines":1,"bbox":[200,528,880,28]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":18,"text":"Integrated from DEG, LRT and GSEA result files","textPreview":"Integrated from DEG, LRT and GSEA result files","textChars":46,"textLines":1,"bbox":[64,686,900,20]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":18,"text":"18","textPreview":"18","textChars":2,"textLines":1,"bbox":[1168,684,48,22]}
+{"kind":"notes","id":"nt/hqm2ys","slide":18,"text":"End the results showcase with one clean model rather than a long discussion."}

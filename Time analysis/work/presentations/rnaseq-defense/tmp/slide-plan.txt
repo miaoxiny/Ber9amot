@@ -1,0 +1,55 @@
+Deck: PhD defense-style scientific presentation, English, no formal cover slide.
+Mode: create.
+Length target: 28 slides for a 30-40 minute defense.
+
+Central claim:
+Acute Netrin-1 stimulation triggers a rapid, coordinated, transient transcriptional program in E18 rat cortical neurons: axon guidance/neuron projection programs rise at 5 min, RNA processing/ribosome-related programs fall, and pathway-level changes are almost perfectly reversed by 15 min.
+
+Narrative arc:
+1. Research question and knowledge gap.
+2. Experimental design and RNA-seq analysis workflow.
+3. QC and culture composition establish interpretability.
+4. 5-min DEG evidence identifies acute genes/modules.
+5. Time-course evidence shows pulse-like dynamics.
+6. GSEA shows a coordinated pathway-level response.
+7. 15-min comparisons close the loop and quantify reversal.
+8. Mechanistic model, limitations, next experiments, closing take-home.
+
+Style:
+Slide size 1280 x 720 px, 16:9.
+Palette: background #F7FAFC; ink #102033; muted #5B6878; dominant #16324F; support #0B7285; accent #D97706; alert #B91C1C; positive #047857; pale bands #E6F4F1 and #EEF2F7.
+Fonts: Aptos Display for titles, Aptos for body and captions.
+Scale: section/claim titles 42-48 px; slide titles 30-36 px; body 17-22 px; captions 11-13 px; KPI numerals 44-62 px.
+
+Asset strategy:
+Use existing PNG figures from results/ as scientific evidence. Preserve axes and labels. Use editable native tables/shapes for summary tables, workflow, model, limitations, and take-home slides.
+
+Planned slide list:
+1. Defense roadmap and central claim
+2. Biological context: Netrin-1 has fast local actions, but acute transcription is underexplored
+3. Knowledge gap and thesis question
+4. Experimental design: E18 cortical neurons, Vehicle, 5 min, 15 min
+5. Computational workflow and statistical model
+6. Sample-level QC: library size and detected genes
+7. Replicate structure is visible but controlled in the model
+8. Batch-corrected PCA recovers timepoint structure for visualization
+9. Cultures are neuron-dominant and composition-stable
+10. Analysis strategy: why pathway-level evidence matters
+11. Five minutes is the main transcriptional response window
+12. 5-min volcano: small gene set, strong biological signal
+13. Representative 5-min DEGs map to interpretable modules
+14. DEG heatmap supports a coherent 5-min pulse
+15. Gene trajectories show deviation at 5 min followed by return
+16. ROCK1 response is isoform-specific relative to ROCK2
+17. GO BP GSEA reveals activation of neuron projection/axon guidance programs
+18. KEGG GSEA places axon guidance at the top of the response
+19. The 5-min response is bidirectional: guidance up, processing/translation down
+20. 15v5 flips the GO BP program
+21. Mirror-scatter quantifies near-perfect reversal
+22. 15v0 supports return toward baseline at pathway scale
+23. Integrated evidence table
+24. Proposed model
+25. Scientific novelty and interpretation
+26. Limitations and design cautions
+27. Next experiments
+28. Final take-home
